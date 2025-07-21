@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление автопарком - Автосалон</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Уведомления о сохранении -->
+    <div id="saveNotification" class="save-notification hidden"></div>
+
+    <div class="container">
+        <!-- Заголовок -->
+        <header class="header">
+            <h1>🚗 Управление автопарком</h1>
+            <div class="header-controls">
+                <button onclick="exportToExcel()" class="btn btn-excel">📊 Excel база</button>
+                <button onclick="exportReport()" class="btn btn-excel">📋 Excel отчёт</button>
+                <button onclick="exportData()" class="btn btn-export">📁 Экспорт JSON</button>
+                <input type="file" id="importFile" accept=".json" onchange="importData(event)" style="display: none;">
+                <button onclick="document.getElementById('importFile').click()" class="btn btn-import">📂 Импорт</button>
+                <button onclick="forceSave()" class="btn btn-save">💾 Сохранить</button>
+            </div>
+        </header>
+
+        <!-- Навигация -->
+        <nav class="navigation">
+            <button class="nav-btn active" onclick="showSection('dashboard')">📊 Панель</button>
+            <button class="nav-btn" onclick="showSection('cars')">🚗 Автомобили</button>
+            <button class="nav-btn" onclick="showSection('history')">📋 История</button>
+            <button class="nav-btn" onclick="showSection('analytics')">📈 Статистика</button>
+        </nav>
+
+        <!-- Секция Dashboard -->
+        <section id="dashboard" class="section active">
+            <h2>Панель управления</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalCarsForSale">0</div>
+                    <div class="stat-label">Автомобилей в продаже</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="soldThisMonth">0</div>
+                    <div class="stat-label">Продано в этом месяце</div>
+                    <div class="stat-details" id="soldDetails">
+                        <div>💰 Наличка: <span id="soldCash">0</span></div>
+                        <div>🏦 Кредит: <span id="soldCredit">0</span></div>
+                        <div>📄 Лизинг: <span id="soldLeasing">0</span></div>
+                        <div>🔄 Другое: <span id="soldOther">0</span></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="avgMargin">0₽</div>
+                    <div class="stat-label">Средняя маржа</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalMargin">0₽</div>
+                    <div class="stat-label">Общая маржа месяца</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция Автомобили -->
+        <section id="cars" class="section">
+            <div class="section-header">
+                <h2>Управление автомобилями</h2>
+                <button onclick="showAddForm()" class="btn btn-primary">+ Добавить автомобиль</button>
+            </div>
+
+            <!-- Поиск и фильтры -->
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="🔍 Поиск по марке, модели, VIN..." onkeyup="filterCars()">
+                <select id="brandFilter" onchange="filterCars()" class="select-dark">
+                    <option value="">Все марки</option>
+                </select>
+                <select id="statusFilter" onchange="filterCars()" class="select-dark">
+                    <option value="">Все статусы</option>
+                    <option value="available">В продаже</option>
+                    <option value="warehouse">На складе</option>
+                    <option value="draft">Черновик</option>
+                    <option value="sold">Продано</option>
+                </select>
+                <select id="whoAddedFilter" onchange="filterCars()" class="select-dark">
+                    <option value="">Все поставщики</option>
+                    <option value="Альберт">Альберт</option>
+                    <option value="АМГ">АМГ</option>
+                    <option value="Олег">Олег</option>
+                    <option value="Усоля">Усоля</option>
+                    <option value="Собственник">Собственник</option>
+                    <option value="перекуп">перекуп</option>
+                </select>
+            </div>
+
+            <!-- Список автомобилей -->
+            <div id="carsList" class="cars-grid"></div>
+        </section>
+
+        <!-- Секция История -->
+        <section id="history" class="section">
+            <div class="section-header">
+                <h2>История изменений</h2>
+                <div class="history-controls">
+                    <select id="historyCarFilter" onchange="filterHistory()" class="select-dark">
+                        <option value="">Все автомобили</option>
+                    </select>
+                    <input type="date" id="historyDateFrom" onchange="filterHistory()">
+                    <input type="date" id="historyDateTo" onchange="filterHistory()">
+                    <button onclick="toggleArchivedHistory()" class="btn btn-secondary" id="toggleArchivedBtn">
+                        Показать архивные
+                    </button>
+                </div>
+            </div>
+            <div id="historyList" class="history-list"></div>
+        </section>
+
+        <!-- Секция Статистика -->
+        <section id="analytics" class="section">
+            <div class="section-header">
+                <h2>Аналитика автопарка</h2>
+                <div class="analytics-controls">
+                    <input type="date" id="analyticsDateFrom">
+                    <input type="date" id="analyticsDateTo">
+                    <button onclick="updateAnalytics()" class="btn btn-primary">Обновить</button>
+                </div>
+            </div>
+            <div class="analytics-content">
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <h3>Поставлено автомобилей</h3>
+                        <div class="analytics-number" id="analyticsAdded">0</div>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Продано автомобилей</h3>
+                        <div class="analytics-number" id="analyticsSold">0</div>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Общая маржа</h3>
+                        <div class="analytics-number" id="analyticsMargin">0₽</div>
+                    </div>
+                </div>
+                
+                <div class="charts-row">
+                    <div class="chart-container">
+                        <h3>Продажи по способам</h3>
+                        <div id="salesMethodChart" class="chart"></div>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Продажи по сотрудникам</h3>
+                        <div id="salesPersonChart" class="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Модальное окно для добавления/редактирования -->
+    <div id="carModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Добавить автомобиль</h2>
+            <form id="carForm" onsubmit="saveCar(event)">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Марка *</label>
+                        <input type="text" id="brand" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Модель *</label>
+                        <input type="text" id="model" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Год *</label>
+                        <input type="number" id="year" required min="1990" max="2025">
+                    </div>
+                    <div class="form-group">
+                        <label>Пробег (км)</label>
+                        <input type="number" id="mileage" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Объём двигателя (л)</label>
+                        <input type="number" id="engineVolume" step="0.1" min="0.5" max="10">
+                    </div>
+                    <div class="form-group">
+                        <label>Мощность (л.с.)</label>
+                        <input type="number" id="power" min="50" max="2000">
+                    </div>
+                    <div class="form-group">
+                        <label>Привод</label>
+                        <select id="driveType" class="select-dark">
+                            <option value="">Не указан</option>
+                            <option value="Передний">Передний</option>
+                            <option value="Задний">Задний</option>
+                            <option value="Полный">Полный</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>КПП</label>
+                        <select id="transmission" class="select-dark">
+                            <option value="">Не указана</option>
+                            <option value="Механика">Механика</option>
+                            <option value="Автомат">Автомат</option>
+                            <option value="Робот">Робот</option>
+                            <option value="Вариатор">Вариатор</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>VIN *</label>
+                        <input type="text" id="vin" required maxlength="17">
+                    </div>
+                    <div class="form-group">
+                        <label>Дата постановки на продажу *</label>
+                        <input type="date" id="dateAdded" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Кто поставил *</label>
+                        <select id="whoAdded" required class="select-dark">
+                            <option value="">Выберите</option>
+                            <option value="Альберт">Альберт</option>
+                            <option value="АМГ">АМГ</option>
+                            <option value="Олег">Олег</option>
+                            <option value="Усоля">Усоля</option>
+                            <option value="Собственник">Собственник</option>
+                            <option value="перекуп">перекуп</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>На руки (цена) *</label>
+                        <input type="number" id="priceToHands" required min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Торг</label>
+                        <select id="haggle" class="select-dark">
+                            <option value="">Не указано</option>
+                            <option value="Да">Да</option>
+                            <option value="Нет">Нет</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Цена в салоне</label>
+                        <input type="number" id="priceSalon" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Дата продажи</label>
+                        <input type="date" id="dateSold">
+                    </div>
+                    <div class="form-group">
+                        <label>Цена продажи</label>
+                        <input type="number" id="salePrice" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Как продалась</label>
+                        <select id="howSold" class="select-dark">
+                            <option value="">Не указано</option>
+                            <option value="Наличка">Наличка</option>
+                            <option value="Кредит">Кредит</option>
+                            <option value="Лизинг">Лизинг</option>
+                            <option value="Другое">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Кто продал</label>
+                        <select id="whoSold" class="select-dark">
+                            <option value="">Выберите</option>
+                            <option value="Антон">Антон</option>
+                            <option value="Никита">Никита</option>
+                            <option value="Сергей">Сергей</option>
+                            <option value="Виталий">Виталий</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Отчёт</label>
+                    <textarea id="report" rows="3" placeholder="Введите отчёт. Ссылки будут автоматически кликабельными."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Окрасы</label>
+                    <textarea id="paints" rows="3" placeholder="Опишите окрасы автомобиля"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Дополнительная информация</label>
+                    <textarea id="additionalInfo" rows="3" placeholder="Любая дополнительная информация об автомобиле"></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" onclick="closeModal()" class="btn btn-secondary">Отмена</button>
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Модальное окно истории автомобиля -->
+    <div id="carHistoryModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCarHistoryModal()">&times;</span>
+            <h2 id="carHistoryTitle">История изменений автомобиля</h2>
+            <div id="carHistoryContent" class="car-history-content"></div>
+        </div>
+    </div>
+
+    <!-- Модальное окно быстрой продажи -->
+    <div id="quickSaleModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeQuickSaleModal()">&times;</span>
+            <h2>Быстрая продажа автомобиля</h2>
+            <form id="quickSaleForm" onsubmit="completeQuickSale(event)">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Цена продажи *</label>
+                        <input type="number" id="quickSalePrice" required min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Как продалась *</label>
+                        <select id="quickHowSold" required class="select-dark">
+                            <option value="">Выберите</option>
+                            <option value="Наличка">Наличка</option>
+                            <option value="Кредит">Кредит</option>
+                            <option value="Лизинг">Лизинг</option>
+                            <option value="Другое">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Кто продал *</label>
+                        <select id="quickWhoSold" required class="select-dark">
+                            <option value="">Выберите</option>
+                            <option value="Антон">Антон</option>
+                            <option value="Никита">Никита</option>
+                            <option value="Сергей">Сергей</option>
+                            <option value="Виталий">Виталий</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Дата продажи</label>
+                        <input type="date" id="quickDateSold">
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" onclick="closeQuickSaleModal()" class="btn btn-secondary">Отмена</button>
+                    <button type="submit" class="btn btn-primary">Продать</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
