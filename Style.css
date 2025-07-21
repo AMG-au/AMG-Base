@@ -9,6 +9,7 @@ body {
     background: linear-gradient(135deg, #1a1a1a 0%, #2d1b1b 100%);
     color: #ffffff;
     min-height: 100vh;
+    line-height: 1.6;
 }
 
 .container {
@@ -219,7 +220,7 @@ body {
     padding: 12px;
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 6px;
-    background: rgba(139, 0, 0, 0.1);
+    background: rgba(139, 0, 0, 0.15);
     color: #ffffff;
     font-size: 0.9rem;
 }
@@ -263,7 +264,7 @@ select:focus {
     padding: 8px 12px;
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 6px;
-    background: rgba(139, 0, 0, 0.1);
+    background: rgba(139, 0, 0, 0.15);
     color: #ffffff;
     font-size: 0.9rem;
 }
@@ -280,7 +281,7 @@ select:focus {
     padding: 8px 12px;
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 6px;
-    background: rgba(139, 0, 0, 0.1);
+    background: rgba(139, 0, 0, 0.15);
     color: #ffffff;
     font-size: 0.9rem;
 }
@@ -579,7 +580,7 @@ select:focus {
     padding: 12px;
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 6px;
-    background: rgba(139, 0, 0, 0.1);
+    background: rgba(139, 0, 0, 0.15);
     color: #ffffff;
     font-size: 0.9rem;
     transition: border-color 0.3s ease;
