@@ -1,4 +1,4 @@
-// Система управления автопарком v3.1 - с централизованным хранением
+// Система управления автопарком v3.1 - с исправленной синхронизацией
 'use strict';
 
 // Глобальные переменные
@@ -11,6 +11,8 @@ let expandedView = false;
 let isOnline = false;
 let hasUnsavedChanges = false;
 let syncInterval;
+let autoSyncEnabled = true;
+let syncTimer = null;
 
 // Настройки GitHub репозитория
 const GITHUB_REPO_URL = window.location.hostname.includes('github.io') ? 
@@ -109,45 +111,6 @@ async function loadFromGitHub() {
     }
 }
 
-// Сохранение данных на GitHub (экспорт для ручного обновления)
-async function saveToGitHub() {
-    try {
-        const dataToSave = {
-            cars: cars,
-            history: history,
-            lastSaved: new Date().toISOString(),
-            version: '3.1',
-            application: 'Autopark Management System'
-        };
-        
-        // Создаем JSON файл для скачивания
-        const blob = new Blob([JSON.stringify(dataToSave, null, 2)], {
-            type: 'application/json'
-        });
-        
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'data.json';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        
-        hasUnsavedChanges = false;
-        hideSyncIndicator();
-        
-        showNotification('Файл data.json экспортирован. Обновите его в репозитории.', 'success');
-        addToHistory('sync', 'Экспортирован файл data.json для синхронизации');
-        
-        return true;
-    } catch (error) {
-        console.error('Ошибка экспорта для GitHub:', error);
-        showNotification('Ошибка создания файла синхронизации', 'error');
-        return false;
-    }
-}
-
 // Обновление статуса подключения
 function updateConnectionStatus(status, text) {
     const statusElement = document.getElementById('connectionStatus');
@@ -162,25 +125,19 @@ function updateConnectionStatus(status, text) {
     }
 }
 
-// Автоматическая синхронизация
+// Исправленная автоматическая синхронизация (фоновая)
 function startAutoSync() {
-    // Проверяем изменения каждые 30 секунд
+    // Проверяем обновления каждые 2 минуты
     syncInterval = setInterval(async () => {
-        if (hasUnsavedChanges && isOnline) {
-            showSyncIndicator();
-        }
-        
-        // Пытаемся периодически перезагрузить данные с GitHub
-        if (Math.random() < 0.1) { // 10% шанс каждые 30 секунд (в среднем раз в 5 минут)
-            await checkForUpdates();
-        }
-    }, 30000);
+        // Только проверяем обновления, не создаем файлы автоматически
+        await checkForUpdates();
+    }, 120000); // 2 минуты
 }
 
-// Проверка обновлений с GitHub
+// Исправленная проверка обновлений
 async function checkForUpdates() {
     try {
-        const response = await fetch(GITHUB_REPO_URL, {
+        const response = await fetch(GITHUB_REPO_URL + '?v=' + Date.now(), {
             cache: 'no-cache',
             headers: {
                 'Cache-Control': 'no-cache',
@@ -194,58 +151,230 @@ async function checkForUpdates() {
             const currentTimestamp = new Date(localStorage.getItem('autopark_last_saved') || 0);
             
             // Если данные на GitHub новее наших
-            if (newTimestamp > currentTimestamp && !hasUnsavedChanges) {
-                cars = newData.cars.map(car => migrateCarData(car));
-                history = newData.history || [];
-                saveToLocalStorage();
-                updateAllDisplays();
-                updateConnectionStatus('online', '🌐 Обновлено');
-                showNotification('Данные обновлены с сервера', 'success');
+            if (newTimestamp > currentTimestamp) {
+                if (hasUnsavedChanges) {
+                    // Есть локальные изменения - спрашиваем пользователя
+                    if (confirm('На сервере есть более новые данные, но у вас есть несохраненные изменения. Загрузить данные с сервера? (Ваши изменения будут потеряны)')) {
+                        cars = newData.cars.map(car => migrateCarData(car));
+                        history = newData.history || [];
+                        hasUnsavedChanges = false;
+                        saveToLocalStorage();
+                        updateAllDisplays();
+                        showNotification('Данные обновлены с сервера', 'success');
+                        return true;
+                    }
+                } else {
+                    // Нет локальных изменений - обновляем
+                    cars = newData.cars.map(car => migrateCarData(car));
+                    history = newData.history || [];
+                    saveToLocalStorage();
+                    updateAllDisplays();
+                    showNotification('Данные обновлены с сервера', 'success');
+                    return true;
+                }
             }
             
+            // Проверяем статус подключения
             if (!isOnline) {
                 isOnline = true;
-                updateConnectionStatus('online', '🌐 Подключено');
+                if (!hasUnsavedChanges) {
+                    updateConnectionStatus('online', '🌐 Синхронизировано');
+                }
             }
+            
+            return false;
+        } else {
+            throw new Error(`HTTP ${response.status}`);
         }
     } catch (error) {
+        console.error('Ошибка проверки обновлений:', error);
         if (isOnline) {
             isOnline = false;
             updateConnectionStatus('offline', '📱 Автономный режим');
         }
+        return false;
     }
 }
 
-// Индикатор синхронизации
+// Исправленная функция показа индикатора
 function showSyncIndicator() {
     const indicator = document.getElementById('syncIndicator');
-    if (indicator) {
+    if (indicator && autoSyncEnabled) {
+        const status = indicator.querySelector('#syncStatus');
+        if (status) {
+            status.textContent = '🔄 Есть несохраненные изменения';
+        }
         indicator.classList.remove('hidden');
     }
 }
 
+// Исправленная функция скрытия индикатора
 function hideSyncIndicator() {
     const indicator = document.getElementById('syncIndicator');
     if (indicator) {
         indicator.classList.add('hidden');
     }
+    
+    if (syncTimer) {
+        clearTimeout(syncTimer);
+        syncTimer = null;
+    }
 }
 
-// Принудительная синхронизация
+// Отметка изменений для синхронизации (исправлено)
+function markDataAsChanged() {
+    hasUnsavedChanges = true;
+    saveToLocalStorage();
+    
+    // Показываем индикатор только если включена автосинхронизация
+    if (autoSyncEnabled) {
+        showSyncIndicator();
+        // Запускаем таймер автосинхронизации через 10 секунд
+        if (syncTimer) clearTimeout(syncTimer);
+        syncTimer = setTimeout(autoSync, 10000);
+    }
+}
+
+// Автоматическая синхронизация (новая функция)
+async function autoSync() {
+    if (!hasUnsavedChanges) {
+        hideSyncIndicator();
+        return;
+    }
+    
+    updateConnectionStatus('syncing', '🔄 Автосинхронизация...');
+    
+    try {
+        // Создаем файл data.json для обновления в репозитории
+        await createDataJsonFile();
+        
+        // Показываем уведомление о необходимости обновления
+        showNotification('Создан файл data.json. Обновите его в GitHub репозитории.', 'warning');
+        
+        // Скрываем индикатор через 3 секунды
+        setTimeout(() => {
+            hideSyncIndicator();
+            updateConnectionStatus('offline', '📁 Требуется обновление в GitHub');
+        }, 3000);
+        
+    } catch (error) {
+        console.error('Ошибка автосинхронизации:', error);
+        setTimeout(() => {
+            hideSyncIndicator();
+            updateConnectionStatus('offline', '❌ Ошибка синхронизации');
+        }, 3000);
+    }
+}
+
+// Создание файла data.json (новая функция)
+async function createDataJsonFile() {
+    const dataToSave = {
+        cars: cars,
+        history: history,
+        lastSaved: new Date().toISOString(),
+        version: '3.1',
+        application: 'Autopark Management System'
+    };
+    
+    // Сохраняем в localStorage как признак того, что файл создан
+    localStorage.setItem('pending_sync_data', JSON.stringify(dataToSave));
+    localStorage.setItem('pending_sync_timestamp', new Date().toISOString());
+    
+    return dataToSave;
+}
+
+// Функция скачивания data.json
+async function downloadDataJson() {
+    try {
+        const dataToSave = {
+            cars: cars,
+            history: history,
+            lastSaved: new Date().toISOString(),
+            version: '3.1',
+            application: 'Autopark Management System'
+        };
+        
+        const blob = new Blob([JSON.stringify(dataToSave, null, 2)], {
+            type: 'application/json'
+        });
+        
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'data.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        
+        // Отмечаем что файл создан, но данные еще не синхронизированы
+        localStorage.setItem('data_json_created', new Date().toISOString());
+        
+        showNotification('Файл data.json скачан. Загрузите его в корень GitHub репозитория.', 'success');
+        addToHistory('sync', 'Создан файл data.json для синхронизации');
+        
+        return true;
+    } catch (error) {
+        console.error('Ошибка создания файла data.json:', error);
+        showNotification('Ошибка создания файла синхронизации', 'error');
+        return false;
+    }
+}
+
+// Исправленная принудительная синхронизация
 async function forceSync() {
     updateConnectionStatus('syncing', '🔄 Синхронизация...');
+    showSyncIndicator();
     
-    if (hasUnsavedChanges) {
-        await saveToGitHub();
+    try {
+        if (hasUnsavedChanges) {
+            // Создаем и скачиваем файл data.json
+            await downloadDataJson();
+        }
+        
+        // Проверяем обновления с GitHub
+        const updated = await checkForUpdates();
+        
+        if (updated) {
+            updateConnectionStatus('online', '🌐 Обновлено с сервера');
+            hasUnsavedChanges = false;
+            hideSyncIndicator();
+        } else {
+            updateConnectionStatus('offline', '📁 Обновите data.json в GitHub');
+            // Не скрываем индикатор, так как данные еще не синхронизированы
+        }
+        
+    } catch (error) {
+        console.error('Ошибка принудительной синхронизации:', error);
+        updateConnectionStatus('offline', '❌ Ошибка синхронизации');
+        showNotification('Ошибка синхронизации', 'error');
+    }
+}
+
+// Управление автосинхронизацией
+function toggleAutoSync() {
+    autoSyncEnabled = !autoSyncEnabled;
+    
+    const indicator = document.getElementById('syncIndicator');
+    if (indicator) {
+        const status = indicator.querySelector('#syncStatus');
+        if (status) {
+            status.textContent = autoSyncEnabled ? '🔄 Автосинхронизация включена' : '⏸️ Автосинхронизация отключена';
+        }
     }
     
-    await checkForUpdates();
-    
-    if (isOnline) {
-        updateConnectionStatus('online', '🌐 Синхронизировано');
-    } else {
-        updateConnectionStatus('offline', '📱 Локальные данные');
+    if (!autoSyncEnabled) {
+        hideSyncIndicator();
+        if (syncTimer) {
+            clearTimeout(syncTimer);
+            syncTimer = null;
+        }
     }
+    
+    showNotification(
+        autoSyncEnabled ? 'Автосинхронизация включена' : 'Автосинхронизация отключена', 
+        'success'
+    );
 }
 
 // Демонстрационные данные
@@ -1362,13 +1491,6 @@ function clearForm() {
     if (creditFields) creditFields.style.display = 'none';
 }
 
-// Отметка изменений для синхронизации
-function markDataAsChanged() {
-    hasUnsavedChanges = true;
-    saveToLocalStorage();
-    showSyncIndicator();
-}
-
 // Экспорт и импорт с полной поддержкой Excel
 function exportToExcel() {
     try {
@@ -1803,6 +1925,7 @@ window.completeQuickSale = completeQuickSale;
 window.toggleCreditFields = toggleCreditFields;
 window.toggleQuickCreditFields = toggleQuickCreditFields;
 window.toggleViewMode = toggleViewMode;
+window.toggleAutoSync = toggleAutoSync;
 window.closeModal = closeModal;
 window.toggleArchivedHistory = toggleArchivedHistory;
 window.toggleHistoryArchive = toggleHistoryArchive;
