@@ -18,8 +18,9 @@
       "report": "https://profi.avtocod.ru/report/guest/d95c88f1-d1b1-45a7-b9f6-5675814bc73a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее левое крыло: шпакля возле фары, до 300  \nКапот: до 300  \nЗаднее левое крыло: шпакля возле двери  \nЗадняя левая дверь: шпакля возле арки  \nПередняя левая дверь: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -28,7 +29,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -45,7 +45,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Audi",
@@ -65,8 +66,9 @@
       "report": "https://profi.avtocod.ru/report/73bf8a17-092a-4a7e-a783-d04d4d1346fa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "По левой стороне два двери 200\nПепредние крылья 200\nПравая передняя двель снизу спереди до 1500",
       "additionalInfo": "",
       "saleComment": "",
@@ -75,7 +77,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -92,7 +93,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Audi",
@@ -112,8 +114,9 @@
       "report": "https://profi.avtocod.ru/report/guest/a1ffcf82-0466-477f-8063-ffdd13a50716",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -122,7 +125,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -139,7 +141,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -159,8 +162,9 @@
       "report": "https://profi.avtocod.ru/report/guest/fdbcb644-73d6-4f75-8ed6-61829014774e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее левое крыло: до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -169,7 +173,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -181,7 +184,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -201,8 +205,9 @@
       "report": "https://profi.avtocod.ru/report/fb79ee81-7668-4a7c-8677-813fda9dfd72",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот 200-250",
       "additionalInfo": "",
       "saleComment": "",
@@ -211,7 +216,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -223,7 +227,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -243,8 +248,9 @@
       "report": "https://profi.avtocod.ru/report/2c3be72a-4a06-4f78-bb41-41ce0adc37c7",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -253,7 +259,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -270,7 +275,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Cadillac",
@@ -290,8 +296,9 @@
       "report": "https://profi.avtocod.ru/report/a6da0e7a-6838-4d2a-9206-4c80d28dbe4f",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -300,7 +307,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -317,7 +323,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -337,8 +344,9 @@
       "report": "https://profi.avtocod.ru/report/guest/064ea26a-f9a1-4b69-9c46-e63766865956",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло местами 450\nКрышка багажника",
       "additionalInfo": "",
       "saleComment": "",
@@ -347,7 +355,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -364,7 +371,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -384,8 +392,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e3695dc5-4f44-44fa-a05f-ba6076a24dc8",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая задняя дверь и заднее крыло шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -394,7 +403,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -406,7 +414,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -426,8 +435,9 @@
       "report": "https://profi.avtocod.ru/report/guest/61f652ae-6ef6-463a-871f-564a9802b7de",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задняя правая дверь до 300\nЗаднее правое крыло шпакля у фары\nЗаднее левое крыло до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -436,7 +446,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -448,7 +457,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Ford",
@@ -468,8 +478,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7118a9b2-6741-4b9c-8948-683d1c082b5b",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -478,7 +489,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -490,7 +500,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Ford",
@@ -510,8 +521,9 @@
       "report": "https://profi.avtocod.ru/report/guest/86e205de-d445-4745-bcbd-348163a4a673",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задние крылья шпакля (\nбогажник слева снижу шпакля \nправые двери 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -520,7 +532,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -532,7 +543,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Honda",
@@ -552,8 +564,9 @@
       "report": "https://profi.avtocod.ru/report/guest/8dcb6e95-ffe9-4dce-b867-4317f8cf6621",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: шпакля внизу по центру  \nПравые двери: до 250  \nЗаднее правое крыло: до 500  \nКрышка багажника: под номером шпакля, до 400  \nЗаднее левое крыло: до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -562,7 +575,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -574,7 +586,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -594,8 +607,9 @@
       "report": "https://profi.avtocod.ru/report/guest/bf3c5fb1-3cae-45fa-a4c3-6136030e05ec",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Обе двери по правой стороне до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -604,7 +618,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -616,7 +629,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -636,8 +650,9 @@
       "report": "https://profi.avtocod.ru/report/1a0ca925-d62c-4667-9367-9e59b8bb4e60",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Вторичный окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -646,7 +661,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "warehouse",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -663,7 +677,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -683,8 +698,9 @@
       "report": "https://profi.avtocod.ru/report/335eebc0-c0e4-4a59-ab5d-10eaee86dac9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -693,7 +709,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -705,7 +720,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -725,8 +741,9 @@
       "report": "https://profi.avtocod.ru/report/ec51a0b1-1a49-4672-bfdd-664481ea9f99",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло: шпакля  \nПравая передняя дверь: шпакля  \nПравая задняя дверь: шпакля  \nЗаднее правое крыло: до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -735,7 +752,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -747,7 +763,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -767,8 +784,9 @@
       "report": "https://profi.avtocod.ru/report/guest/14bd079d-eabd-4e9c-ad1b-53b4344b87c3",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -776,8 +794,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "draft",
-      "margin": null,
+      "status": "available",
       "history": [
         {
           "date": "2025-07-22",
@@ -793,8 +810,14 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"На складе\" на \"Черновик\""
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -814,8 +837,9 @@
       "report": "https://profi.avtocod.ru/report/guest/32ff238f-d8df-451f-ba5e-d3ddb586c009",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -824,7 +848,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -836,7 +859,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -856,8 +880,9 @@
       "report": "https://profi.avtocod.ru/report/guest/532f63de-6919-4f27-99d2-43d9183ac1bc",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задние крылья у арок шпакля \nкапот 400\nбогажник 400-500\nпереднее левое крыло 350",
       "additionalInfo": "",
       "saleComment": "",
@@ -866,7 +891,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -883,7 +907,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -903,8 +928,9 @@
       "report": "https://profi.avtocod.ru/report/8262028e-8153-487e-aae4-cdd2422f9a2c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: до 500  \nПравое заднее крыло: шпакля у арки  \nБагажник: до 250  \nЗаднее левое крыло: шпакля возле арки",
       "additionalInfo": "",
       "saleComment": "",
@@ -913,7 +939,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -925,7 +950,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -945,8 +971,9 @@
       "report": "https://profi.avtocod.ru/report/e99d83eb-e62c-44bc-814a-1d6ef6745874",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Передняя правая дверь: до 200  \nЗаднее правое крыло: внизу шпакля, до 200  \nЗаднее левое крыло: до 200  \nЗадняя левая дверь: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -955,7 +982,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -967,7 +993,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -987,8 +1014,9 @@
       "report": "https://profi.avtocod.ru/report/guest/5971dbb4-b376-4699-b548-d4c1fe91a590",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло, по центру шпакля, так до 500-600, переход на заднюю дверь",
       "additionalInfo": "",
       "saleComment": "",
@@ -997,7 +1025,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1009,7 +1036,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -1029,8 +1057,9 @@
       "report": "https://profi.avtocod.ru/report/guest/cf938132-79a5-4b02-9993-24089dc50a86",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1039,7 +1068,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1051,7 +1079,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -1071,8 +1100,9 @@
       "report": "https://profi.avtocod.ru/report/e314a115-c273-43bf-a4e7-10358b69c819",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Передняя правая дверь, вторичка до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -1081,14 +1111,14 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -1108,8 +1138,9 @@
       "report": "https://profi.avtocod.ru/report/c2a01d9a-a1e1-4ef2-ac6c-3475face24ea",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1118,7 +1149,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1130,7 +1160,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mercedes-Benz",
@@ -1150,8 +1181,9 @@
       "report": "https://profi.avtocod.ru/report/30aefa68-1505-4bfb-9875-1fe7a944f305",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: до 200  \nЗаднее правое крыло: до 300  \nЗаднее левое крыло: до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -1160,7 +1192,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1172,7 +1203,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Продано\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1192,8 +1224,9 @@
       "report": "https://profi.avtocod.ru/report/guest/1cb036f7-7de8-46e3-a3c6-798b4b69eea4",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Арки по 1000+\nПравая передняя дверь 2000+",
       "additionalInfo": "",
       "saleComment": "",
@@ -1202,7 +1235,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1214,7 +1246,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1234,8 +1267,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3d71e2c6-1776-4253-b503-bfca9766f06a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Арки по 400\nПравая передняя дверь 800+",
       "additionalInfo": "",
       "saleComment": "",
@@ -1244,7 +1278,6 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1256,10 +1289,2196 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "Outlander",
+      "year": 2013,
+      "mileage": 152533,
+      "engineVolume": 2,
+      "power": 146,
+      "driveType": "Полный",
+      "transmission": "Вариатор",
+      "vin": "Z8TXTGF2WDM003491",
+      "dateAdded": "2025-05-19",
+      "whoAdded": "Усоля",
+      "priceToHands": 1560000,
+      "haggle": "",
+      "priceSalon": 1599000,
+      "report": "https://profi.avtocod.ru/report/guest/397b3854-15b0-40e8-97d1-fee54f55e7a4",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Всё кроме крыши красилось",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "Outlander",
+      "year": 2007,
+      "mileage": 267414,
+      "engineVolume": 3,
+      "power": 220,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JMBXLCW6W7Z001421",
+      "dateAdded": "2025-06-11",
+      "whoAdded": "Олег",
+      "priceToHands": 900000,
+      "haggle": "",
+      "priceSalon": 945000,
+      "report": "https://profi.avtocod.ru/report/guest/3d209963-c855-400c-af81-fa20cc89c6a5",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "передние крылья шпакля",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "Outlander",
+      "year": 2013,
+      "mileage": 255790,
+      "engineVolume": 2.4,
+      "power": 167,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "Z8TXTGF3WDM041489",
+      "dateAdded": "2024-07-15",
+      "whoAdded": "перекуп",
+      "priceToHands": 1250000,
+      "haggle": "",
+      "priceSalon": 1229000,
+      "report": "https://profi.avtocod.ru/report/5a6f8658-d728-45f3-b9e1-157027952c00",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Almera Classic",
+      "year": 2006,
+      "mileage": 277312,
+      "engineVolume": 1.6,
+      "power": 107,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "KNMCSHLMS6P626702",
+      "dateAdded": "2025-05-26",
+      "whoAdded": "Усоля",
+      "priceToHands": 500000,
+      "haggle": "",
+      "priceSalon": 529000,
+      "report": "https://profi.avtocod.ru/report/guest/f4670051-96bf-4218-af73-a94c6bcbc422",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Juke",
+      "year": 2013,
+      "mileage": 128181,
+      "engineVolume": 1.6,
+      "power": 117,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "SJNFBAF15U6338864",
+      "dateAdded": "2025-03-21",
+      "whoAdded": "Олег",
+      "priceToHands": 895000,
+      "haggle": "",
+      "priceSalon": null,
+      "report": "https://profi.avtocod.ru/report/guest/8c79da67-c16c-4650-973a-f84705eb6d63",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Qashqai",
+      "year": 2008,
+      "mileage": 205705,
+      "engineVolume": 2,
+      "power": 141,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "SJNFBNJ10U1185386",
+      "dateAdded": "2025-05-23",
+      "whoAdded": "Усоля",
+      "priceToHands": 860000,
+      "haggle": "",
+      "priceSalon": 889000,
+      "report": "https://profi.avtocod.ru/report/guest/8c79da67-c16c-4650-973a-f84705eb6d63",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Переднее левое крыло и стойка 300\nПередняя левая дверь вторичка",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"Черновик\""
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Opel",
+      "model": "Astra",
+      "year": 2007,
+      "mileage": 185405,
+      "engineVolume": 1.8,
+      "power": 140,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "W0L0AHL3582012343",
+      "dateAdded": "2025-02-10",
+      "whoAdded": "Альберт",
+      "priceToHands": 500000,
+      "haggle": "",
+      "priceSalon": 530000,
+      "report": "https://profi.avtocod.ru/report/4396b507-5cd6-4a94-b12e-29733beec069",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правое переднее крыло: шпакля  \nПравая передняя дверь: с переходом до 300  \nКрышка багажника: справа до 700  \nЛевое переднее крыло: до 400",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Land Rover",
+      "model": "Range Rover Sport",
+      "year": 2008,
+      "mileage": 202202,
+      "engineVolume": 4.2,
+      "power": 390,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "SALLSAA348A170045",
+      "dateAdded": "2024-01-11",
+      "whoAdded": "АМГ",
+      "priceToHands": 1549000,
+      "haggle": "",
+      "priceSalon": 1385000,
+      "report": "https://profi.avtocod.ru/report/3962cadc-da88-4c52-aa9b-339f5b9ea136",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот: до 250  \nПравое переднее крыло: до 350  \nЗаднее правое крыло: до 250  \nПереднее левое крыло: шпакля возле арки аккуратно",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Ravon",
+      "model": "Nexia R3",
+      "year": 2016,
+      "mileage": 155331,
+      "engineVolume": 1.5,
+      "power": 107,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XWBTF69V9HA005314",
+      "dateAdded": "2025-05-26",
+      "whoAdded": "Усоля",
+      "priceToHands": 480000,
+      "haggle": "",
+      "priceSalon": 449000,
+      "report": "https://profi.avtocod.ru/report/guest/09e3395d-2f2d-4b1b-8799-f7ac7adc0c87",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane",
+      "year": 2010,
+      "mileage": 164174,
+      "engineVolume": 1.6,
+      "power": 106,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "VF1BZAR0A44165157",
+      "dateAdded": "2025-05-01",
+      "whoAdded": "перекуп",
+      "priceToHands": 620000,
+      "haggle": "",
+      "priceSalon": 649000,
+      "report": "https://profi.avtocod.ru/report/guest/dec7824a-b9db-486f-b421-c92a6bc04107",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Subaru",
+      "model": "XV",
+      "year": 2011,
+      "mileage": 224000,
+      "engineVolume": 1.6,
+      "power": 106,
+      "driveType": "Полный",
+      "transmission": "Вариатор",
+      "vin": "JF1GP3LC5CG006650",
+      "dateAdded": "2024-10-05",
+      "whoAdded": "АМГ",
+      "priceToHands": 1349000,
+      "haggle": "",
+      "priceSalon": 949000,
+      "report": "https://profi.avtocod.ru/report/5d06ac5a-7346-401d-9e19-a932f88c992e",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Grand Vitara",
+      "year": 2011,
+      "mileage": 232021,
+      "engineVolume": 2.4,
+      "power": 169,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JSAJTDA4V00243790",
+      "dateAdded": "2025-04-11",
+      "whoAdded": "Олег",
+      "priceToHands": 1000000,
+      "haggle": "",
+      "priceSalon": 1095000,
+      "report": "https://profi.avtocod.ru/report/guest/3b08817c-02db-4af8-9d82-6654b66aada5",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее левое крыло самый край внизу фары шпакля, передняя правая дверь вторичка 250-500",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Liana",
+      "year": 2005,
+      "mileage": 168626,
+      "engineVolume": 1.6,
+      "power": 106,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "JSAERB31S00300036",
+      "dateAdded": "2025-06-27",
+      "whoAdded": "Усоля",
+      "priceToHands": 590000,
+      "haggle": "",
+      "priceSalon": 619000,
+      "report": "https://profi.avtocod.ru/report/guest/1b1038af-e120-4e2a-ada0-64c93bc4a469",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот до 600\nПередние крылья до 300\nПравоая передняя дверь до 800\nПравая задняя дверь шпакля\nЗаднее правое крыло до 300",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avensis",
+      "year": 2008,
+      "mileage": 277099,
+      "engineVolume": 1.8,
+      "power": 129,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "SB1BR56L70E253577",
+      "dateAdded": "2025-06-12",
+      "whoAdded": "Альберт",
+      "priceToHands": 730000,
+      "haggle": "",
+      "priceSalon": 0,
+      "report": "https://profi.avtocod.ru/report/guest/891a8fcb-1d99-4fa0-90e3-97bfa8d2ecc7",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Богажник 1000 сверзу заднее левое крыло шпакля",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2011,
+      "mileage": 138284,
+      "engineVolume": 1.6,
+      "power": 124,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "JTNBV56E50J128508",
+      "dateAdded": "2025-05-28",
+      "whoAdded": "Усоля",
+      "priceToHands": 1000000,
+      "haggle": "",
+      "priceSalon": 1039000,
+      "report": "https://profi.avtocod.ru/report/guest/015cef72-ec56-47c2-92b3-11a669a3300c",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Красились \nкапот \nкрыло правое заднее шпакля \nпроем правый задний",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2013,
+      "mileage": 87343,
+      "engineVolume": null,
+      "power": 124,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "JTNBV58E80J220368",
+      "dateAdded": "2025-03-25",
+      "whoAdded": "Усоля",
+      "priceToHands": 1100000,
+      "haggle": "",
+      "priceSalon": 1059000,
+      "report": "https://profi.avtocod.ru/report/guest/8ea979c3-bd6d-4547-be95-03711c39b744",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Вторичный окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux",
+      "year": 2008,
+      "mileage": 319770,
+      "engineVolume": 2.5,
+      "power": 102,
+      "driveType": "",
+      "transmission": "Механика",
+      "vin": "MR0FR22GX80655138",
+      "dateAdded": "2025-06-11",
+      "whoAdded": "Собственник",
+      "priceToHands": 910000,
+      "haggle": "",
+      "priceSalon": 949000,
+      "report": "https://profi.avtocod.ru/report/guest/1bbf341a-e380-40ab-952c-35dc680e7b92",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Раптор",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4",
+      "year": 2006,
+      "mileage": 210167,
+      "engineVolume": 2,
+      "power": 152,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JTMBH31V606032266",
+      "dateAdded": "2024-06-30",
+      "whoAdded": "перекуп",
+      "priceToHands": 1200000,
+      "haggle": "",
+      "priceSalon": 1229000,
+      "report": "https://profi.avtocod.ru/report/3ea695c5-7ea4-41f4-b0f7-aadc981b5883",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правые двери: до 200  \nЗаднее правое крыло: шпакля возле арки",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2011,
+      "mileage": 270000,
+      "engineVolume": 1.4,
+      "power": 80,
+      "driveType": "Полный",
+      "transmission": "Механика",
+      "vin": "WVWZZZ1KZCW024602",
+      "dateAdded": "2024-01-28",
+      "whoAdded": "АМГ",
+      "priceToHands": 799000,
+      "haggle": "",
+      "priceSalon": 799000,
+      "report": "https://profi.avtocod.ru/report/169e7a99-0643-40b8-820a-11f89dbc677e",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Весь автомобиль включая крышу, вторичный окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Touareg",
+      "year": 2013,
+      "mileage": 186020,
+      "engineVolume": 3.6,
+      "power": 249,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "XW8ZZZ7PZDG007461",
+      "dateAdded": "2025-02-10",
+      "whoAdded": "Олег",
+      "priceToHands": 1950000,
+      "haggle": "",
+      "priceSalon": 1995000,
+      "report": "https://profi.avtocod.ru/report/102ecca3-4287-4203-bb48-e0558e972859",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Морда: в плёнке  \nЗадняя правая дверь: шпакля  \nПередняя левая дверь: шпакля по центру",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volvo",
+      "model": "C30",
+      "year": 2011,
+      "mileage": 232743,
+      "engineVolume": 2,
+      "power": 145,
+      "driveType": "Передний",
+      "transmission": "Робот",
+      "vin": "YV1MK434BC2276138",
+      "dateAdded": "2025-02-10",
+      "whoAdded": "Альберт",
+      "priceToHands": 850000,
+      "haggle": "",
+      "priceSalon": 890000,
+      "report": "https://profi.avtocod.ru/report/88d132ab-c419-4410-adf1-7e0c04d592fb",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "В родне",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volvo",
+      "model": "S80",
+      "year": 2007,
+      "mileage": 428322,
+      "engineVolume": 3.2,
+      "power": 238,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "YV1AS985681049234",
+      "dateAdded": "2025-05-15",
+      "whoAdded": "Собственник",
+      "priceToHands": 1160000,
+      "haggle": "",
+      "priceSalon": 1199000,
+      "report": "https://profi.avtocod.ru/report/guest/1a83eb05-8c14-4915-87f3-cd0d14f3a362",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "левое переднее крыло и заднее до 250 на сгибах",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Largus",
+      "year": 2021,
+      "mileage": 70100,
+      "engineVolume": 1.6,
+      "power": 90,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTARS025LN1426664",
+      "dateAdded": "2024-03-11",
+      "whoAdded": "АМГ",
+      "priceToHands": 1339000,
+      "haggle": "",
+      "priceSalon": 1339000,
+      "report": "https://profi.avtocod.ru/report/c669033a-8c8c-4468-96a7-763f84d99246",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Веста",
+      "year": 2022,
+      "mileage": 33500,
+      "engineVolume": 1.6,
+      "power": 113,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "XTAGFL440NY650824",
+      "dateAdded": "2023-08-15",
+      "whoAdded": "перекуп",
+      "priceToHands": 1300000,
+      "haggle": "",
+      "priceSalon": 1329000,
+      "report": "https://profi.avtocod.ru/report/616f56f0-0869-4b34-8ec4-37763b35b0ab",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родная",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Приора",
+      "year": 2008,
+      "mileage": 256207,
+      "engineVolume": 1.6,
+      "power": 98,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTA21723080006220",
+      "dateAdded": "42005-01-14",
+      "whoAdded": "АМГ",
+      "priceToHands": 150000,
+      "haggle": "",
+      "priceSalon": 150000,
+      "report": "https://profi.avtocod.ru/report/guest/95dbaab2-9e1c-4114-82d2-29986d04aee1",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Отсутствует",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "S500",
+      "year": 2014,
+      "mileage": 145400,
+      "engineVolume": 4.7,
+      "power": 456,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "WDD2221851A106438",
+      "dateAdded": "2023-12-17",
+      "whoAdded": "АМГ",
+      "priceToHands": 4149000,
+      "haggle": "",
+      "priceSalon": 4149000,
+      "report": "https://profi.avtocod.ru/report/9d1c3e27-a7a0-4b56-8f60-1ae3f77dd166",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "првое заднее крыло  до 300 ,но переход на стойку до 800",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Citroen",
+      "model": "C4",
+      "year": 2008,
+      "mileage": 195798,
+      "engineVolume": 1.6,
+      "power": 110,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "VF7LCNFUC74865518",
+      "dateAdded": "2025-06-06",
+      "whoAdded": "Олег",
+      "priceToHands": 310000,
+      "haggle": "",
+      "priceSalon": 330000,
+      "report": "https://profi.avtocod.ru/report/guest/2caf8530-1818-4c04-86ed-580a777239e7",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Geely",
+      "model": "Emgrand",
+      "year": 2023,
+      "mileage": 20529,
+      "engineVolume": 1.5,
+      "power": 122,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "LB3F31036PG022996",
+      "dateAdded": "2025-06-03",
+      "whoAdded": "Альберт",
+      "priceToHands": 1590000,
+      "haggle": "",
+      "priceSalon": 1640000,
+      "report": "https://profi.avtocod.ru/report/guest/0d8ab795-dd6f-42b3-b719-7078c67e8b9c",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Infiniti",
+      "model": "FX37",
+      "year": 2010,
+      "mileage": 208055,
+      "engineVolume": 2.7,
+      "power": 333,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JN1TCNS51U0410695",
+      "dateAdded": "2025-07-03",
+      "whoAdded": "Альберт",
+      "priceToHands": 1590000,
+      "haggle": "",
+      "priceSalon": 1630000,
+      "report": "https://profi.avtocod.ru/report/guest/3477ac55-e898-4d10-8a76-b78dd2789897",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Kia",
+      "model": "Optima",
+      "year": 2012,
+      "mileage": 204238,
+      "engineVolume": 2,
+      "power": 150,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "KNAGM411AC5265898",
+      "dateAdded": "2025-07-11",
+      "whoAdded": "Олег",
+      "priceToHands": 960000,
+      "haggle": "",
+      "priceSalon": 990000,
+      "report": "https://profi.avtocod.ru/report/guest/7ed07987-5248-4cfa-8145-31a9d1286ab6",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris",
+      "year": 2007,
+      "mileage": 103195,
+      "engineVolume": 1.3,
+      "power": 87,
+      "driveType": "Передний",
+      "transmission": "Робот",
+      "vin": "VNKKL96310A184131",
+      "dateAdded": "2025-07-06",
+      "whoAdded": "Олег",
+      "priceToHands": 630000,
+      "haggle": "",
+      "priceSalon": 649000,
+      "report": "https://profi.avtocod.ru/report/guest/f36a194b-9738-45ca-b2a2-58e51bff2a90",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2014,
+      "mileage": 209664,
+      "engineVolume": 1.2,
+      "power": 105,
+      "driveType": "Передний",
+      "transmission": "Робот",
+      "vin": "WVWZZZAUZEW381787",
+      "dateAdded": "2025-07-06",
+      "whoAdded": "Олег",
+      "priceToHands": 895000,
+      "haggle": "",
+      "priceSalon": 895000,
+      "report": "https://profi.avtocod.ru/report/guest/04d855b9-d589-4eb4-bb79-f028f8cfe547",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "ЗАЗ",
+      "model": "Chance",
+      "year": 2011,
+      "mileage": 141896,
+      "engineVolume": 1.5,
+      "power": 86,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "Y6DTF69Y0B0282423",
+      "dateAdded": "2025-06-25",
+      "whoAdded": "Собственник",
+      "priceToHands": 259000,
+      "haggle": "",
+      "priceSalon": 259000,
+      "report": "https://profi.avtocod.ru/report/guest/b50e580c-d30a-4e9e-b1eb-168b29c63dfa",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Гранта",
+      "year": 2019,
+      "mileage": 148870,
+      "engineVolume": 1.6,
+      "power": 87,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTA219010L0674926",
+      "dateAdded": "2025-07-06",
+      "whoAdded": "Олег",
+      "priceToHands": 430000,
+      "haggle": "",
+      "priceSalon": 450000,
+      "report": "https://profi.avtocod.ru/report/guest/3d0e41fd-c74f-4611-beac-7151d017beb9",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "X-ray",
+      "year": 2017,
+      "mileage": 87981,
+      "engineVolume": 1.8,
+      "power": 122,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTAGAB330J1065585",
+      "dateAdded": "2024-08-21",
+      "whoAdded": "Собственник",
+      "priceToHands": 880000,
+      "haggle": "",
+      "priceSalon": 899000,
+      "report": "https://profi.avtocod.ru/report/guest/c2c18119-3ae8-4fd2-bd28-3cde8d649fe5",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Kia",
+      "model": "ProCeed",
+      "year": 2013,
+      "mileage": 98074,
+      "engineVolume": 1.6,
+      "power": 129,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWEHN312BE0000913",
+      "dateAdded": "2025-07-09",
+      "whoAdded": "перекуп",
+      "priceToHands": 980000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "https://profi.avtocod.ru/report/guest/a07508d3-0917-4191-aa1f-d94f0518e88d",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "X3",
+      "year": 2009,
+      "mileage": 214351,
+      "engineVolume": 2,
+      "power": 177,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "X4XPE1845AWC94075",
+      "dateAdded": "2025-04-21",
+      "whoAdded": "Олег",
+      "priceToHands": 970000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "https://profi.avtocod.ru/report/guest/c0c2e1d1-05ed-4293-b349-f3f165b1ee7b",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
+    },
+    {
+      "brand": "Ford",
+      "model": "C-Max",
+      "year": 2007,
+      "mileage": 212195,
+      "engineVolume": 2,
+      "power": 145,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "WF0MXXGCDM7D29382",
+      "dateAdded": "2025-07-18",
+      "whoAdded": "Олег",
+      "priceToHands": 430000,
+      "haggle": "",
+      "priceSalon": 430000,
+      "report": "https://profi.avtocod.ru/report/guest/2fb54a2c-6615-40f7-be4f-4c8e7b19f08d",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Solaris",
+      "year": 2016,
+      "mileage": 234165,
+      "engineVolume": 1.4,
+      "power": 107,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "Z94CT41CAHR488553",
+      "dateAdded": "2025-07-22",
+      "whoAdded": "Олег",
+      "priceToHands": 495000,
+      "haggle": "",
+      "priceSalon": 495000,
+      "report": "https://profi.avtocod.ru/report/guest/c35d344b-8e59-4fd0-9e1b-14b5fec6d413",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
+    },
+    {
+      "brand": "Kia",
+      "model": "Ceed",
+      "year": 2012,
+      "mileage": 162635,
+      "engineVolume": 1.6,
+      "power": 122,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XWEHC512AC0010410",
+      "dateAdded": "2025-07-06",
+      "whoAdded": "перекуп",
+      "priceToHands": 649000,
+      "haggle": "",
+      "priceSalon": 649000,
+      "report": "https://profi.avtocod.ru/report/guest/01eff053-f078-46a6-a717-9bf988669179",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-07-23T10:38:03.475Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Ceed (XWEHC512AC0010410)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:34:19.107Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai Solaris (Z94CT41CAHR488553)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:31:17.195Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Ford C-Max (WF0MXXGCDM7D29382)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:23:31.621Z",
+      "action": "add",
+      "description": "Добавлен автомобиль BMW X3 (X4XPE1845AWC94075)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:38.151Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в JSON",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:21.028Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C4 (VF7LCNFUC74865518) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:19.620Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mercedes-Benz S500 (WDD2221851A106438) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:17.948Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Infiniti FX37 (JN1TCNS51U0410695) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:16.788Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Geely Emgrand (LB3F31036PG022996) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:15.124Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Yaris (VNKKL96310A184131) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:13.692Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Optima (KNAGM411AC5265898) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:12.052Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля ЗАЗ Chance (Y6DTF69Y0B0282423) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:10.804Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Golf (WVWZZZAUZEW381787) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:09.180Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219010L0674926) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:08.132Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) X-ray (XTAGAB330J1065585) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:21:06.172Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia ProCeed (XWEHN312BE0000913) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:17:31.126Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia ProCeed (XWEHN312BE0000913)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:05:14.295Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) X-ray (XTAGAB330J1065585)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:01:54.320Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Гранта (XTA219010L0674926)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T10:00:25.576Z",
+      "action": "add",
+      "description": "Добавлен автомобиль ЗАЗ Chance (Y6DTF69Y0B0282423)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:58:51.001Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Golf (WVWZZZAUZEW381787)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:56:51.249Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Yaris (VNKKL96310A184131)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:54:53.914Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Optima (KNAGM411AC5265898)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:53:39.530Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Infiniti FX37 (JN1TCNS51U0410695)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:50:17.554Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Geely Emgrand (LB3F31036PG022996)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:46:35.643Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Citroen C4 (VF7LCNFUC74865518)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:41:32.548Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mercedes-Benz S500 (WDD2221851A106438)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:59.683Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Veloster (KMHTE61DGCU054830) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:50.266Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:47.523Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ravon Nexia R3 (XWBTF69V9HA005314) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:46.443Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Land Rover Range Rover Sport (SALLSAA348A170045) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:44.378Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Subaru XV (JF1GP3LC5CG006650) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:42.787Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Renault Megane (VF1BZAR0A44165157) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:41.211Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Suzuki Liana (JSAERB31S00300036) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:39.754Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Suzuki Grand Vitara (JSAJTDA4V00243790) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:38.099Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV56E50J128508) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:36.690Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Avensis (SB1BR56L70E253577) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:34.851Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Hilux (MR0FR22GX80655138) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:33.531Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV58E80J220368) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:31.642Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Golf (WVWZZZ1KZCW024602) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:30.210Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota RAV4 (JTMBH31V606032266) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:27.787Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volvo C30 (YV1MK434BC2276138) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:26.635Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Touareg (XW8ZZZ7PZDG007461) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:24.403Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Largus (XTARS025LN1426664) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:23.347Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volvo S80 (YV1AS985681049234) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:20.955Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Веста (XTAGFL440NY650824) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:38:19.683Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Приора (XTA21723080006220) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:08:48.704Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в JSON",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:08:39.447Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Приора (XTA21723080006220)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:06:29.480Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Веста (XTAGFL440NY650824)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T09:01:50.200Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Largus (XTARS025LN1426664)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:57:11.106Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volvo S80 (YV1AS985681049234)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:49:42.498Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volvo C30 (YV1MK434BC2276138)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:45:53.978Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Touareg (XW8ZZZ7PZDG007461)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:43:42.276Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в JSON",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:43:26.939Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Golf (WVWZZZ1KZCW024602)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:35:17.196Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota RAV4 (JTMBH31V606032266)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:29:51.917Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Hilux (MR0FR22GX80655138)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:26:56.485Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Corolla (JTNBV58E80J220368)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:19:03.295Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Corolla (JTNBV56E50J128508)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:11:56.768Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Avensis (SB1BR56L70E253577)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:09:12.000Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Suzuki Liana (JSAERB31S00300036)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:02:44.586Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в JSON",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T08:02:40.153Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Suzuki Grand Vitara (JSAJTDA4V00243790)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:54:52.258Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Subaru XV (JF1GP3LC5CG006650)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:51:34.267Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Renault Megane (VF1BZAR0A44165157)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:41:09.517Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ravon Nexia R3 (XWBTF69V9HA005314)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:40:26.436Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Ravon Nexia R3 (XWBTF69V9HA005314)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:20:59.616Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Land Rover Range Rover Sport (SALLSAA348A170045)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:36.217Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в JSON",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:31.727Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"Черновик\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:20.503Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (Z8TXTGF2WDM003491) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:18.311Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (Z8TXTGF3WDM041489) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:16.975Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (JMBXLCW6W7Z001421) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:15.383Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Astra (W0L0AHL3582012343) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:14.167Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:12.406Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6338864) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:15:11.095Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Almera Classic (KNMCSHLMS6P626702) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:14:48.232Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Opel Astra (W0L0AHL3582012343)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:12:06.616Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Qashqai (SJNFBNJ10U1185386)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T07:02:42.074Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Juke (SJNFBAF15U6338864)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T06:59:39.010Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Almera Classic (KNMCSHLMS6P626702)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T06:57:05.803Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mitsubishi Outlander (Z8TXTGF3WDM041489)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T06:53:30.963Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mitsubishi Outlander (JMBXLCW6W7Z001421)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-23T06:51:37.068Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mitsubishi Outlander (Z8TXTGF2WDM003491)",
+      "archived": false
+    },
     {
       "timestamp": "2025-07-23T05:20:39.022Z",
       "action": "export",
@@ -2107,6 +4326,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-07-23T05:21:08.752Z",
+  "exportDate": "2025-07-23T10:41:12.561Z",
   "version": "3.1"
 }
