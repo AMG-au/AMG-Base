@@ -1,4 +1,4 @@
-// Система управления автопарком v3.1 - с исправленной синхронизацией
+// Система управления автопарком v3.2 - полная версия со всеми функциями
 'use strict';
 
 // Глобальные переменные
@@ -6,6 +6,8 @@ let cars = [];
 let history = [];
 let editingCarIndex = -1;
 let quickSaleCarIndex = -1;
+let returnCarIndex = -1;
+let detailCarIndex = -1;
 let showArchivedHistory = false;
 let expandedView = false;
 let isOnline = false;
@@ -79,7 +81,7 @@ async function initializeApp() {
 // Загрузка данных с GitHub
 async function loadFromGitHub() {
     try {
-        const response = await fetch(GITHUB_REPO_URL, {
+        const response = await fetch(GITHUB_REPO_URL + '?v=' + Date.now(), {
             cache: 'no-cache',
             headers: {
                 'Cache-Control': 'no-cache',
@@ -125,16 +127,15 @@ function updateConnectionStatus(status, text) {
     }
 }
 
-// Исправленная автоматическая синхронизация (фоновая)
+// Автоматическая синхронизация (фоновая)
 function startAutoSync() {
     // Проверяем обновления каждые 2 минуты
     syncInterval = setInterval(async () => {
-        // Только проверяем обновления, не создаем файлы автоматически
         await checkForUpdates();
     }, 120000); // 2 минуты
 }
 
-// Исправленная проверка обновлений
+// Проверка обновлений
 async function checkForUpdates() {
     try {
         const response = await fetch(GITHUB_REPO_URL + '?v=' + Date.now(), {
@@ -196,7 +197,7 @@ async function checkForUpdates() {
     }
 }
 
-// Исправленная функция показа индикатора
+// Функция показа индикатора
 function showSyncIndicator() {
     const indicator = document.getElementById('syncIndicator');
     if (indicator && autoSyncEnabled) {
@@ -208,7 +209,7 @@ function showSyncIndicator() {
     }
 }
 
-// Исправленная функция скрытия индикатора
+// Функция скрытия индикатора
 function hideSyncIndicator() {
     const indicator = document.getElementById('syncIndicator');
     if (indicator) {
@@ -221,7 +222,7 @@ function hideSyncIndicator() {
     }
 }
 
-// Отметка изменений для синхронизации (исправлено)
+// Отметка изменений для синхронизации
 function markDataAsChanged() {
     hasUnsavedChanges = true;
     saveToLocalStorage();
@@ -235,7 +236,7 @@ function markDataAsChanged() {
     }
 }
 
-// Автоматическая синхронизация (новая функция)
+// Автоматическая синхронизация
 async function autoSync() {
     if (!hasUnsavedChanges) {
         hideSyncIndicator();
@@ -246,7 +247,7 @@ async function autoSync() {
     
     try {
         // Создаем файл data.json для обновления в репозитории
-        await createDataJsonFile();
+        await downloadDataJson();
         
         // Показываем уведомление о необходимости обновления
         showNotification('Создан файл data.json. Обновите его в GitHub репозитории.', 'warning');
@@ -266,23 +267,6 @@ async function autoSync() {
     }
 }
 
-// Создание файла data.json (новая функция)
-async function createDataJsonFile() {
-    const dataToSave = {
-        cars: cars,
-        history: history,
-        lastSaved: new Date().toISOString(),
-        version: '3.1',
-        application: 'Autopark Management System'
-    };
-    
-    // Сохраняем в localStorage как признак того, что файл создан
-    localStorage.setItem('pending_sync_data', JSON.stringify(dataToSave));
-    localStorage.setItem('pending_sync_timestamp', new Date().toISOString());
-    
-    return dataToSave;
-}
-
 // Функция скачивания data.json
 async function downloadDataJson() {
     try {
@@ -290,7 +274,7 @@ async function downloadDataJson() {
             cars: cars,
             history: history,
             lastSaved: new Date().toISOString(),
-            version: '3.1',
+            version: '3.2',
             application: 'Autopark Management System'
         };
         
@@ -321,7 +305,7 @@ async function downloadDataJson() {
     }
 }
 
-// Исправленная принудительная синхронизация
+// Принудительная синхронизация
 async function forceSync() {
     updateConnectionStatus('syncing', '🔄 Синхронизация...');
     showSyncIndicator();
@@ -383,6 +367,7 @@ function loadDemoData() {
         brand: 'BMW',
         model: '320i',
         year: 2018,
+        color: 'Черный металлик',
         mileage: 85000,
         engineVolume: 2.0,
         power: 184,
@@ -407,6 +392,7 @@ function loadDemoData() {
         creditOverprice: 'Да',
         creditDownPayment: 400000,
         creditAmount: 1000000,
+        creditReward: 0.15,
         status: 'sold',
         history: [
             {date: '2024-07-01', action: 'Добавлен', details: 'Первоначальное добавление'},
@@ -416,6 +402,7 @@ function loadDemoData() {
         brand: 'Mercedes-Benz',
         model: 'C200',
         year: 2019,
+        color: 'Серебристый',
         mileage: 65000,
         engineVolume: 1.5,
         power: 156,
@@ -443,6 +430,7 @@ function loadDemoData() {
         brand: 'Audi',
         model: 'A4',
         year: 2020,
+        color: 'Белый',
         mileage: 45000,
         engineVolume: 2.0,
         power: 190,
@@ -475,14 +463,14 @@ function loadDemoData() {
     ];
 }
 
-// Функции локального хранилища с отметкой изменений
+// Функции локального хранилища
 function saveToLocalStorage() {
     try {
         const dataToSave = {
             cars: cars,
             history: history,
             lastSaved: new Date().toISOString(),
-            version: '3.1'
+            version: '3.2'
         };
         localStorage.setItem('autopark_data', JSON.stringify(dataToSave));
         localStorage.setItem('autopark_last_saved', dataToSave.lastSaved);
@@ -516,6 +504,7 @@ function migrateCarData(car) {
         brand: car.brand || '',
         model: car.model || '',
         year: car.year || new Date().getFullYear(),
+        color: car.color || '',
         mileage: car.mileage || null,
         engineVolume: car.engineVolume || null,
         power: car.power || null,
@@ -540,6 +529,10 @@ function migrateCarData(car) {
         creditOverprice: car.creditOverprice || '',
         creditDownPayment: car.creditDownPayment || null,
         creditAmount: car.creditAmount || null,
+        creditReward: car.creditReward || null,
+        returnDate: car.returnDate || null,
+        returnReason: car.returnReason || '',
+        returnComment: car.returnComment || '',
         status: car.status || 'draft',
         history: car.history || [],
         archived: car.archived || false
@@ -562,12 +555,17 @@ function initializeEventListeners() {
         searchInput.addEventListener('input', filterCars);
     }
     
-    const filters = ['brandFilter', 'statusFilter', 'whoAddedFilter'];
+    const filters = ['brandFilter', 'whoAddedFilter'];
     filters.forEach(filterId => {
         const element = document.getElementById(filterId);
         if (element) {
             element.addEventListener('change', filterCars);
         }
+    });
+
+    // Чекбокс фильтры статусов
+    document.querySelectorAll('.status-checkboxes input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', filterCars);
     });
 
     // Селектор месяца для статистики
@@ -591,6 +589,15 @@ function initializeEventListeners() {
         quickSaleForm.addEventListener('submit', function(e) {
             e.preventDefault();
             completeQuickSale(e);
+        });
+    }
+
+    // Форма возврата
+    const returnForm = document.getElementById('returnForm');
+    if (returnForm) {
+        returnForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            completeReturn(e);
         });
     }
 
@@ -679,14 +686,16 @@ function showSection(sectionName) {
     }
 }
 
-// Переключение вида отображения автомобилей
+// Переключение вида отображения автомобилей (ИСПРАВЛЕНО)
 function toggleViewMode() {
     expandedView = !expandedView;
     const btn = document.getElementById('viewToggleBtn');
     if (btn) {
         btn.textContent = expandedView ? '📋 Свернуть всё' : '📋 Развернуть всё';
     }
-    displayCars();
+    
+    // Применяем фильтры заново для корректного отображения
+    filterCars();
 }
 
 // Обновление всех дисплеев
@@ -695,6 +704,7 @@ function updateAllDisplays() {
     displayCars();
     displayHistory();
     updateAnalytics();
+    populateFilters();
 }
 
 // Обновление панели управления с исправленной статистикой
@@ -754,7 +764,7 @@ function updateDashboard() {
     updateElementText('soldOtherSum', formatPrice(soldOtherSum));
 }
 
-// Отображение списка автомобилей с ценой в салоне
+// Отображение списка автомобилей
 function displayCars() {
     const carsList = document.getElementById('carsList');
     if (!carsList) return;
@@ -772,10 +782,13 @@ function displayCars() {
     carsList.innerHTML = cars.map((car, index) => createCarCard(car, index)).join('');
 }
 
+// Создание карточки автомобиля (ОБНОВЛЕНО)
 function createCarCard(car, index) {
+    // Обновленные поля для компактного отображения (включая год)
     const compactFields = [
         car.brand ? `Марка: <span>${car.brand}</span>` : null,
         car.model ? `Модель: <span>${car.model}</span>` : null,
+        car.year ? `Год: <span>${car.year}</span>` : null,
         car.engineVolume ? `Объём: <span>${car.engineVolume} л</span>` : null,
         car.vin ? `VIN: <span>${car.vin}</span>` : null,
         car.priceSalon ? `Цена в салоне: <span>${formatPrice(car.priceSalon)}</span>` : null,
@@ -786,6 +799,7 @@ function createCarCard(car, index) {
     if (car.brand) allFields.push(`Марка: <span>${car.brand}</span>`);
     if (car.model) allFields.push(`Модель: <span>${car.model}</span>`);
     if (car.year) allFields.push(`Год: <span>${car.year}</span>`);
+    if (car.color) allFields.push(`Цвет: <span>${car.color}</span>`);
     if (car.mileage) allFields.push(`Пробег: <span>${formatNumber(car.mileage)} км</span>`);
     if (car.engineVolume) allFields.push(`Объём: <span>${car.engineVolume} л</span>`);
     if (car.power) allFields.push(`Мощность: <span>${car.power} л.с.</span>`);
@@ -800,16 +814,21 @@ function createCarCard(car, index) {
     if (car.salePrice) allFields.push(`Цена продажи: <span>${formatPrice(car.salePrice)}</span>`);
     if (car.howSold) allFields.push(`Как продалась: <span>${car.howSold}</span>`);
     if (car.whoSold) allFields.push(`Кто продал: <span>${car.whoSold}</span>`);
+    if (car.returnDate) allFields.push(`Дата возврата: <span>${formatDate(car.returnDate)}</span>`);
+    if (car.returnReason) allFields.push(`Причина возврата: <span>${car.returnReason}</span>`);
 
     const fields = expandedView ? allFields : compactFields;
     const infoHTML = fields.map(field => `<div class="car-info-item">${field}</div>`).join('');
     const cardClass = expandedView ? '' : 'compact';
     const infoClass = expandedView ? '' : 'compact';
     
+    // Обновленный заголовок (марка, модель, год, КПП, объём)
+    const title = `${car.brand} ${car.model} ${car.year} ${car.transmission} ${car.engineVolume ? car.engineVolume+'л' : ''}`.trim();
+    
     return `
         <div class="car-card ${cardClass}">
             <div class="car-header">
-                <div class="car-title">${car.brand} ${car.model}</div>
+                <div class="car-title" onclick="openDetail(${index})">${title}</div>
                 <div class="car-status-dropdown">
                     <button class="car-status status-${car.status}" onclick="toggleStatusDropdown(${index})">
                         ${getStatusText(car.status)}
@@ -819,6 +838,7 @@ function createCarCard(car, index) {
                         <div class="status-dropdown-item" onclick="changeCarStatus(${index}, 'warehouse')">На складе</div>
                         <div class="status-dropdown-item" onclick="changeCarStatus(${index}, 'draft')">Черновик</div>
                         <div class="status-dropdown-item" onclick="changeCarStatus(${index}, 'sold')">Продано</div>
+                        <div class="status-dropdown-item" onclick="changeCarStatus(${index}, 'return')">Возврат</div>
                     </div>
                 </div>
             </div>
@@ -828,11 +848,12 @@ function createCarCard(car, index) {
             ${expandedView && car.report ? `<div class="car-description"><strong>Отчёт:</strong> ${convertLinksToClickable(car.report)}</div>` : ''}
             ${expandedView && car.paints ? `<div class="car-description"><strong>Окрасы:</strong> ${car.paints}</div>` : ''}
             ${expandedView && car.additionalInfo ? `<div class="car-description"><strong>Дополнительно:</strong> ${car.additionalInfo}</div>` : ''}
+            ${expandedView && car.returnComment ? `<div class="car-description"><strong>Комментарий возврата:</strong> ${car.returnComment}</div>` : ''}
             <div class="car-actions">
                 <button class="btn btn-secondary btn-small" onclick="editCar(${index})">
                     ✏️ Редактировать
                 </button>
-                <button class="btn btn-confidential btn-small" onclick="showConfidentialInfo(${index})">
+                <button class="btn btn-confidential btn-small" onclick="showConfidential(${index})">
                     🔐 Конфиденц.
                 </button>
                 <button class="btn btn-history btn-small" onclick="showCarHistory(${index})">
@@ -846,8 +867,70 @@ function createCarCard(car, index) {
     `;
 }
 
+// Открытие детальной карточки автомобиля (НОВОЕ)
+function openDetail(index) {
+    const car = cars[index];
+    if (!car) return;
+    
+    detailCarIndex = index;
+    
+    const title = document.getElementById('carDetailTitle');
+    if (title) title.textContent = `${car.brand} ${car.model} ${car.year}`;
+    
+    const content = document.getElementById('carDetailContent');
+    if (content) {
+        const details = [
+            ['Марка', car.brand],
+            ['Модель', car.model],
+            ['Год', car.year],
+            ['Цвет', car.color],
+            ['Пробег', car.mileage ? formatNumber(car.mileage) + ' км' : ''],
+            ['Объём двигателя', car.engineVolume ? car.engineVolume + ' л' : ''],
+            ['Мощность', car.power ? car.power + ' л.с.' : ''],
+            ['Привод', car.driveType],
+            ['КПП', car.transmission],
+            ['VIN', car.vin],
+            ['Дата постановки', car.dateAdded ? formatDate(car.dateAdded) : ''],
+            ['Кто поставил', car.whoAdded],
+            ['Торг', car.haggle],
+            ['Цена в салоне', car.priceSalon ? formatPrice(car.priceSalon) : ''],
+            ['Статус', getStatusText(car.status)],
+            ['Дата продажи', car.dateSold ? formatDate(car.dateSold) : ''],
+            ['Цена продажи', car.salePrice ? formatPrice(car.salePrice) : ''],
+            ['Как продалась', car.howSold],
+            ['Кто продал', car.whoSold],
+            ['Дата возврата', car.returnDate ? formatDate(car.returnDate) : ''],
+            ['Причина возврата', car.returnReason],
+            ['Отчёт', car.report ? convertLinksToClickable(car.report) : ''],
+            ['Окрасы', car.paints],
+            ['Дополнительная информация', car.additionalInfo],
+            ['Комментарий к продаже', car.saleComment],
+            ['Комментарий к возврату', car.returnComment]
+        ].filter(item => item[1]); // Убираем пустые значения
+        
+        content.innerHTML = details.map(([label, value]) => `
+            <div class="confidential-item">
+                <label>${label}:</label>
+                <span>${value}</span>
+            </div>
+        `).join('');
+    }
+    
+    showModal('carDetailModal');
+}
+
+function editCarFromDetail() {
+    closeModal('carDetailModal');
+    editCar(detailCarIndex);
+}
+
+function showConfidentialInfoFromDetail() {
+    closeModal('carDetailModal');
+    showConfidential(detailCarIndex);
+}
+
 // Показ конфиденциальной информации
-function showConfidentialInfo(index) {
+function showConfidential(index) {
     const car = cars[index];
     if (!car) return;
 
@@ -884,6 +967,7 @@ function showConfidentialInfo(index) {
             updateElementText('conf-creditOverprice', car.creditOverprice || 'Не указано');
             updateElementText('conf-creditDownPayment', car.creditDownPayment ? formatPrice(car.creditDownPayment) : 'Не указан');
             updateElementText('conf-creditAmount', car.creditAmount ? formatPrice(car.creditAmount) : 'Не указана');
+            updateElementText('conf-creditReward', car.creditReward ? car.creditReward : 'Не указан');
         } else {
             creditInfo.style.display = 'none';
         }
@@ -940,6 +1024,14 @@ function changeCarStatus(index, newStatus) {
         return;
     }
     
+    if (newStatus === 'return') {
+        returnCarIndex = index;
+        const returnDateInput = document.getElementById('returnDate');
+        if (returnDateInput) returnDateInput.value = new Date().toISOString().split('T')[0];
+        showModal('returnModal');
+        return;
+    }
+    
     if (oldStatus === 'sold' && newStatus !== 'sold') {
         car.salePrice = null;
         car.dateSold = null;
@@ -951,6 +1043,7 @@ function changeCarStatus(index, newStatus) {
         car.creditOverprice = '';
         car.creditDownPayment = null;
         car.creditAmount = null;
+        car.creditReward = null;
     }
     
     car.status = newStatus;
@@ -1027,6 +1120,8 @@ function completeQuickSale(event) {
             parseInt(document.getElementById('quickCreditDownPayment').value) : null;
         car.creditAmount = document.getElementById('quickCreditAmount').value ? 
             parseInt(document.getElementById('quickCreditAmount').value) : null;
+        car.creditReward = document.getElementById('quickCreditReward').value ? 
+            parseFloat(document.getElementById('quickCreditReward').value) : null;
     }
     
     if (!car.history) car.history = [];
@@ -1046,6 +1141,51 @@ function completeQuickSale(event) {
     markDataAsChanged();
     updateAllDisplays();
     showNotification('Автомобиль продан', 'success');
+}
+
+// Возврат автомобиля (НОВОЕ)
+function completeReturn(event) {
+    event.preventDefault();
+    
+    if (returnCarIndex === -1) {
+        showNotification('Ошибка: автомобиль не выбран', 'error');
+        return;
+    }
+    
+    const car = cars[returnCarIndex];
+    if (!car) return;
+    
+    const returnDate = document.getElementById('returnDate').value;
+    const returnReason = document.getElementById('returnReason').value;
+    const returnComment = document.getElementById('returnComment').value;
+    
+    if (!returnDate || !returnComment) {
+        showNotification('Заполните обязательные поля', 'warning');
+        return;
+    }
+    
+    car.status = 'return';
+    car.returnDate = returnDate;
+    car.returnReason = returnReason;
+    car.returnComment = returnComment;
+    
+    if (!car.history) car.history = [];
+    car.history.push({
+        date: returnDate,
+        action: 'Возврат',
+        details: `Причина: ${returnReason}. ${returnComment}`
+    });
+    
+    addToHistory('return', `Возврат автомобиля ${car.brand} ${car.model} (${car.vin}). Причина: ${returnReason}`);
+    
+    closeModal('returnModal');
+    const returnForm = document.getElementById('returnForm');
+    if (returnForm) returnForm.reset();
+    returnCarIndex = -1;
+    
+    markDataAsChanged();
+    updateAllDisplays();
+    showNotification('Возврат оформлен', 'success');
 }
 
 // Добавление и редактирование автомобилей
@@ -1073,6 +1213,7 @@ function editCar(index) {
         'brand': car.brand || '',
         'model': car.model || '',
         'year': car.year || '',
+        'color': car.color || '',
         'mileage': car.mileage || '',
         'engineVolume': car.engineVolume || '',
         'power': car.power || '',
@@ -1095,7 +1236,8 @@ function editCar(index) {
         'creditBank': car.creditBank || '',
         'creditOverprice': car.creditOverprice || '',
         'creditDownPayment': car.creditDownPayment || '',
-        'creditAmount': car.creditAmount || ''
+        'creditAmount': car.creditAmount || '',
+        'creditReward': car.creditReward || ''
     };
     
     Object.entries(fields).forEach(([fieldId, value]) => {
@@ -1126,6 +1268,7 @@ function saveCar(event) {
         brand: getValue('brand'),
         model: getValue('model'),
         year: parseInt(getValue('year')) || new Date().getFullYear(),
+        color: getValue('color'),
         mileage: getNumberValue('mileage'),
         engineVolume: getNumberValue('engineVolume'),
         power: getNumberValue('power'),
@@ -1149,6 +1292,7 @@ function saveCar(event) {
         creditOverprice: getValue('creditOverprice'),
         creditDownPayment: getNumberValue('creditDownPayment'),
         creditAmount: getNumberValue('creditAmount'),
+        creditReward: getNumberValue('creditReward'),
         status: 'draft'
     };
     
@@ -1200,7 +1344,6 @@ function saveCar(event) {
     markDataAsChanged();
     closeModal('carModal');
     updateAllDisplays();
-    populateFilters();
 }
 
 function deleteCar(index) {
@@ -1213,7 +1356,6 @@ function deleteCar(index) {
         
         markDataAsChanged();
         updateAllDisplays();
-        populateFilters();
         showNotification('Автомобиль удален', 'success');
     }
 }
@@ -1247,25 +1389,31 @@ function showCarHistory(index) {
     showModal('carHistoryModal');
 }
 
-// Поиск и фильтрация
+// Поиск и фильтрация (ИСПРАВЛЕНО с чекбоксами)
 function filterCars() {
     const searchTerm = getElementValue('searchInput').toLowerCase();
     const brandFilter = getElementValue('brandFilter');
-    const statusFilter = getElementValue('statusFilter');
     const whoAddedFilter = getElementValue('whoAddedFilter');
+    
+    // Получаем выбранные статусы из чекбоксов
+    const selectedStatuses = [];
+    document.querySelectorAll('.status-checkboxes input[type="checkbox"]:checked').forEach(checkbox => {
+        selectedStatuses.push(checkbox.value);
+    });
     
     const filteredCars = cars.filter(car => {
         const matchesSearch = !searchTerm || 
             car.brand.toLowerCase().includes(searchTerm) ||
             car.model.toLowerCase().includes(searchTerm) ||
             car.vin.toLowerCase().includes(searchTerm) ||
+            (car.color && car.color.toLowerCase().includes(searchTerm)) ||
             (car.paints && car.paints.toLowerCase().includes(searchTerm));
             
         const matchesBrand = !brandFilter || car.brand === brandFilter;
-        const matchesStatus = !statusFilter || car.status === statusFilter;
         const matchesWhoAdded = !whoAddedFilter || car.whoAdded === whoAddedFilter;
+        const matchesStatus = selectedStatuses.length === 0 || selectedStatuses.includes(car.status);
         
-        return matchesSearch && matchesBrand && matchesStatus && matchesWhoAdded;
+        return matchesSearch && matchesBrand && matchesWhoAdded && matchesStatus;
     });
     
     displayFilteredCars(filteredCars);
@@ -1479,6 +1627,11 @@ function closeModal(modalId) {
         if (form) form.reset();
         quickSaleCarIndex = -1;
     }
+    if (modalId === 'returnModal') {
+        const form = document.getElementById('returnForm');
+        if (form) form.reset();
+        returnCarIndex = -1;
+    }
 }
 
 function clearForm() {
@@ -1506,6 +1659,7 @@ function exportToExcel() {
             'Марка': car.brand,
             'Модель': car.model,
             'Год': car.year,
+            'Цвет': car.color || '',
             'Пробег': car.mileage || '',
             'Объём двигателя': car.engineVolume || '',
             'Мощность (л.с.)': car.power || '',
@@ -1530,6 +1684,10 @@ function exportToExcel() {
             'С завышением': car.creditOverprice || '',
             'Первоначальный взнос': car.creditDownPayment || '',
             'Сумма кредита': car.creditAmount || '',
+            'КВ': car.creditReward || '',
+            'Дата возврата': car.returnDate || '',
+            'Причина возврата': car.returnReason || '',
+            'Комментарий возврата': car.returnComment || '',
             'Статус': getStatusText(car.status)
         }));
         
@@ -1537,11 +1695,11 @@ function exportToExcel() {
         
         // Устанавливаем ширину колонок
         const colWidths = [
-            {wch: 15}, {wch: 15}, {wch: 8}, {wch: 10}, {wch: 12}, {wch: 12}, {wch: 10},
+            {wch: 15}, {wch: 15}, {wch: 8}, {wch: 12}, {wch: 10}, {wch: 12}, {wch: 12}, {wch: 10},
             {wch: 12}, {wch: 20}, {wch: 12}, {wch: 12}, {wch: 12}, {wch: 8},
             {wch: 12}, {wch: 30}, {wch: 12}, {wch: 12}, {wch: 12}, {wch: 12}, 
             {wch: 12}, {wch: 15}, {wch: 30}, {wch: 20}, {wch: 15}, {wch: 10}, 
-            {wch: 15}, {wch: 15}, {wch: 12}
+            {wch: 15}, {wch: 15}, {wch: 8}, {wch: 12}, {wch: 15}, {wch: 20}, {wch: 12}
         ];
         ws['!cols'] = colWidths;
         
@@ -1661,7 +1819,7 @@ function exportData() {
             cars: cars,
             history: history,
             exportDate: new Date().toISOString(),
-            version: '3.1'
+            version: '3.2'
         };
         
         const blob = new Blob([JSON.stringify(dataToExport, null, 2)], {
@@ -1671,14 +1829,14 @@ function exportData() {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `autopark_backup_${new Date().toISOString().split('T')[0]}.json`;
+        a.download = 'data.json'; // Название файла изменено на data.json
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
         
-        showNotification('Данные успешно экспортированы', 'success');
-        addToHistory('export', 'Выполнен экспорт данных в JSON');
+        showNotification('Данные успешно экспортированы в data.json', 'success');
+        addToHistory('export', 'Выполнен экспорт данных в data.json');
     } catch (error) {
         console.error('Ошибка экспорта:', error);
         showNotification('Ошибка при экспорте данных', 'error');
@@ -1718,7 +1876,6 @@ function importJSON(file) {
                 
                 markDataAsChanged();
                 updateAllDisplays();
-                populateFilters();
                 
                 showNotification(`Успешно импортированы данные: ${cars.length} автомобилей`, 'success');
                 addToHistory('import', `Импортированы данные из JSON файла: ${cars.length} автомобилей`);
@@ -1757,6 +1914,7 @@ function importExcel(file) {
                     brand: row['Марка'] || '',
                     model: row['Модель'] || '',
                     year: parseInt(row['Год']) || new Date().getFullYear(),
+                    color: row['Цвет'] || '',
                     mileage: parseInt(row['Пробег']) || null,
                     engineVolume: parseFloat(row['Объём двигателя']) || null,
                     power: parseInt(row['Мощность (л.с.)']) || null,
@@ -1781,7 +1939,13 @@ function importExcel(file) {
                     creditOverprice: row['С завышением'] || '',
                     creditDownPayment: parseInt(row['Первоначальный взнос']) || null,
                     creditAmount: parseInt(row['Сумма кредита']) || null,
-                    status: row['Статус'] === 'Продано' ? 'sold' : (row['Статус'] === 'В продаже' ? 'available' : 'draft'),
+                    creditReward: parseFloat(row['КВ']) || null,
+                    returnDate: row['Дата возврата'] || null,
+                    returnReason: row['Причина возврата'] || '',
+                    returnComment: row['Комментарий возврата'] || '',
+                    status: row['Статус'] === 'Продано' ? 'sold' : 
+                           (row['Статус'] === 'В продаже' ? 'available' : 
+                           (row['Статус'] === 'Возврат' ? 'return' : 'draft')),
                     history: []
                 }));
                 
@@ -1795,7 +1959,6 @@ function importExcel(file) {
                 
                 markDataAsChanged();
                 updateAllDisplays();
-                populateFilters();
                 
                 showNotification(`Успешно импортированы данные из Excel: ${cars.length} автомобилей`, 'success');
             }
@@ -1882,7 +2045,8 @@ function getStatusText(status) {
         'available': 'В продаже',
         'warehouse': 'На складе',
         'draft': 'Черновик',
-        'sold': 'Продано'
+        'sold': 'Продано',
+        'return': 'Возврат'
     };
     return statusTexts[status] || 'Неизвестно';
 }
@@ -1894,6 +2058,7 @@ function getActionName(action) {
         'delete': '🗑️ Удаление',
         'status': '🔄 Изменение статуса',
         'sale': '💰 Продажа',
+        'return': '↩️ Возврат',
         'export': '📁 Экспорт данных',
         'import': '📂 Импорт данных',
         'save': '💾 Сохранение',
@@ -1918,10 +2083,11 @@ window.showAddForm = showAddForm;
 window.editCar = editCar;
 window.deleteCar = deleteCar;
 window.showCarHistory = showCarHistory;
-window.showConfidentialInfo = showConfidentialInfo;
+window.showConfidential = showConfidential;
 window.toggleStatusDropdown = toggleStatusDropdown;
 window.changeCarStatus = changeCarStatus;
 window.completeQuickSale = completeQuickSale;
+window.completeReturn = completeReturn;
 window.toggleCreditFields = toggleCreditFields;
 window.toggleQuickCreditFields = toggleQuickCreditFields;
 window.toggleViewMode = toggleViewMode;
@@ -1935,3 +2101,6 @@ window.exportToExcel = exportToExcel;
 window.exportReport = exportReport;
 window.forceSave = forceSave;
 window.forceSync = forceSync;
+window.openDetail = openDetail;
+window.editCarFromDetail = editCarFromDetail;
+window.showConfidentialInfoFromDetail = showConfidentialInfoFromDetail;
