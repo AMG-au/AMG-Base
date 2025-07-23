@@ -11,10 +11,11 @@
     <!-- Уведомления о сохранении -->
     <div id="saveNotification" class="save-notification hidden"></div>
     
-    <!-- Индикатор синхронизации -->
+    <!-- Индикатор синхронизации (обновленный) -->
     <div id="syncIndicator" class="sync-indicator hidden">
-        <span id="syncStatus">🔄 Синхронизация...</span>
-        <button id="forceSyncBtn" class="btn-sync">Синхронизировать</button>
+    <span id="syncStatus">🔄 Синхронизация...</span>
+    <button id="forceSyncBtn" class="btn-sync" title="Принудительная синхронизация">Синхронизировать</button>
+    <button id="toggleAutoSyncBtn" class="btn-sync" onclick="toggleAutoSync()" title="Переключить автосинхронизацию">⏸️</button>
     </div>
 
     <div class="container">
