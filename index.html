@@ -11,11 +11,11 @@
     <!-- Уведомления о сохранении -->
     <div id="saveNotification" class="save-notification hidden"></div>
     
-    <!-- Индикатор синхронизации (обновленный) -->
+    <!-- Индикатор синхронизации -->
     <div id="syncIndicator" class="sync-indicator hidden">
-    <span id="syncStatus">🔄 Синхронизация...</span>
-    <button id="forceSyncBtn" class="btn-sync" title="Принудительная синхронизация">Синхронизировать</button>
-    <button id="toggleAutoSyncBtn" class="btn-sync" onclick="toggleAutoSync()" title="Переключить автосинхронизацию">⏸️</button>
+        <span id="syncStatus">🔄 Синхронизация...</span>
+        <button id="forceSyncBtn" class="btn-sync" title="Принудительная синхронизация">Синхронизировать</button>
+        <button id="toggleAutoSyncBtn" class="btn-sync" onclick="toggleAutoSync()" title="Переключить автосинхронизацию">⏸️</button>
     </div>
 
     <div class="container">
@@ -56,16 +56,9 @@
 
             <!-- Поиск и фильтры -->
             <div class="filters">
-                <input type="text" id="searchInput" placeholder="🔍 Поиск по марке, модели, VIN...">
+                <input type="text" id="searchInput" placeholder="🔍 Поиск по марке, модели, VIN, цвету...">
                 <select id="brandFilter" class="select-dark">
                     <option value="">Все марки</option>
-                </select>
-                <select id="statusFilter" class="select-dark">
-                    <option value="">Все статусы</option>
-                    <option value="available">В продаже</option>
-                    <option value="warehouse">На складе</option>
-                    <option value="draft">Черновик</option>
-                    <option value="sold">Продано</option>
                 </select>
                 <select id="whoAddedFilter" class="select-dark">
                     <option value="">Все поставщики</option>
@@ -76,6 +69,31 @@
                     <option value="Собственник">Собственник</option>
                     <option value="перекуп">перекуп</option>
                 </select>
+                <div class="status-filters">
+                    <label class="status-filter-label">Статусы:</label>
+                    <div class="status-checkboxes">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="statusAvailable" value="available" checked>
+                            <span class="checkbox-text">В продаже</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="statusWarehouse" value="warehouse" checked>
+                            <span class="checkbox-text">На складе</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="statusDraft" value="draft" checked>
+                            <span class="checkbox-text">Черновик</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="statusSold" value="sold" checked>
+                            <span class="checkbox-text">Продано</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="statusReturn" value="return" checked>
+                            <span class="checkbox-text">Возврат</span>
+                        </label>
+                    </div>
+                </div>
             </div>
 
             <!-- Список автомобилей -->
@@ -101,6 +119,18 @@
                         <option value="2024-10">Октябрь 2024</option>
                         <option value="2024-11">Ноябрь 2024</option>
                         <option value="2024-12">Декабрь 2024</option>
+                        <option value="2025-01">Январь 2025</option>
+                        <option value="2025-02">Февраль 2025</option>
+                        <option value="2025-03">Март 2025</option>
+                        <option value="2025-04">Апрель 2025</option>
+                        <option value="2025-05">Май 2025</option>
+                        <option value="2025-06">Июнь 2025</option>
+                        <option value="2025-07">Июль 2025</option>
+                        <option value="2025-08">Август 2025</option>
+                        <option value="2025-09">Сентябрь 2025</option>
+                        <option value="2025-10">Октябрь 2025</option>
+                        <option value="2025-11">Ноябрь 2025</option>
+                        <option value="2025-12">Декабрь 2025</option>
                     </select>
                 </div>
             </div>
@@ -150,7 +180,7 @@
             <div id="historyList" class="history-list"></div>
         </section>
 
-        <!-- Секция Статистика -->
+        <!-- Секция Аналитика -->
         <section id="analytics" class="section">
             <div class="section-header">
                 <h2>Аналитика автопарка</h2>
@@ -207,7 +237,11 @@
                     </div>
                     <div class="form-group">
                         <label>Год *</label>
-                        <input type="number" id="year" required min="1990" max="2025">
+                        <input type="number" id="year" required min="1990" max="2030">
+                    </div>
+                    <div class="form-group">
+                        <label>Цвет</label>
+                        <input type="text" id="color" placeholder="Например: Черный металлик">
                     </div>
                     <div class="form-group">
                         <label>Пробег (км)</label>
@@ -330,6 +364,10 @@
                             <label>Сумма кредита</label>
                             <input type="number" id="creditAmount" min="0" placeholder="Сумма кредита">
                         </div>
+                        <div class="form-group">
+                            <label>Коэффициент вознаграждения (КВ)</label>
+                            <input type="number" id="creditReward" step="0.01" min="0" max="1" placeholder="Например: 0.15">
+                        </div>
                     </div>
                 </div>
                 
@@ -358,6 +396,21 @@
                     <button type="submit" class="btn btn-primary">Сохранить</button>
                 </div>
             </form>
+        </div>
+    </div>
+
+    <!-- Модальное окно детальной карточки автомобиля -->
+    <div id="carDetailModal" class="modal">
+        <div class="modal-content car-detail-content">
+            <span class="close" onclick="closeModal('carDetailModal')">&times;</span>
+            <div class="car-detail-header">
+                <h2 id="carDetailTitle">Детали автомобиля</h2>
+                <div class="car-detail-actions">
+                    <button class="btn btn-secondary btn-small" onclick="editCarFromDetail()">✏️ Редактировать</button>
+                    <button class="btn btn-confidential btn-small" onclick="showConfidentialInfoFromDetail()">🔐 Конфиденц.</button>
+                </div>
+            </div>
+            <div id="carDetailContent" class="car-detail-body"></div>
         </div>
     </div>
 
@@ -404,6 +457,10 @@
                     <div class="confidential-item">
                         <label>Сумма кредита:</label>
                         <span id="conf-creditAmount">0₽</span>
+                    </div>
+                    <div class="confidential-item">
+                        <label>Коэффициент вознаграждения:</label>
+                        <span id="conf-creditReward">-</span>
                     </div>
                 </div>
                 <div class="confidential-item" id="conf-saleCommentItem" style="display: none;">
@@ -484,6 +541,10 @@
                             <label>Сумма кредита</label>
                             <input type="number" id="quickCreditAmount" min="0" placeholder="Сумма кредита">
                         </div>
+                        <div class="form-group">
+                            <label>Коэффициент вознаграждения (КВ)</label>
+                            <input type="number" id="quickCreditReward" step="0.01" min="0" max="1" placeholder="Например: 0.15">
+                        </div>
                     </div>
                 </div>
 
@@ -495,6 +556,42 @@
                 <div class="form-actions">
                     <button type="button" onclick="closeModal('quickSaleModal')" class="btn btn-secondary">Отмена</button>
                     <button type="submit" class="btn btn-primary">Продать</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Модальное окно возврата -->
+    <div id="returnModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('returnModal')">&times;</span>
+            <h2>Возврат автомобиля</h2>
+            <form id="returnForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Дата возврата *</label>
+                        <input type="date" id="returnDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Причина возврата</label>
+                        <select id="returnReason" class="select-dark">
+                            <option value="">Выберите причину</option>
+                            <option value="Технические неисправности">Технические неисправности</option>
+                            <option value="Не устроила комплектация">Не устроила комплектация</option>
+                            <option value="Финансовые проблемы покупателя">Финансовые проблемы покупателя</option>
+                            <option value="Обнаружены скрытые дефекты">Обнаружены скрытые дефекты</option>
+                            <option value="Несоответствие описанию">Несоответствие описанию</option>
+                            <option value="Другое">Другое</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Комментарий к возврату *</label>
+                    <textarea id="returnComment" rows="3" placeholder="Укажите детали возврата" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" onclick="closeModal('returnModal')" class="btn btn-secondary">Отмена</button>
+                    <button type="submit" class="btn btn-primary">Оформить возврат</button>
                 </div>
             </form>
         </div>
