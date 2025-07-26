@@ -4,6 +4,7 @@
       "brand": "Audi",
       "model": "Q5",
       "year": 2012,
+      "color": "Красный",
       "mileage": 139000,
       "engineVolume": 3.2,
       "power": 271,
@@ -18,9 +19,8 @@
       "report": "https://profi.avtocod.ru/report/guest/d95c88f1-d1b1-45a7-b9f6-5675814bc73a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Переднее левое крыло: шпакля возле фары, до 300  \nКапот: до 300  \nЗаднее левое крыло: шпакля возле двери  \nЗадняя левая дверь: шпакля возле арки  \nПередняя левая дверь: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -28,7 +28,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -44,14 +46,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Audi",
       "model": "Q7",
       "year": 2010,
+      "color": "Коричневый",
       "mileage": 189800,
       "engineVolume": 4.2,
       "power": 350,
@@ -66,9 +78,8 @@
       "report": "https://profi.avtocod.ru/report/73bf8a17-092a-4a7e-a783-d04d4d1346fa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "По левой стороне два двери 200\nПепредние крылья 200\nПравая передняя двель снизу спереди до 1500",
       "additionalInfo": "",
       "saleComment": "",
@@ -76,7 +87,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -92,14 +105,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Audi",
       "model": "TT",
       "year": 2016,
+      "color": "Синий",
       "mileage": 138500,
       "engineVolume": 2,
       "power": 230,
@@ -114,9 +137,8 @@
       "report": "https://profi.avtocod.ru/report/guest/a1ffcf82-0466-477f-8063-ffdd13a50716",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Заднее правое крыло: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -124,7 +146,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -140,14 +164,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "BMW",
       "model": "1-Series",
       "year": 2017,
+      "color": "Белый",
       "mileage": 99000,
       "engineVolume": 1.5,
       "power": 136,
@@ -162,9 +196,8 @@
       "report": "https://profi.avtocod.ru/report/guest/fdbcb644-73d6-4f75-8ed6-61829014774e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Переднее левое крыло: до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -172,7 +205,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -183,14 +218,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "BMW",
       "model": "X5",
       "year": 2006,
+      "color": "Серый",
       "mileage": 265890,
       "engineVolume": 3,
       "power": 264,
@@ -205,9 +250,8 @@
       "report": "https://profi.avtocod.ru/report/fb79ee81-7668-4a7c-8677-813fda9dfd72",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Капот 200-250",
       "additionalInfo": "",
       "saleComment": "",
@@ -215,7 +259,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -226,14 +272,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "BMW",
       "model": "X6",
       "year": 2012,
+      "color": "Белый",
       "mileage": 104000,
       "engineVolume": 4.4,
       "power": 407,
@@ -248,9 +304,8 @@
       "report": "https://profi.avtocod.ru/report/2c3be72a-4a06-4f78-bb41-41ce0adc37c7",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Заднее правое крыло до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -258,7 +313,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -274,14 +331,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Cadillac",
       "model": "Escalade",
       "year": 2016,
+      "color": "Черный",
       "mileage": 157000,
       "engineVolume": 6.2,
       "power": 409,
@@ -296,9 +363,8 @@
       "report": "https://profi.avtocod.ru/report/a6da0e7a-6838-4d2a-9206-4c80d28dbe4f",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Правое переднее крыло до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -306,7 +372,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -322,14 +390,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Chevrolet",
       "model": "Lacetti",
       "year": 2008,
+      "color": "Синий",
       "mileage": 173390,
       "engineVolume": 1.4,
       "power": 95,
@@ -344,9 +422,8 @@
       "report": "https://profi.avtocod.ru/report/guest/064ea26a-f9a1-4b69-9c46-e63766865956",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Правое переднее крыло местами 450\nКрышка багажника",
       "additionalInfo": "",
       "saleComment": "",
@@ -354,7 +431,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -370,14 +449,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Chevrolet",
       "model": "Monza",
       "year": 2023,
+      "color": "Черный",
       "mileage": 21246,
       "engineVolume": 1.5,
       "power": 113,
@@ -392,9 +481,8 @@
       "report": "https://profi.avtocod.ru/report/guest/e3695dc5-4f44-44fa-a05f-ba6076a24dc8",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Правая задняя дверь и заднее крыло шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -402,7 +490,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "available",
+      "creditReward": null,
+      "status": "warehouse",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -413,14 +503,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Chevrolet",
       "model": "Niva",
       "year": 2012,
+      "color": "Серебристая",
       "mileage": 127142,
       "engineVolume": 1.7,
       "power": 80,
@@ -435,9 +535,8 @@
       "report": "https://profi.avtocod.ru/report/guest/61f652ae-6ef6-463a-871f-564a9802b7de",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Задняя правая дверь до 300\nЗаднее правое крыло шпакля у фары\nЗаднее левое крыло до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -445,7 +544,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -456,14 +557,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Ford",
       "model": "Fiesta",
       "year": 2015,
+      "color": "Серебристый",
       "mileage": 223541,
       "engineVolume": 1.6,
       "power": 105,
@@ -478,9 +589,8 @@
       "report": "https://profi.avtocod.ru/report/guest/7118a9b2-6741-4b9c-8948-683d1c082b5b",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -488,7 +598,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -499,14 +611,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Ford",
       "model": "Focus",
       "year": 2007,
+      "color": "Черный",
       "mileage": 289283,
       "engineVolume": 1.6,
       "power": 115,
@@ -521,9 +643,8 @@
       "report": "https://profi.avtocod.ru/report/guest/86e205de-d445-4745-bcbd-348163a4a673",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Задние крылья шпакля (\nбогажник слева снижу шпакля \nправые двери 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -531,7 +652,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -542,14 +665,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Honda",
       "model": "Civic",
       "year": 2012,
+      "color": "Черный",
       "mileage": 312700,
       "engineVolume": 1.8,
       "power": 142,
@@ -564,9 +697,8 @@
       "report": "https://profi.avtocod.ru/report/guest/8dcb6e95-ffe9-4dce-b867-4317f8cf6621",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Капот: шпакля внизу по центру  \nПравые двери: до 250  \nЗаднее правое крыло: до 500  \nКрышка багажника: под номером шпакля, до 400  \nЗаднее левое крыло: до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -574,7 +706,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -585,14 +719,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Hyundai",
       "model": "Creta",
       "year": 2016,
+      "color": "Синяя",
       "mileage": 156810,
       "engineVolume": 1.6,
       "power": 123,
@@ -607,9 +751,8 @@
       "report": "https://profi.avtocod.ru/report/guest/bf3c5fb1-3cae-45fa-a4c3-6136030e05ec",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Обе двери по правой стороне до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -617,7 +760,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -628,14 +773,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Hyundai",
       "model": "Elantra",
       "year": 2007,
+      "color": "",
       "mileage": 230633,
       "engineVolume": 1.6,
       "power": 128,
@@ -660,6 +815,10 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "warehouse",
       "history": [
         {
@@ -684,6 +843,7 @@
       "brand": "Hyundai",
       "model": "ix35",
       "year": 2014,
+      "color": "Серебристый",
       "mileage": 149617,
       "engineVolume": 2,
       "power": 150,
@@ -698,9 +858,8 @@
       "report": "https://profi.avtocod.ru/report/335eebc0-c0e4-4a59-ab5d-10eaee86dac9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -708,7 +867,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -719,14 +880,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Hyundai",
       "model": "Solaris",
       "year": 2013,
+      "color": "Серый",
       "mileage": 196489,
       "engineVolume": 1.6,
       "power": 123,
@@ -741,9 +912,8 @@
       "report": "https://profi.avtocod.ru/report/ec51a0b1-1a49-4672-bfdd-664481ea9f99",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Правое переднее крыло: шпакля  \nПравая передняя дверь: шпакля  \nПравая задняя дверь: шпакля  \nЗаднее правое крыло: до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -751,7 +921,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -762,14 +934,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Hyundai",
       "model": "Veloster",
       "year": 2012,
+      "color": "Красный",
       "mileage": 192958,
       "engineVolume": 1.6,
       "power": 140,
@@ -784,9 +966,8 @@
       "report": "https://profi.avtocod.ru/report/guest/14bd079d-eabd-4e9c-ad1b-53b4344b87c3",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -794,7 +975,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "available",
+      "creditReward": null,
+      "status": "warehouse",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -815,14 +998,24 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
       "model": "Ceed",
       "year": 2007,
+      "color": "Серебристый",
       "mileage": 258712,
       "engineVolume": 1.6,
       "power": 122,
@@ -837,9 +1030,8 @@
       "report": "https://profi.avtocod.ru/report/guest/32ff238f-d8df-451f-ba5e-d3ddb586c009",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -847,7 +1039,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -858,14 +1052,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
       "model": "Ceed",
       "year": 2011,
+      "color": "Бордовый",
       "mileage": 173155,
       "engineVolume": 2,
       "power": 143,
@@ -880,9 +1084,8 @@
       "report": "https://profi.avtocod.ru/report/guest/532f63de-6919-4f27-99d2-43d9183ac1bc",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Задние крылья у арок шпакля \nкапот 400\nбогажник 400-500\nпереднее левое крыло 350",
       "additionalInfo": "",
       "saleComment": "",
@@ -890,7 +1093,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -906,14 +1111,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
       "model": "Rio",
       "year": 2014,
+      "color": "Черный",
       "mileage": 140000,
       "engineVolume": 1.6,
       "power": 123,
@@ -928,9 +1143,8 @@
       "report": "https://profi.avtocod.ru/report/8262028e-8153-487e-aae4-cdd2422f9a2c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Капот: до 500  \nПравое заднее крыло: шпакля у арки  \nБагажник: до 250  \nЗаднее левое крыло: шпакля возле арки",
       "additionalInfo": "",
       "saleComment": "",
@@ -938,7 +1152,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -949,14 +1165,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
       "model": "Rio",
       "year": 2016,
+      "color": "Серебристый",
       "mileage": 218274,
       "engineVolume": 1.6,
       "power": 123,
@@ -971,9 +1197,8 @@
       "report": "https://profi.avtocod.ru/report/e99d83eb-e62c-44bc-814a-1d6ef6745874",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Передняя правая дверь: до 200  \nЗаднее правое крыло: внизу шпакля, до 200  \nЗаднее левое крыло: до 200  \nЗадняя левая дверь: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -981,7 +1206,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -992,14 +1219,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
       "model": "Sportage",
       "year": 2011,
+      "color": "Синий",
       "mileage": 135275,
       "engineVolume": 2,
       "power": 150,
@@ -1014,9 +1251,8 @@
       "report": "https://profi.avtocod.ru/report/guest/5971dbb4-b376-4699-b548-d4c1fe91a590",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Заднее правое крыло, по центру шпакля, так до 500-600, переход на заднюю дверь",
       "additionalInfo": "",
       "saleComment": "",
@@ -1024,7 +1260,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1035,14 +1273,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Lexus",
       "model": "NX300h",
       "year": 2014,
+      "color": "Белый",
       "mileage": 162110,
       "engineVolume": 2.5,
       "power": 155,
@@ -1057,9 +1305,8 @@
       "report": "https://profi.avtocod.ru/report/guest/cf938132-79a5-4b02-9993-24089dc50a86",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1067,7 +1314,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1078,14 +1327,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Lexus",
       "model": "NX300h",
       "year": 2017,
+      "color": "Черный",
       "mileage": 129831,
       "engineVolume": 2.5,
       "power": 155,
@@ -1100,9 +1359,8 @@
       "report": "https://profi.avtocod.ru/report/e314a115-c273-43bf-a4e7-10358b69c819",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Передняя правая дверь, вторичка до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -1110,20 +1368,32 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "draft",
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Lexus",
       "model": "RX 350",
       "year": 2010,
+      "color": "Черный",
       "mileage": 274900,
       "engineVolume": 3.5,
       "power": 277,
@@ -1138,9 +1408,8 @@
       "report": "https://profi.avtocod.ru/report/c2a01d9a-a1e1-4ef2-ac6c-3475face24ea",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1148,7 +1417,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1159,14 +1430,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Mercedes-Benz",
       "model": "S500",
       "year": 2014,
+      "color": "Черный",
       "mileage": 191000,
       "engineVolume": 4.7,
       "power": 455,
@@ -1181,9 +1462,8 @@
       "report": "https://profi.avtocod.ru/report/30aefa68-1505-4bfb-9875-1fe7a944f305",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Капот: до 200  \nЗаднее правое крыло: до 300  \nЗаднее левое крыло: до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -1191,7 +1471,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1202,14 +1484,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Продано\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Mitsubishi",
       "model": "Lancer",
       "year": 2008,
+      "color": "Черный",
       "mileage": 197003,
       "engineVolume": 1.5,
       "power": 109,
@@ -1224,9 +1516,8 @@
       "report": "https://profi.avtocod.ru/report/guest/1cb036f7-7de8-46e3-a3c6-798b4b69eea4",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Арки по 1000+\nПравая передняя дверь 2000+",
       "additionalInfo": "",
       "saleComment": "",
@@ -1234,7 +1525,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1245,14 +1538,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Mitsubishi",
       "model": "Lancer",
       "year": 2006,
+      "color": "Серебристый",
       "mileage": 187884,
       "engineVolume": 1.6,
       "power": 98,
@@ -1267,9 +1570,8 @@
       "report": "https://profi.avtocod.ru/report/guest/3d71e2c6-1776-4253-b503-bfca9766f06a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Арки по 400\nПравая передняя дверь 800+",
       "additionalInfo": "",
       "saleComment": "",
@@ -1277,7 +1579,9 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1288,14 +1592,24 @@
           "date": "2025-07-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Mitsubishi",
       "model": "Outlander",
       "year": 2013,
+      "color": "Серебристый",
       "mileage": 152533,
       "engineVolume": 2,
       "power": 146,
@@ -1319,6 +1633,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1331,6 +1646,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1338,6 +1663,7 @@
       "brand": "Mitsubishi",
       "model": "Outlander",
       "year": 2007,
+      "color": "Бежевый",
       "mileage": 267414,
       "engineVolume": 3,
       "power": 220,
@@ -1361,6 +1687,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1373,6 +1700,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1380,6 +1717,7 @@
       "brand": "Mitsubishi",
       "model": "Outlander",
       "year": 2013,
+      "color": "Серебристый",
       "mileage": 255790,
       "engineVolume": 2.4,
       "power": 167,
@@ -1403,6 +1741,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1415,6 +1754,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1422,6 +1771,7 @@
       "brand": "Nissan",
       "model": "Almera Classic",
       "year": 2006,
+      "color": "Серебристый",
       "mileage": 277312,
       "engineVolume": 1.6,
       "power": 107,
@@ -1445,6 +1795,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1457,6 +1808,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1464,6 +1825,7 @@
       "brand": "Nissan",
       "model": "Juke",
       "year": 2013,
+      "color": "Серый",
       "mileage": 128181,
       "engineVolume": 1.6,
       "power": 117,
@@ -1487,6 +1849,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1499,6 +1862,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1506,6 +1879,7 @@
       "brand": "Nissan",
       "model": "Qashqai",
       "year": 2008,
+      "color": "Синий",
       "mileage": 205705,
       "engineVolume": 2,
       "power": 141,
@@ -1529,6 +1903,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1551,6 +1926,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1558,6 +1943,7 @@
       "brand": "Opel",
       "model": "Astra",
       "year": 2007,
+      "color": "Серебристый",
       "mileage": 185405,
       "engineVolume": 1.8,
       "power": 140,
@@ -1581,6 +1967,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1593,6 +1980,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1600,6 +1997,7 @@
       "brand": "Land Rover",
       "model": "Range Rover Sport",
       "year": 2008,
+      "color": "Синий",
       "mileage": 202202,
       "engineVolume": 4.2,
       "power": 390,
@@ -1623,6 +2021,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1635,6 +2034,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1642,6 +2051,7 @@
       "brand": "Ravon",
       "model": "Nexia R3",
       "year": 2016,
+      "color": "Бежевый",
       "mileage": 155331,
       "engineVolume": 1.5,
       "power": 107,
@@ -1665,6 +2075,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1682,6 +2093,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1689,6 +2110,7 @@
       "brand": "Renault",
       "model": "Megane",
       "year": 2010,
+      "color": "Серебристый",
       "mileage": 164174,
       "engineVolume": 1.6,
       "power": 106,
@@ -1712,6 +2134,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1724,6 +2147,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1731,6 +2164,7 @@
       "brand": "Subaru",
       "model": "XV",
       "year": 2011,
+      "color": "Белый",
       "mileage": 224000,
       "engineVolume": 1.6,
       "power": 106,
@@ -1754,6 +2188,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1766,6 +2201,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1773,6 +2218,7 @@
       "brand": "Suzuki",
       "model": "Grand Vitara",
       "year": 2011,
+      "color": "Серебристый",
       "mileage": 232021,
       "engineVolume": 2.4,
       "power": 169,
@@ -1796,6 +2242,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1808,6 +2255,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1815,6 +2272,7 @@
       "brand": "Suzuki",
       "model": "Liana",
       "year": 2005,
+      "color": "Красный",
       "mileage": 168626,
       "engineVolume": 1.6,
       "power": 106,
@@ -1838,6 +2296,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1850,6 +2309,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1857,6 +2326,7 @@
       "brand": "Toyota",
       "model": "Avensis",
       "year": 2008,
+      "color": "Черный",
       "mileage": 277099,
       "engineVolume": 1.8,
       "power": 129,
@@ -1867,7 +2337,7 @@
       "whoAdded": "Альберт",
       "priceToHands": 730000,
       "haggle": "",
-      "priceSalon": 0,
+      "priceSalon": null,
       "report": "https://profi.avtocod.ru/report/guest/891a8fcb-1d99-4fa0-90e3-97bfa8d2ecc7",
       "dateSold": null,
       "salePrice": null,
@@ -1880,6 +2350,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1892,6 +2363,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1899,6 +2380,7 @@
       "brand": "Toyota",
       "model": "Corolla",
       "year": 2011,
+      "color": "Красный",
       "mileage": 138284,
       "engineVolume": 1.6,
       "power": 124,
@@ -1922,6 +2404,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1934,6 +2417,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1941,6 +2434,7 @@
       "brand": "Toyota",
       "model": "Corolla",
       "year": 2013,
+      "color": "Белый",
       "mileage": 87343,
       "engineVolume": null,
       "power": 124,
@@ -1964,6 +2458,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -1976,6 +2471,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -1983,6 +2488,7 @@
       "brand": "Toyota",
       "model": "Hilux",
       "year": 2008,
+      "color": "Серый",
       "mileage": 319770,
       "engineVolume": 2.5,
       "power": 102,
@@ -2006,6 +2512,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2018,6 +2525,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2025,6 +2542,7 @@
       "brand": "Toyota",
       "model": "RAV4",
       "year": 2006,
+      "color": "Бежевый",
       "mileage": 210167,
       "engineVolume": 2,
       "power": 152,
@@ -2048,6 +2566,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2060,6 +2579,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2067,6 +2596,7 @@
       "brand": "Volkswagen",
       "model": "Golf",
       "year": 2011,
+      "color": "Серый",
       "mileage": 270000,
       "engineVolume": 1.4,
       "power": 80,
@@ -2090,6 +2620,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2102,6 +2633,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2109,6 +2650,7 @@
       "brand": "Volkswagen",
       "model": "Touareg",
       "year": 2013,
+      "color": "",
       "mileage": 186020,
       "engineVolume": 3.6,
       "power": 249,
@@ -2123,8 +2665,9 @@
       "report": "https://profi.avtocod.ru/report/102ecca3-4287-4203-bb48-e0558e972859",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Морда: в плёнке  \nЗадняя правая дверь: шпакля  \nПередняя левая дверь: шпакля по центру",
       "additionalInfo": "",
       "saleComment": "",
@@ -2132,8 +2675,11 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "available",
-      "margin": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-23",
@@ -2144,13 +2690,20 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volvo",
       "model": "C30",
       "year": 2011,
+      "color": "Синий",
       "mileage": 232743,
       "engineVolume": 2,
       "power": 145,
@@ -2174,6 +2727,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2186,6 +2740,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2193,6 +2757,7 @@
       "brand": "Volvo",
       "model": "S80",
       "year": 2007,
+      "color": "Коричневый",
       "mileage": 428322,
       "engineVolume": 3.2,
       "power": 238,
@@ -2216,6 +2781,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2228,6 +2794,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2235,6 +2811,7 @@
       "brand": "Лада (ВАЗ)",
       "model": "Largus",
       "year": 2021,
+      "color": "Белый",
       "mileage": 70100,
       "engineVolume": 1.6,
       "power": 90,
@@ -2258,6 +2835,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2270,6 +2848,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2277,6 +2865,7 @@
       "brand": "Лада (ВАЗ)",
       "model": "Веста",
       "year": 2022,
+      "color": "Коричневый",
       "mileage": 33500,
       "engineVolume": 1.6,
       "power": 113,
@@ -2300,6 +2889,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2312,6 +2902,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2319,6 +2919,7 @@
       "brand": "Лада (ВАЗ)",
       "model": "Приора",
       "year": 2008,
+      "color": "Зеленый",
       "mileage": 256207,
       "engineVolume": 1.6,
       "power": 98,
@@ -2342,6 +2943,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2354,6 +2956,21 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2361,6 +2978,7 @@
       "brand": "Mercedes-Benz",
       "model": "S500",
       "year": 2014,
+      "color": "",
       "mileage": 145400,
       "engineVolume": 4.7,
       "power": 456,
@@ -2375,8 +2993,9 @@
       "report": "https://profi.avtocod.ru/report/9d1c3e27-a7a0-4b56-8f60-1ae3f77dd166",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "првое заднее крыло  до 300 ,но переход на стойку до 800",
       "additionalInfo": "",
       "saleComment": "",
@@ -2384,8 +3003,11 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2397,12 +3019,14 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Citroen",
       "model": "C4",
       "year": 2008,
+      "color": "Красный",
       "mileage": 195798,
       "engineVolume": 1.6,
       "power": 110,
@@ -2426,7 +3050,8 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "available",
+      "creditReward": null,
+      "status": "warehouse",
       "margin": null,
       "history": [
         {
@@ -2438,6 +3063,21 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
       ]
     },
@@ -2445,6 +3085,7 @@
       "brand": "Geely",
       "model": "Emgrand",
       "year": 2023,
+      "color": "Синий",
       "mileage": 20529,
       "engineVolume": 1.5,
       "power": 122,
@@ -2468,6 +3109,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2480,6 +3122,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2487,6 +3139,7 @@
       "brand": "Infiniti",
       "model": "FX37",
       "year": 2010,
+      "color": "Белый",
       "mileage": 208055,
       "engineVolume": 2.7,
       "power": 333,
@@ -2510,6 +3163,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2522,6 +3176,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2529,6 +3193,7 @@
       "brand": "Kia",
       "model": "Optima",
       "year": 2012,
+      "color": "Серебристый",
       "mileage": 204238,
       "engineVolume": 2,
       "power": 150,
@@ -2552,6 +3217,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2564,6 +3230,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2571,6 +3247,7 @@
       "brand": "Toyota",
       "model": "Yaris",
       "year": 2007,
+      "color": "Синий",
       "mileage": 103195,
       "engineVolume": 1.3,
       "power": 87,
@@ -2594,6 +3271,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2606,6 +3284,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2613,6 +3301,7 @@
       "brand": "Volkswagen",
       "model": "Golf",
       "year": 2014,
+      "color": "Черный",
       "mileage": 209664,
       "engineVolume": 1.2,
       "power": 105,
@@ -2636,6 +3325,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2648,6 +3338,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2655,6 +3355,7 @@
       "brand": "ЗАЗ",
       "model": "Chance",
       "year": 2011,
+      "color": "Серый",
       "mileage": 141896,
       "engineVolume": 1.5,
       "power": 86,
@@ -2678,6 +3379,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2690,6 +3392,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2697,6 +3409,7 @@
       "brand": "Лада (ВАЗ)",
       "model": "Гранта",
       "year": 2019,
+      "color": "Черный",
       "mileage": 148870,
       "engineVolume": 1.6,
       "power": 87,
@@ -2709,10 +3422,10 @@
       "haggle": "",
       "priceSalon": 450000,
       "report": "https://profi.avtocod.ru/report/guest/3d0e41fd-c74f-4611-beac-7151d017beb9",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "dateSold": "2025-07-23",
+      "salePrice": 447000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -2720,9 +3433,15 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "available",
-      "margin": null,
+      "creditReward": null,
+      "status": "sold",
+      "margin": 17000,
       "history": [
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
         {
           "date": "2025-07-23",
           "action": "Добавлен",
@@ -2732,6 +3451,11 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Продан",
+          "details": "Продан за 447 000 ₽ (Наличка, Никита)"
         }
       ]
     },
@@ -2739,6 +3463,7 @@
       "brand": "Лада (ВАЗ)",
       "model": "X-ray",
       "year": 2017,
+      "color": "",
       "mileage": 87981,
       "engineVolume": 1.8,
       "power": 122,
@@ -2753,8 +3478,9 @@
       "report": "https://profi.avtocod.ru/report/guest/c2c18119-3ae8-4fd2-bd28-3cde8d649fe5",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -2762,8 +3488,11 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "available",
-      "margin": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-23",
@@ -2774,13 +3503,20 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
       "model": "ProCeed",
       "year": 2013,
+      "color": "Черный",
       "mileage": 98074,
       "engineVolume": 1.6,
       "power": 129,
@@ -2804,6 +3540,7 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
+      "creditReward": null,
       "status": "available",
       "margin": null,
       "history": [
@@ -2816,6 +3553,16 @@
           "date": "2025-07-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2823,6 +3570,7 @@
       "brand": "BMW",
       "model": "X3",
       "year": 2009,
+      "color": "",
       "mileage": 214351,
       "engineVolume": 2,
       "power": 177,
@@ -2837,8 +3585,9 @@
       "report": "https://profi.avtocod.ru/report/guest/c0c2e1d1-05ed-4293-b349-f3f165b1ee7b",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -2846,20 +3595,30 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "draft",
-      "margin": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-23",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Ford",
       "model": "C-Max",
       "year": 2007,
+      "color": "Серебристый",
       "mileage": 212195,
       "engineVolume": 2,
       "power": 145,
@@ -2883,13 +3642,24 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "draft",
+      "creditReward": null,
+      "status": "available",
       "margin": null,
       "history": [
         {
           "date": "2025-07-23",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2897,6 +3667,7 @@
       "brand": "Hyundai",
       "model": "Solaris",
       "year": 2016,
+      "color": "Коричневый",
       "mileage": 234165,
       "engineVolume": 1.4,
       "power": 107,
@@ -2909,24 +3680,40 @@
       "haggle": "",
       "priceSalon": 495000,
       "report": "https://profi.avtocod.ru/report/guest/c35d344b-8e59-4fd0-9e1b-14b5fec6d413",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "dateSold": "2025-07-26",
+      "salePrice": 495000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
       "paints": "",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Продажа без скидки, вся сумма по QR-коду",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "draft",
-      "margin": null,
+      "creditReward": null,
+      "status": "sold",
+      "margin": 0,
       "history": [
         {
           "date": "2025-07-23",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-26",
+          "action": "Продан",
+          "details": "Продан за 495 000 ₽ (Наличка, Антон)"
         }
       ]
     },
@@ -2934,6 +3721,7 @@
       "brand": "Kia",
       "model": "Ceed",
       "year": 2012,
+      "color": "Серый",
       "mileage": 162635,
       "engineVolume": 1.6,
       "power": 122,
@@ -2957,18 +3745,1309 @@
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
-      "status": "draft",
+      "creditReward": null,
+      "status": "available",
       "margin": null,
       "history": [
         {
           "date": "2025-07-23",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Citroen",
+      "model": "C4",
+      "year": 2013,
+      "color": "Черный",
+      "mileage": 158231,
+      "engineVolume": 1.6,
+      "power": 120,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "Z8TND5FS9DM024067",
+      "dateAdded": "2025-07-14",
+      "whoAdded": "Олег",
+      "priceToHands": 565000,
+      "haggle": "",
+      "priceSalon": 595000,
+      "report": "https://profi.avtocod.ru/report/guest/e487c16e-d024-4547-8a58-af916ed0b932",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "В родном окрасе (вроде как)",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-07-26",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-07-26T08:08:52.460Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C4 (Z8TND5FS9DM024067) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-26T08:08:42.831Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-26T08:08:32.797Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Citroen C4 (Z8TND5FS9DM024067)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-26T06:51:42.511Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-26T06:51:31.981Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-26T06:51:24.385Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai Solaris (Z94CT41CAHR488553) за 495 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:25:17.036Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:25:07.008Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Golf (WVWZZZAUZEW381787) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:25:04.113Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Golf (WVWZZZAUZEW381787)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:24:40.453Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:24:29.640Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля ЗАЗ Chance (Y6DTF69Y0B0282423) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:24:22.953Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль ЗАЗ Chance (Y6DTF69Y0B0282423)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:23:50.100Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:23:40.074Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Гранта (XTA219010L0674926)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:21:49.650Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:21:39.626Z",
+      "action": "sale",
+      "description": "Продан автомобиль Лада (ВАЗ) Гранта (XTA219010L0674926) за 447 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:08:24.389Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:08:14.355Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Ceed (XWEHC512AC0010410) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:08:11.788Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Ceed (XWEHC512AC0010410)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:07:44.439Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:07:34.346Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Solaris (Z94CT41CAHR488553) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:07:32.372Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Solaris (Z94CT41CAHR488553)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:07:22.690Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford C-Max (WF0MXXGCDM7D29382) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:07:19.956Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ford C-Max (WF0MXXGCDM7D29382)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:00:18.455Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:00:07.539Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia ProCeed (XWEHN312BE0000913) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T05:00:06.172Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW X3 (X4XPE1845AWC94075) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:58:06.319Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:57:56.286Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia ProCeed (XWEHN312BE0000913)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:57:33.446Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:57:22.828Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) X-ray (XTAGAB330J1065585) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:56:42.476Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:56:32.444Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Yaris (VNKKL96310A184131) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:56:29.876Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C4 (VF7LCNFUC74865518) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:56:24.828Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Infiniti FX37 (JN1TCNS51U0410695) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:56:23.269Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Optima (KNAGM411AC5265898) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:56:19.686Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Yaris (VNKKL96310A184131)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:55:53.460Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:55:42.542Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Optima (KNAGM411AC5265898)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:55:09.968Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Infiniti FX37 (JN1TCNS51U0410695)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:55:09.308Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:54:59.294Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Citroen C4 (VF7LCNFUC74865518)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:49.060Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:39.029Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford Focus (WF04XXWPD47J16453) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:36.029Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Creta (Z94G2811AHR007537) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:35.029Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Honda Civic (NLAFB8640CW003231) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:32.781Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai ix35 (TMAJU81ECFJ677545) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:31.709Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Solaris (Z94CU51DBDR070974) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:30.309Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Veloster (KMHTE61DGCU054830) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:27.413Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (Z94CB41BBER188254) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:26.261Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Ceed (XWEHC513BB0000690) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:25.261Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Ceed (XWEFF242370000856) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:22.525Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Lexus NX300h (JTJBJRBZ302002574) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:21.565Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Sportage (XWEPC811CC0003660) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:20.589Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (Z94CB41BBGR358420) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:18.613Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Lexus NX300h (JTJBJRBZ302066534) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:17.630Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Lexus RX 350 (JTJBK11A902016229) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:15.805Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mercedes-Benz S500 (WDD2221851A149550) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:13.037Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (Z8TXTGF2WDM003491) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:11.917Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Lancer (JMBSRCS3A6U013113) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:10.973Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Lancer (JMBSRCY2A8U011166) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:08.141Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (JMBXLCW6W7Z001421) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:06.556Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (Z8TXTGF3WDM041489) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:05.549Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Almera Classic (KNMCSHLMS6P626702) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:02.997Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Astra (W0L0AHL3582012343) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:01.989Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:53:00.885Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6338864) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:58.629Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Renault Megane (VF1BZAR0A44165157) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:57.509Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ravon Nexia R3 (XWBTF69V9HA005314) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:56.548Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Land Rover Range Rover Sport (SALLSAA348A170045) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:53.717Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Subaru XV (JF1GP3LC5CG006650) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:51.476Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Suzuki Grand Vitara (JSAJTDA4V00243790) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:50.509Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Suzuki Liana (JSAERB31S00300036) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:48.029Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Avensis (SB1BR56L70E253577) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:47.021Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV56E50J128508) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:45.573Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV58E80J220368) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:42.981Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Golf (WVWZZZ1KZCW024602) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:41.909Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota RAV4 (JTMBH31V606032266) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:40.789Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Hilux (MR0FR22GX80655138) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:38.693Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Touareg (XW8ZZZ7PZDG007461) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:35.941Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volvo S80 (YV1AS985681049234) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:34.741Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volvo C30 (YV1MK434BC2276138) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:31.981Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Largus (XTARS025LN1426664) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:30.869Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Веста (XTAGFL440NY650824) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:29.677Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Приора (XTA21723080006220) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:26.757Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Geely Emgrand (LB3F31036PG022996) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:21.143Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Geely Emgrand (LB3F31036PG022996)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:11.460Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:52:01.181Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C4 (VF7LCNFUC74865518) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:51:17.447Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:51:07.310Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Приора (XTA21723080006220)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:50:06.442Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:49:56.143Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Приора (XTA21723080006220)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:49:38.462Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-25T04:49:28.399Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Веста (XTAGFL440NY650824)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:51:59.192Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:51:49.162Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:44:03.218Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:43:53.192Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Largus (XTARS025LN1426664)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:42:58.453Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:42:48.297Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volvo S80 (YV1AS985681049234)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:42:02.453Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:41:51.697Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volvo C30 (YV1MK434BC2276138)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:39:47.729Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:39:37.697Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Golf (WVWZZZ1KZCW024602)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:39:12.452Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:39:02.289Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota RAV4 (JTMBH31V606032266)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:37:54.462Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:37:43.833Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Hilux (MR0FR22GX80655138)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:36:58.470Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:36:48.451Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Corolla (JTNBV58E80J220368)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:36:37.456Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T14:36:26.505Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Corolla (JTNBV56E50J128508)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:16:12.444Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:16:01.750Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Avensis (SB1BR56L70E253577)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:15:42.928Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:15:32.918Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Suzuki Liana (JSAERB31S00300036)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:14:04.538Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:13:54.511Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Suzuki Grand Vitara (JSAJTDA4V00243790)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:12:21.449Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:12:10.727Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Subaru XV (JF1GP3LC5CG006650)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:11:41.666Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:11:31.654Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Renault Megane (VF1BZAR0A44165157)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:10:49.869Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:10:39.847Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ravon Nexia R3 (XWBTF69V9HA005314)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:10:20.459Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:10:09.431Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Land Rover Range Rover Sport (SALLSAA348A170045)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:09:39.459Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:09:29.007Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Opel Astra (W0L0AHL3582012343)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:09:11.449Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:09:01.375Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Qashqai (SJNFBNJ10U1185386)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:08:51.448Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:08:41.303Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6338864)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:03:57.782Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:03:47.760Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Almera Classic (KNMCSHLMS6P626702)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:03:19.439Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:03:09.264Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Outlander (Z8TXTGF3WDM041489)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:01:27.237Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:01:17.208Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Outlander (JMBXLCW6W7Z001421)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:00:56.439Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:00:46.280Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Outlander (Z8TXTGF2WDM003491)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:00:33.453Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:00:22.993Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:00:15.444Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T13:00:04.936Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Lancer (JMBSRCY2A8U011166)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:59:33.817Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mercedes-Benz S500 (WDD2221851A149550)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:59:33.694Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:59:23.682Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Lexus RX 350 (JTJBK11A902016229)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:59:15.136Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Lexus NX300h (JTJBJRBZ302066534)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:59:03.068Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:58:53.049Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Lexus NX300h (JTJBJRBZ302002574)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:58:23.446Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:58:13.081Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Sportage (XWEPC811CC0003660)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:58:02.448Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:57:51.561Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (Z94CB41BBGR358420)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:57:33.450Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:57:22.521Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (Z94CB41BBER188254)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:56:59.059Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:56:49.040Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Ceed (XWEHC513BB0000690)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:56:18.411Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:56:08.393Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Ceed (XWEFF242370000856)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:55:32.441Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:55:22.249Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Veloster (KMHTE61DGCU054830)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:55:12.297Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Solaris (Z94CU51DBDR070974)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:54:57.442Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:54:46.561Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai ix35 (TMAJU81ECFJ677545)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:54:20.084Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:54:10.065Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Creta (Z94G2811AHR007537)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:37:44.444Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:37:34.068Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Honda Civic (NLAFB8640CW003231)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:37:12.442Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T12:37:01.972Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ford Focus (WF04XXWPD47J16453)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:54:17.255Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:54:07.233Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Monza (LSGKB54H0PV124156) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:54:03.137Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford Fiesta (Z6F4XXECK4FU13130) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:54:02.129Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Niva (X9L212300C0393721) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:53:57.147Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ford Fiesta (Z6F4XXECK4FU13130)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:53:41.444Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:53:31.283Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Niva (X9L212300C0393721)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:52:38.459Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:52:27.602Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Monza (LSGKB54H0PV124156)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:51.464Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:40.461Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:31.506Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:21.489Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q5 (WAUZZZ8R9CA124168) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:20.290Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q7 (WA1DVAFE7AD000500) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:19.034Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi TT (TRUZZZFV6G1024219) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:16.569Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW X6 (X4XFG81120L287807) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:15.370Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW 1-Series (WBA1R510805J30291) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:13.465Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW X5 (4USFE43547LY74350) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:08.962Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Lacetti (KL1NF197J9K057291) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:51:07.586Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Cadillac Escalade (Y3WS47KJ2GB004216) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:50:59.531Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Lacetti (KL1NF197J9K057291)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:50:44.445Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:50:33.604Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Cadillac Escalade (Y3WS47KJ2GB004216)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:49:18.560Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:49:08.540Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW X6 (X4XFG81120L287807)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:48:59.755Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW X5 (4USFE43547LY74350)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:48:41.449Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T11:48:30.995Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW 1-Series (WBA1R510805J30291)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T10:51:46.191Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T10:51:36.172Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Audi Q5 (WAUZZZ8R9CA124168)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T10:51:21.448Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T10:51:10.476Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Audi TT (TRUZZZFV6G1024219)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T10:50:57.444Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-24T10:50:47.012Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Audi Q7 (WA1DVAFE7AD000500)",
+      "archived": false
+    },
     {
       "timestamp": "2025-07-23T10:38:03.475Z",
       "action": "add",
@@ -4326,6 +6405,7 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-07-23T10:41:12.561Z",
-  "version": "3.1"
+  "lastSaved": "2025-07-26T08:09:02.476Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
