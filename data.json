@@ -19,8 +19,9 @@
       "report": "https://profi.avtocod.ru/report/guest/d95c88f1-d1b1-45a7-b9f6-5675814bc73a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее левое крыло: шпакля возле фары, до 300  \nКапот: до 300  \nЗаднее левое крыло: шпакля возле двери  \nЗадняя левая дверь: шпакля возле арки  \nПередняя левая дверь: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -29,8 +30,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -57,7 +60,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Audi",
@@ -78,8 +82,9 @@
       "report": "https://profi.avtocod.ru/report/73bf8a17-092a-4a7e-a783-d04d4d1346fa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "По левой стороне два двери 200\nПепредние крылья 200\nПравая передняя двель снизу спереди до 1500",
       "additionalInfo": "",
       "saleComment": "",
@@ -88,8 +93,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -116,7 +123,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Audi",
@@ -137,8 +145,9 @@
       "report": "https://profi.avtocod.ru/report/guest/a1ffcf82-0466-477f-8063-ffdd13a50716",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -147,8 +156,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -175,7 +186,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -196,8 +208,9 @@
       "report": "https://profi.avtocod.ru/report/guest/fdbcb644-73d6-4f75-8ed6-61829014774e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее левое крыло: до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -206,8 +219,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -229,7 +244,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -250,8 +266,9 @@
       "report": "https://profi.avtocod.ru/report/fb79ee81-7668-4a7c-8677-813fda9dfd72",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот 200-250",
       "additionalInfo": "",
       "saleComment": "",
@@ -260,8 +277,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -283,7 +302,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -304,8 +324,9 @@
       "report": "https://profi.avtocod.ru/report/2c3be72a-4a06-4f78-bb41-41ce0adc37c7",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -314,8 +335,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -342,7 +365,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Cadillac",
@@ -363,8 +387,9 @@
       "report": "https://profi.avtocod.ru/report/a6da0e7a-6838-4d2a-9206-4c80d28dbe4f",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -373,8 +398,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -401,7 +428,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -422,8 +450,9 @@
       "report": "https://profi.avtocod.ru/report/guest/064ea26a-f9a1-4b69-9c46-e63766865956",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло местами 450\nКрышка багажника",
       "additionalInfo": "",
       "saleComment": "",
@@ -432,8 +461,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -460,7 +491,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -481,8 +513,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e3695dc5-4f44-44fa-a05f-ba6076a24dc8",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая задняя дверь и заднее крыло шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -491,8 +524,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "warehouse",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -514,7 +549,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -535,8 +571,9 @@
       "report": "https://profi.avtocod.ru/report/guest/61f652ae-6ef6-463a-871f-564a9802b7de",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задняя правая дверь до 300\nЗаднее правое крыло шпакля у фары\nЗаднее левое крыло до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -545,8 +582,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -568,7 +607,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Ford",
@@ -589,8 +629,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7118a9b2-6741-4b9c-8948-683d1c082b5b",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -599,8 +640,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -622,7 +665,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Ford",
@@ -643,8 +687,9 @@
       "report": "https://profi.avtocod.ru/report/guest/86e205de-d445-4745-bcbd-348163a4a673",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задние крылья шпакля (\nбогажник слева снижу шпакля \nправые двери 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -653,8 +698,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -676,7 +723,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Honda",
@@ -697,8 +745,9 @@
       "report": "https://profi.avtocod.ru/report/guest/8dcb6e95-ffe9-4dce-b867-4317f8cf6621",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: шпакля внизу по центру  \nПравые двери: до 250  \nЗаднее правое крыло: до 500  \nКрышка багажника: под номером шпакля, до 400  \nЗаднее левое крыло: до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -707,8 +756,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -730,7 +781,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -751,8 +803,9 @@
       "report": "https://profi.avtocod.ru/report/guest/bf3c5fb1-3cae-45fa-a4c3-6136030e05ec",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Обе двери по правой стороне до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -761,8 +814,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -784,7 +839,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -858,8 +914,9 @@
       "report": "https://profi.avtocod.ru/report/335eebc0-c0e4-4a59-ab5d-10eaee86dac9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -868,8 +925,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -891,7 +950,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -912,8 +972,9 @@
       "report": "https://profi.avtocod.ru/report/ec51a0b1-1a49-4672-bfdd-664481ea9f99",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло: шпакля  \nПравая передняя дверь: шпакля  \nПравая задняя дверь: шпакля  \nЗаднее правое крыло: до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -922,8 +983,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -945,7 +1008,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -966,8 +1030,9 @@
       "report": "https://profi.avtocod.ru/report/guest/14bd079d-eabd-4e9c-ad1b-53b4344b87c3",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -976,8 +1041,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "warehouse",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1009,7 +1076,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -1030,8 +1098,9 @@
       "report": "https://profi.avtocod.ru/report/guest/32ff238f-d8df-451f-ba5e-d3ddb586c009",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1040,8 +1109,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1063,7 +1134,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -1084,8 +1156,9 @@
       "report": "https://profi.avtocod.ru/report/guest/532f63de-6919-4f27-99d2-43d9183ac1bc",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задние крылья у арок шпакля \nкапот 400\nбогажник 400-500\nпереднее левое крыло 350",
       "additionalInfo": "",
       "saleComment": "",
@@ -1094,8 +1167,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1122,7 +1197,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -1143,8 +1219,9 @@
       "report": "https://profi.avtocod.ru/report/8262028e-8153-487e-aae4-cdd2422f9a2c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: до 500  \nПравое заднее крыло: шпакля у арки  \nБагажник: до 250  \nЗаднее левое крыло: шпакля возле арки",
       "additionalInfo": "",
       "saleComment": "",
@@ -1153,8 +1230,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1176,7 +1255,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -1197,8 +1277,9 @@
       "report": "https://profi.avtocod.ru/report/e99d83eb-e62c-44bc-814a-1d6ef6745874",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Передняя правая дверь: до 200  \nЗаднее правое крыло: внизу шпакля, до 200  \nЗаднее левое крыло: до 200  \nЗадняя левая дверь: до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -1207,8 +1288,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1230,7 +1313,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -1251,8 +1335,9 @@
       "report": "https://profi.avtocod.ru/report/guest/5971dbb4-b376-4699-b548-d4c1fe91a590",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло, по центру шпакля, так до 500-600, переход на заднюю дверь",
       "additionalInfo": "",
       "saleComment": "",
@@ -1261,8 +1346,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1284,7 +1371,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -1305,8 +1393,9 @@
       "report": "https://profi.avtocod.ru/report/guest/cf938132-79a5-4b02-9993-24089dc50a86",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1315,8 +1404,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1338,7 +1429,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -1359,8 +1451,9 @@
       "report": "https://profi.avtocod.ru/report/e314a115-c273-43bf-a4e7-10358b69c819",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Передняя правая дверь, вторичка до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -1369,8 +1462,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1387,7 +1482,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -1408,8 +1504,9 @@
       "report": "https://profi.avtocod.ru/report/c2a01d9a-a1e1-4ef2-ac6c-3475face24ea",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1418,8 +1515,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1441,7 +1540,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mercedes-Benz",
@@ -1462,8 +1562,9 @@
       "report": "https://profi.avtocod.ru/report/30aefa68-1505-4bfb-9875-1fe7a944f305",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: до 200  \nЗаднее правое крыло: до 300  \nЗаднее левое крыло: до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -1472,8 +1573,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1495,7 +1598,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1516,8 +1620,9 @@
       "report": "https://profi.avtocod.ru/report/guest/1cb036f7-7de8-46e3-a3c6-798b4b69eea4",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Арки по 1000+\nПравая передняя дверь 2000+",
       "additionalInfo": "",
       "saleComment": "",
@@ -1526,8 +1631,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1549,7 +1656,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1570,8 +1678,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3d71e2c6-1776-4253-b503-bfca9766f06a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Арки по 400\nПравая передняя дверь 800+",
       "additionalInfo": "",
       "saleComment": "",
@@ -1580,8 +1689,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1603,7 +1714,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1624,8 +1736,9 @@
       "report": "https://profi.avtocod.ru/report/guest/397b3854-15b0-40e8-97d1-fee54f55e7a4",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Всё кроме крыши красилось",
       "additionalInfo": "",
       "saleComment": "",
@@ -1634,8 +1747,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1657,7 +1772,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1678,8 +1794,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3d209963-c855-400c-af81-fa20cc89c6a5",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "передние крылья шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -1688,8 +1805,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1711,7 +1830,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -1732,8 +1852,9 @@
       "report": "https://profi.avtocod.ru/report/5a6f8658-d728-45f3-b9e1-157027952c00",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -1742,8 +1863,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1765,7 +1888,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -1786,8 +1910,9 @@
       "report": "https://profi.avtocod.ru/report/guest/f4670051-96bf-4218-af73-a94c6bcbc422",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -1796,8 +1921,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1819,7 +1946,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -1840,8 +1968,9 @@
       "report": "https://profi.avtocod.ru/report/guest/8c79da67-c16c-4650-973a-f84705eb6d63",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -1850,8 +1979,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1873,7 +2004,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -1894,8 +2026,9 @@
       "report": "https://profi.avtocod.ru/report/guest/8c79da67-c16c-4650-973a-f84705eb6d63",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее левое крыло и стойка 300\nПередняя левая дверь вторичка",
       "additionalInfo": "",
       "saleComment": "",
@@ -1904,8 +2037,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1937,7 +2072,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Opel",
@@ -1958,8 +2094,9 @@
       "report": "https://profi.avtocod.ru/report/4396b507-5cd6-4a94-b12e-29733beec069",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло: шпакля  \nПравая передняя дверь: с переходом до 300  \nКрышка багажника: справа до 700  \nЛевое переднее крыло: до 400",
       "additionalInfo": "",
       "saleComment": "",
@@ -1968,8 +2105,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -1991,7 +2130,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Land Rover",
@@ -2012,8 +2152,9 @@
       "report": "https://profi.avtocod.ru/report/3962cadc-da88-4c52-aa9b-339f5b9ea136",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот: до 250  \nПравое переднее крыло: до 350  \nЗаднее правое крыло: до 250  \nПереднее левое крыло: шпакля возле арки аккуратно",
       "additionalInfo": "",
       "saleComment": "",
@@ -2022,8 +2163,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2045,7 +2188,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Ravon",
@@ -2066,8 +2210,9 @@
       "report": "https://profi.avtocod.ru/report/guest/09e3395d-2f2d-4b1b-8799-f7ac7adc0c87",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -2076,8 +2221,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2104,7 +2251,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Renault",
@@ -2125,8 +2273,9 @@
       "report": "https://profi.avtocod.ru/report/guest/dec7824a-b9db-486f-b421-c92a6bc04107",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -2135,8 +2284,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2158,7 +2309,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Subaru",
@@ -2179,8 +2331,9 @@
       "report": "https://profi.avtocod.ru/report/5d06ac5a-7346-401d-9e19-a932f88c992e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -2189,8 +2342,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2212,7 +2367,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Suzuki",
@@ -2233,8 +2389,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3b08817c-02db-4af8-9d82-6654b66aada5",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее левое крыло самый край внизу фары шпакля, передняя правая дверь вторичка 250-500",
       "additionalInfo": "",
       "saleComment": "",
@@ -2243,8 +2400,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2266,7 +2425,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Suzuki",
@@ -2287,8 +2447,9 @@
       "report": "https://profi.avtocod.ru/report/guest/1b1038af-e120-4e2a-ada0-64c93bc4a469",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот до 600\nПередние крылья до 300\nПравоая передняя дверь до 800\nПравая задняя дверь шпакля\nЗаднее правое крыло до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -2297,8 +2458,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2320,7 +2483,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -2341,8 +2505,9 @@
       "report": "https://profi.avtocod.ru/report/guest/891a8fcb-1d99-4fa0-90e3-97bfa8d2ecc7",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Богажник 1000 сверзу заднее левое крыло шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -2351,8 +2516,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2374,7 +2541,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -2395,8 +2563,9 @@
       "report": "https://profi.avtocod.ru/report/guest/015cef72-ec56-47c2-92b3-11a669a3300c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Красились \nкапот \nкрыло правое заднее шпакля \nпроем правый задний",
       "additionalInfo": "",
       "saleComment": "",
@@ -2405,8 +2574,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2428,7 +2599,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -2449,8 +2621,9 @@
       "report": "https://profi.avtocod.ru/report/guest/8ea979c3-bd6d-4547-be95-03711c39b744",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Вторичный окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -2459,8 +2632,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2482,7 +2657,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -2503,8 +2679,9 @@
       "report": "https://profi.avtocod.ru/report/guest/1bbf341a-e380-40ab-952c-35dc680e7b92",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Раптор",
       "additionalInfo": "",
       "saleComment": "",
@@ -2513,8 +2690,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2536,7 +2715,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -2557,8 +2737,9 @@
       "report": "https://profi.avtocod.ru/report/3ea695c5-7ea4-41f4-b0f7-aadc981b5883",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правые двери: до 200  \nЗаднее правое крыло: шпакля возле арки",
       "additionalInfo": "",
       "saleComment": "",
@@ -2567,8 +2748,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2590,7 +2773,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -2611,8 +2795,9 @@
       "report": "https://profi.avtocod.ru/report/169e7a99-0643-40b8-820a-11f89dbc677e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Весь автомобиль включая крышу, вторичный окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -2621,8 +2806,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2644,7 +2831,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -2718,8 +2906,9 @@
       "report": "https://profi.avtocod.ru/report/88d132ab-c419-4410-adf1-7e0c04d592fb",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "В родне",
       "additionalInfo": "",
       "saleComment": "",
@@ -2728,8 +2917,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2751,7 +2942,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volvo",
@@ -2772,8 +2964,9 @@
       "report": "https://profi.avtocod.ru/report/guest/1a83eb05-8c14-4915-87f3-cd0d14f3a362",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "левое переднее крыло и заднее до 250 на сгибах",
       "additionalInfo": "",
       "saleComment": "",
@@ -2782,8 +2975,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2805,7 +3000,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -2826,8 +3022,9 @@
       "report": "https://profi.avtocod.ru/report/c669033a-8c8c-4468-96a7-763f84d99246",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -2836,8 +3033,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2859,7 +3058,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -2880,8 +3080,9 @@
       "report": "https://profi.avtocod.ru/report/616f56f0-0869-4b34-8ec4-37763b35b0ab",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родная",
       "additionalInfo": "",
       "saleComment": "",
@@ -2890,8 +3091,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2913,7 +3116,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -2934,8 +3138,9 @@
       "report": "https://profi.avtocod.ru/report/guest/95dbaab2-9e1c-4114-82d2-29986d04aee1",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Отсутствует",
       "additionalInfo": "",
       "saleComment": "",
@@ -2944,8 +3149,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2972,7 +3179,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mercedes-Benz",
@@ -3041,8 +3249,9 @@
       "report": "https://profi.avtocod.ru/report/guest/2caf8530-1818-4c04-86ed-580a777239e7",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3051,8 +3260,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "warehouse",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3079,7 +3290,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Geely",
@@ -3100,8 +3312,9 @@
       "report": "https://profi.avtocod.ru/report/guest/0d8ab795-dd6f-42b3-b719-7078c67e8b9c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -3110,8 +3323,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3133,7 +3348,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Infiniti",
@@ -3154,8 +3370,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3477ac55-e898-4d10-8a76-b78dd2789897",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3164,8 +3381,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3187,7 +3406,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -3208,8 +3428,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7ed07987-5248-4cfa-8145-31a9d1286ab6",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3218,8 +3439,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3241,7 +3464,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -3262,8 +3486,9 @@
       "report": "https://profi.avtocod.ru/report/guest/f36a194b-9738-45ca-b2a2-58e51bff2a90",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3272,8 +3497,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3295,7 +3522,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -3314,10 +3542,11 @@
       "haggle": "",
       "priceSalon": 895000,
       "report": "https://profi.avtocod.ru/report/guest/04d855b9-d589-4eb4-bb79-f028f8cfe547",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "dateSold": "2025-07-31",
+      "salePrice": 895000,
+      "howSold": "Наличка",
+      "whoSold": "Сергей",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3326,8 +3555,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "available",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -3348,8 +3579,14 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-31",
+          "action": "Продан",
+          "details": "Продан за 895 000 ₽ (Наличка, Сергей)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "ЗАЗ",
@@ -3370,8 +3607,9 @@
       "report": "https://profi.avtocod.ru/report/guest/b50e580c-d30a-4e9e-b1eb-168b29c63dfa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3380,8 +3618,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3403,7 +3643,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -3426,6 +3667,7 @@
       "salePrice": 447000,
       "howSold": "Наличка",
       "whoSold": "Никита",
+      "margin": 17000,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3434,8 +3676,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 17000,
       "history": [
         {
           "date": "2025-07-25",
@@ -3457,7 +3701,8 @@
           "action": "Продан",
           "details": "Продан за 447 000 ₽ (Наличка, Никита)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -3531,8 +3776,9 @@
       "report": "https://profi.avtocod.ru/report/guest/a07508d3-0917-4191-aa1f-d94f0518e88d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3541,8 +3787,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3564,7 +3812,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -3633,8 +3882,9 @@
       "report": "https://profi.avtocod.ru/report/guest/2fb54a2c-6615-40f7-be4f-4c8e7b19f08d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3643,8 +3893,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3661,7 +3913,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -3684,6 +3937,7 @@
       "salePrice": 495000,
       "howSold": "Наличка",
       "whoSold": "Антон",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "Продажа без скидки, вся сумма по QR-коду",
@@ -3692,8 +3946,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-07-23",
@@ -3715,7 +3971,8 @@
           "action": "Продан",
           "details": "Продан за 495 000 ₽ (Наличка, Антон)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -3736,8 +3993,9 @@
       "report": "https://profi.avtocod.ru/report/guest/01eff053-f078-46a6-a717-9bf988669179",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3746,8 +4004,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3764,7 +4024,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Citroen",
@@ -3785,8 +4046,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e487c16e-d024-4547-8a58-af916ed0b932",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "В родном окрасе (вроде как)",
       "additionalInfo": "",
       "saleComment": "",
@@ -3795,8 +4057,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-26",
@@ -3808,10 +4072,74 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Dodge",
+      "model": "Challenger",
+      "year": 2017,
+      "color": "Красный",
+      "mileage": 193000,
+      "engineVolume": 3.6,
+      "power": 309,
+      "driveType": "Задний",
+      "transmission": "",
+      "vin": "2C3CDZAG0HH587295",
+      "dateAdded": "2025-07-31",
+      "whoAdded": "Собственник",
+      "priceToHands": 2715000,
+      "haggle": "Нет",
+      "priceSalon": 2715000,
+      "report": "",
+      "dateSold": "2025-07-31",
+      "salePrice": 2715000,
+      "howSold": "Кредит",
+      "whoSold": "Никита",
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "ВНЕ САЛОНА",
+      "creditBank": "Совком",
+      "creditOverprice": "Да",
+      "creditDownPayment": 815000,
+      "creditAmount": 1900000,
+      "creditReward": null,
+      "status": "sold",
+      "margin": 0,
+      "history": [
+        {
+          "date": "2025-07-31",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-07-31T13:06:21.906Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-31T13:06:16.102Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Dodge Challenger (2C3CDZAG0HH587295)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-31T07:45:12.678Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-07-31T07:45:02.651Z",
+      "action": "sale",
+      "description": "Продан автомобиль Volkswagen Golf (WVWZZZAUZEW381787) за 895 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-07-26T08:08:52.460Z",
       "action": "status",
@@ -6405,7 +6733,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-07-26T08:09:02.476Z",
+  "lastSaved": "2025-07-31T13:06:32.138Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
