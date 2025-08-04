@@ -2502,12 +2502,11 @@
       "priceToHands": 730000,
       "haggle": "",
       "priceSalon": null,
-      "report": "https://profi.avtocod.ru/report/guest/891a8fcb-1d99-4fa0-90e3-97bfa8d2ecc7",
+      "report": "https://profi.avtocod.ru/report/guest/d9f0bf21-e552-4d30-92b3-8a57f00f4a12",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Богажник 1000 сверзу заднее левое крыло шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -2516,10 +2515,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2540,9 +2537,13 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-04",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Toyota",
@@ -4096,6 +4097,7 @@
       "salePrice": 2715000,
       "howSold": "Кредит",
       "whoSold": "Никита",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "ВНЕ САЛОНА",
@@ -4104,18 +4106,33 @@
       "creditDownPayment": 815000,
       "creditAmount": 1900000,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-07-31",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-04T04:13:35.403Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-04T04:13:30.341Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Avensis (SB1BR56L70E253577)",
+      "archived": false
+    },
     {
       "timestamp": "2025-07-31T13:06:21.906Z",
       "action": "export",
@@ -6733,7 +6750,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-07-31T13:06:32.138Z",
+  "lastSaved": "2025-08-04T04:13:46.388Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
