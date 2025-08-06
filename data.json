@@ -3744,10 +3744,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-08-06",
       "returnReason": "",
-      "returnComment": "",
-      "status": "warehouse",
+      "returnComment": "Забрал владелец",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -3763,6 +3763,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"В продаже\" на \"На складе\""
+        },
+        {
+          "date": "2025-08-06",
+          "action": "Возврат",
+          "details": "Причина: . Забрал владелец"
         }
       ],
       "archived": false
@@ -4130,6 +4135,12 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-06T10:33:09.721Z",
+      "action": "return",
+      "description": "Возврат автомобиля Лада (ВАЗ) X-ray (XTAGAB330J1065585). Причина: ",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-06T10:30:48.186Z",
       "action": "sale",
@@ -6765,6 +6776,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-06T10:30:51.976Z",
+  "exportDate": "2025-08-06T10:33:18.672Z",
   "version": "3.2"
 }
