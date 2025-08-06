@@ -2505,8 +2505,9 @@
       "report": "https://profi.avtocod.ru/report/guest/d9f0bf21-e552-4d30-92b3-8a57f00f4a12",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Богажник 1000 сверзу заднее левое крыло шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -2515,8 +2516,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2543,7 +2546,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -3137,11 +3141,11 @@
       "haggle": "",
       "priceSalon": 150000,
       "report": "https://profi.avtocod.ru/report/guest/95dbaab2-9e1c-4114-82d2-29986d04aee1",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-06",
+      "salePrice": 90000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -60000,
       "paints": "Отсутствует",
       "additionalInfo": "",
       "saleComment": "",
@@ -3153,7 +3157,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -3179,6 +3183,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-06",
+          "action": "Продан",
+          "details": "Продан за 90 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -4121,6 +4130,12 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-06T10:30:48.186Z",
+      "action": "sale",
+      "description": "Продан автомобиль Лада (ВАЗ) Приора (XTA21723080006220) за 90 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-04T04:13:35.403Z",
       "action": "sync",
@@ -6750,7 +6765,6 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-08-04T04:13:46.388Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-08-06T10:30:51.976Z",
+  "version": "3.2"
 }
