@@ -1792,11 +1792,11 @@
       "haggle": "",
       "priceSalon": 945000,
       "report": "https://profi.avtocod.ru/report/guest/3d209963-c855-400c-af81-fa20cc89c6a5",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-11",
+      "salePrice": 945000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 45000,
       "paints": "передние крылья шпакля",
       "additionalInfo": "",
       "saleComment": "",
@@ -1808,7 +1808,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -1829,6 +1829,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-11",
+          "action": "Продан",
+          "details": "Продан за 945 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -3320,11 +3325,11 @@
       "haggle": "",
       "priceSalon": 1640000,
       "report": "https://profi.avtocod.ru/report/guest/0d8ab795-dd6f-42b3-b719-7078c67e8b9c",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-11",
+      "salePrice": 1720000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 130000,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -3336,7 +3341,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -3357,6 +3362,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-11",
+          "action": "Продан",
+          "details": "Продан за 1 720 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -4135,6 +4145,24 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-11T14:29:57.666Z",
+      "action": "sale",
+      "description": "Продан автомобиль Mitsubishi Outlander (JMBXLCW6W7Z001421) за 945 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-11T14:29:53.530Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-11T14:29:43.506Z",
+      "action": "sale",
+      "description": "Продан автомобиль Geely Emgrand (LB3F31036PG022996) за 1 720 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-06T10:33:09.721Z",
       "action": "return",
@@ -6776,6 +6804,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-06T10:33:18.672Z",
+  "exportDate": "2025-08-11T14:30:01.745Z",
   "version": "3.2"
 }
