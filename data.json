@@ -4147,9 +4147,54 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Skoda",
+      "model": "Yeti",
+      "year": 2013,
+      "color": "Белый",
+      "mileage": 161226,
+      "engineVolume": 1.2,
+      "power": 105,
+      "driveType": "Передний",
+      "transmission": "Робот",
+      "vin": "XW8JF25L1DH716807",
+      "dateAdded": "2025-08-14",
+      "whoAdded": "перекуп",
+      "priceToHands": 778000,
+      "haggle": "",
+      "priceSalon": 798000,
+      "report": "https://profi.avtocod.ru/report/90218e54-5914-4612-892a-394dc03f65fd",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Переднее правое крыло вторичный окрас, без ДТП по отчёту",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-14",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-14T11:06:53.624Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Skoda Yeti (XW8JF25L1DH716807)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-14T06:18:00.041Z",
       "action": "sale",
@@ -6815,7 +6860,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-08-14T06:18:04.864Z",
+  "lastSaved": "2025-08-14T11:07:03.630Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
