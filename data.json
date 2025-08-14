@@ -1676,14 +1676,14 @@
       "haggle": "",
       "priceSalon": 599000,
       "report": "https://profi.avtocod.ru/report/guest/3d71e2c6-1776-4253-b503-bfca9766f06a",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-14",
+      "salePrice": 580000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": -10000,
       "paints": "Арки по 400\nПравая передняя дверь 800+",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Оплата полностью по QR-коду",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
@@ -1692,7 +1692,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -1713,6 +1713,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-14",
+          "action": "Продан",
+          "details": "Продан за 580 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -4145,6 +4150,12 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-14T06:18:00.041Z",
+      "action": "sale",
+      "description": "Продан автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113) за 580 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-11T14:29:57.666Z",
       "action": "sale",
@@ -6804,6 +6815,7 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-11T14:30:01.745Z",
-  "version": "3.2"
+  "lastSaved": "2025-08-14T06:18:04.864Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
