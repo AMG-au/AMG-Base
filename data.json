@@ -1975,12 +1975,11 @@
       "priceToHands": 895000,
       "haggle": "",
       "priceSalon": null,
-      "report": "https://profi.avtocod.ru/report/guest/8c79da67-c16c-4650-973a-f84705eb6d63",
+      "report": "https://profi.avtocod.ru/report/guest/816dc8ac-f2f6-4a5f-8e1d-76c8b712f959",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -1989,10 +1988,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2013,9 +2010,13 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-17",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Nissan",
@@ -2506,30 +2507,27 @@
       "power": 129,
       "driveType": "Передний",
       "transmission": "Механика",
-      "vin": "SB1BR56L70E253577",
+      "vin": "SB1BR56LX0E235929",
       "dateAdded": "2025-06-12",
       "whoAdded": "Альберт",
       "priceToHands": 730000,
       "haggle": "",
       "priceSalon": null,
       "report": "https://profi.avtocod.ru/report/guest/d9f0bf21-e552-4d30-92b3-8a57f00f4a12",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-16",
+      "salePrice": 570000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
       "paints": "Богажник 1000 сверзу заднее левое крыло шпакля",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "550 наличка, 20 тыс. на карту Рожкова",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "draft",
+      "status": "sold",
+      "margin": -160000,
       "history": [
         {
           "date": "2025-07-23",
@@ -2555,9 +2553,18 @@
           "date": "2025-08-04",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-17",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-16",
+          "action": "Продан",
+          "details": "Продан за 570 000 ₽ (Наличка, Никита)"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Toyota",
@@ -4167,8 +4174,9 @@
       "report": "https://profi.avtocod.ru/report/90218e54-5914-4612-892a-394dc03f65fd",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее правое крыло вторичный окрас, без ДТП по отчёту",
       "additionalInfo": "",
       "saleComment": "",
@@ -4177,18 +4185,51 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-14",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-17T08:00:28.848Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6338864)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-17T07:59:48.980Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-17T07:59:38.956Z",
+      "action": "sale",
+      "description": "Продан автомобиль Toyota Avensis (SB1BR56LX0E235929) за 570 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-17T07:59:04.898Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-17T07:58:54.866Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Avensis (SB1BR56LX0E235929)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-14T11:06:53.624Z",
       "action": "add",
@@ -6860,7 +6901,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-08-14T11:07:03.630Z",
+  "lastSaved": "2025-08-17T08:00:38.680Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
