@@ -1098,10 +1098,9 @@
       "report": "https://profi.avtocod.ru/report/guest/32ff238f-d8df-451f-ba5e-d3ddb586c009",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "Родня",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое крыло шпакля арка",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -1109,10 +1108,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -1133,9 +1130,18 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
@@ -1920,67 +1926,9 @@
       "report": "https://profi.avtocod.ru/report/guest/f4670051-96bf-4218-af73-a94c6bcbc422",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
-      "additionalInfo": "",
-      "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
-      "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
-      "history": [
-        {
-          "date": "2025-07-23",
-          "action": "Добавлен",
-          "details": "Первоначальное добавление"
-        },
-        {
-          "date": "2025-07-23",
-          "action": "Изменен статус",
-          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
-        },
-        {
-          "date": "2025-07-24",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
-        },
-        {
-          "date": "2025-07-25",
-          "action": "Изменен статус",
-          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
-        }
-      ],
-      "archived": false
-    },
-    {
-      "brand": "Nissan",
-      "model": "Juke",
-      "year": 2013,
-      "color": "Серый",
-      "mileage": 128181,
-      "engineVolume": 1.6,
-      "power": 117,
-      "driveType": "Передний",
-      "transmission": "Вариатор",
-      "vin": "SJNFBAF15U6338864",
-      "dateAdded": "2025-03-21",
-      "whoAdded": "Олег",
-      "priceToHands": 895000,
-      "haggle": "",
-      "priceSalon": null,
-      "report": "https://profi.avtocod.ru/report/guest/816dc8ac-f2f6-4a5f-8e1d-76c8b712f959",
-      "dateSold": null,
-      "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "Родной окрас",
+      "paints": "Задняя левая дверь по центру 1000, порог ниже, крышка багажника до 600",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -2012,11 +1960,74 @@
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         },
         {
-          "date": "2025-08-17",
+          "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
       ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Juke",
+      "year": 2013,
+      "color": "Серый",
+      "mileage": 128181,
+      "engineVolume": 1.6,
+      "power": 117,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "SJNFBAF15U6338864",
+      "dateAdded": "2025-03-21",
+      "whoAdded": "Олег",
+      "priceToHands": 895000,
+      "haggle": "",
+      "priceSalon": null,
+      "report": "https://profi.avtocod.ru/report/guest/816dc8ac-f2f6-4a5f-8e1d-76c8b712f959",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
+      "paints": "Родной окрас",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "draft",
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-17",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        }
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -2221,10 +2232,9 @@
       "report": "https://profi.avtocod.ru/report/guest/09e3395d-2f2d-4b1b-8799-f7ac7adc0c87",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правое переднее крыло до 300, крыша до 600, внешние стойки справа шпакля, заднее правое крыло шпакля, двери справа до 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -2232,10 +2242,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2261,9 +2269,13 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Renault",
@@ -2518,6 +2530,7 @@
       "salePrice": 570000,
       "howSold": "Наличка",
       "whoSold": "Никита",
+      "margin": -160000,
       "paints": "Богажник 1000 сверзу заднее левое крыло шпакля",
       "additionalInfo": "",
       "saleComment": "550 наличка, 20 тыс. на карту Рожкова",
@@ -2526,8 +2539,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": -160000,
       "history": [
         {
           "date": "2025-07-23",
@@ -2564,7 +2579,8 @@
           "action": "Продан",
           "details": "Продан за 570 000 ₽ (Наличка, Никита)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -3460,67 +3476,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7ed07987-5248-4cfa-8145-31a9d1286ab6",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
-      "additionalInfo": "",
-      "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
-      "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
-      "history": [
-        {
-          "date": "2025-07-23",
-          "action": "Добавлен",
-          "details": "Первоначальное добавление"
-        },
-        {
-          "date": "2025-07-23",
-          "action": "Изменен статус",
-          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
-        },
-        {
-          "date": "2025-07-25",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
-        },
-        {
-          "date": "2025-07-25",
-          "action": "Изменен статус",
-          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
-        }
-      ],
-      "archived": false
-    },
-    {
-      "brand": "Toyota",
-      "model": "Yaris",
-      "year": 2007,
-      "color": "Синий",
-      "mileage": 103195,
-      "engineVolume": 1.3,
-      "power": 87,
-      "driveType": "Передний",
-      "transmission": "Робот",
-      "vin": "VNKKL96310A184131",
-      "dateAdded": "2025-07-06",
-      "whoAdded": "Олег",
-      "priceToHands": 630000,
-      "haggle": "",
-      "priceSalon": 649000,
-      "report": "https://profi.avtocod.ru/report/guest/f36a194b-9738-45ca-b2a2-58e51bff2a90",
-      "dateSold": null,
-      "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -3528,7 +3486,7 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
+      "status": "available",
       "margin": null,
       "history": [
         {
@@ -3555,8 +3513,76 @@
           "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris",
+      "year": 2007,
+      "color": "Синий",
+      "mileage": 103195,
+      "engineVolume": 1.3,
+      "power": 87,
+      "driveType": "Передний",
+      "transmission": "Робот",
+      "vin": "VNKKL96310A184131",
+      "dateAdded": "2025-07-06",
+      "whoAdded": "Олег",
+      "priceToHands": 630000,
+      "haggle": "",
+      "priceSalon": 649000,
+      "report": "https://profi.avtocod.ru/report/guest/f36a194b-9738-45ca-b2a2-58e51bff2a90",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "draft",
+      "history": [
+        {
+          "date": "2025-07-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-07-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-07-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        }
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -3640,10 +3666,9 @@
       "report": "https://profi.avtocod.ru/report/guest/b50e580c-d30a-4e9e-b1eb-168b29c63dfa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -3651,10 +3676,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3675,9 +3698,13 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -3814,10 +3841,9 @@
       "report": "https://profi.avtocod.ru/report/guest/a07508d3-0917-4191-aa1f-d94f0518e88d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое крыло шпакля арка и ближе к двери, правая дверь до 200, переднее левое крыло до 550, заднее левое крыло внизу до 300",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -3825,10 +3851,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3849,9 +3873,18 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "BMW",
@@ -3920,10 +3953,9 @@
       "report": "https://profi.avtocod.ru/report/guest/2fb54a2c-6615-40f7-be4f-4c8e7b19f08d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое до 300, шпакля возле фары\nБагажник шпакля",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -3931,10 +3963,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3950,9 +3980,13 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Hyundai",
@@ -4031,10 +4065,9 @@
       "report": "https://profi.avtocod.ru/report/guest/01eff053-f078-46a6-a717-9bf988669179",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Обе левые двери и передняя правая шпакля по низу с порогом",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4042,10 +4075,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -4061,9 +4092,18 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Citroen",
@@ -4220,7 +4260,7 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Левая стойка шпакля снизу, левая передняя дверь до 600, задняя левая до 1000, задняя правая арка до 300",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4228,18 +4268,189 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
+      "status": "available",
       "margin": null,
       "history": [
         {
           "date": "2025-08-21",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-21",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-21T10:27:36.843Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Ceed (XWEHC512AC0010410) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:27:31.607Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:27:21.597Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Ceed (XWEHC512AC0010410)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:22:15.198Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:22:05.163Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia ProCeed (XWEHN312BE0000913) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:21:59.245Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia ProCeed (XWEHN312BE0000913)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:21:37.341Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:21:27.323Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Optima (XWEGW413BJ0006385) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:21:17.428Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Optima (KNAGM411AC5265898) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:21:08.789Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Optima (KNAGM411AC5265898)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:20:56.649Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:20:46.621Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Optima (XWEGW413BJ0006385)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:20:35.099Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:20:25.067Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Ceed (XWEFF242370000856) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:20:11.161Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:20:01.131Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Optima (XWEGW413BJ0006385) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:19:47.767Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:19:37.756Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Almera Classic (KNMCSHLMS6P626702)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:19:30.408Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:19:20.396Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Ceed (XWEFF242370000856)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:18:22.557Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:18:12.548Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль ЗАЗ Chance (Y6DTF69Y0B0282423)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:18:02.576Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:17:52.564Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ravon Nexia R3 (XWBTF69V9HA005314)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:17:49.510Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-21T10:17:39.485Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ford C-Max (WF0MXXGCDM7D29382)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-21T05:26:22.471Z",
       "action": "add",
@@ -6971,6 +7182,7 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-21T05:26:29.264Z",
-  "version": "3.2"
+  "lastSaved": "2025-08-21T10:27:46.861Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
