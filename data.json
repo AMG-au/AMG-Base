@@ -274,7 +274,7 @@
       "saleComment": "",
       "creditBank": "ОТП",
       "creditOverprice": "Да",
-      "creditDownPayment": 0,
+      "creditDownPayment": null,
       "creditAmount": 1490000,
       "creditReward": null,
       "returnDate": null,
@@ -1949,7 +1949,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -1975,6 +1975,11 @@
           "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -1994,13 +1999,12 @@
       "whoAdded": "Олег",
       "priceToHands": 895000,
       "haggle": "",
-      "priceSalon": null,
+      "priceSalon": 895000,
       "report": "https://profi.avtocod.ru/report/guest/816dc8ac-f2f6-4a5f-8e1d-76c8b712f959",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -2009,10 +2013,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2038,9 +2040,18 @@
           "date": "2025-08-17",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Nissan",
@@ -4333,9 +4344,169 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Nissan",
+      "model": "X-TRAIL",
+      "year": 2011,
+      "color": "Черный",
+      "mileage": 142269,
+      "engineVolume": 2,
+      "power": 141,
+      "driveType": "Полный",
+      "transmission": "Вариатор",
+      "vin": "Z8NTBNT31BS035357",
+      "dateAdded": "2025-08-23",
+      "whoAdded": "Олег",
+      "priceToHands": 1095000,
+      "haggle": "",
+      "priceSalon": 1095000,
+      "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-24",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Touran",
+      "year": 2010,
+      "color": "Свелто-серый",
+      "mileage": 170222,
+      "engineVolume": 1.4,
+      "power": 140,
+      "driveType": "Передний",
+      "transmission": "Робот",
+      "vin": "WVGZZZ1TZAW065949",
+      "dateAdded": "2025-08-23",
+      "whoAdded": "Олег",
+      "priceToHands": 795000,
+      "haggle": "",
+      "priceSalon": 795000,
+      "report": "https://profi.avtocod.ru/report/guest/e4830468-8637-4758-9081-74439eae92db",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-24",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Продано\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-24T11:56:22.388Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:56:12.353Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Touran (WVGZZZ1TZAW065949) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:56:06.697Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:55:56.667Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Touran (WVGZZZ1TZAW065949)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:51:18.370Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:51:07.660Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6338864)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:50:37.459Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan X-TRAIL (Z8NTBNT31BS035357) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:50:36.005Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:50:25.983Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan X-TRAIL (Z8NTBNT31BS035357)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:47:10.690Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:47:00.660Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Almera Classic (KNMCSHLMS6P626702) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T11:46:52.108Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6338864) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-24T11:26:34.388Z",
       "action": "sale",
@@ -7229,6 +7400,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-24T11:26:38.906Z",
+  "exportDate": "2025-08-24T11:56:41.546Z",
   "version": "3.2"
 }
