@@ -2003,8 +2003,9 @@
       "report": "https://profi.avtocod.ru/report/guest/816dc8ac-f2f6-4a5f-8e1d-76c8b712f959",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -2013,8 +2014,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2051,7 +2054,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -4317,10 +4321,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-08-23",
+      "returnReason": "Другое",
+      "returnComment": "Забрал, дурень",
+      "status": "return",
       "history": [
         {
           "date": "2025-08-21",
@@ -4341,6 +4345,11 @@
           "date": "2025-08-21",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-23",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрал, дурень"
         }
       ],
       "archived": false
@@ -4364,8 +4373,9 @@
       "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4374,8 +4384,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4387,7 +4399,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -4408,8 +4421,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e4830468-8637-4758-9081-74439eae92db",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4418,8 +4432,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4431,10 +4447,85 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Продано\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Kia",
+      "model": "Rio",
+      "year": 2014,
+      "color": "Белый",
+      "mileage": 179899,
+      "engineVolume": 1.6,
+      "power": 123,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "Z94CC41BAFR265397",
+      "dateAdded": "2025-08-24",
+      "whoAdded": "Олег",
+      "priceToHands": 595000,
+      "haggle": "",
+      "priceSalon": 595000,
+      "report": "https://profi.avtocod.ru/report/guest/ecfa8ba3-cbd9-44e8-82f3-9ae5eb7d564a",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "Максимальлная комплектация PRESTIGE для мкпп",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-24",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-24T12:29:18.153Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (Z94CC41BAFR265397)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T12:26:50.898Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T12:26:40.873Z",
+      "action": "return",
+      "description": "Возврат автомобиля Kia Optima (XWEGW413BJ0006385). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T12:26:09.398Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T12:25:59.362Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Rio (Z94CC41BAFR265397)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-24T11:56:22.388Z",
       "action": "sync",
@@ -7400,6 +7491,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-24T11:56:41.546Z",
+  "exportDate": "2025-08-24T12:29:21.192Z",
   "version": "3.2"
 }
