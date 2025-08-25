@@ -2017,7 +2017,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -2053,6 +2053,11 @@
           "date": "2025-08-24",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -2274,7 +2279,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -2305,6 +2310,11 @@
           "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -3590,7 +3600,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -3616,6 +3626,11 @@
           "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -3716,7 +3731,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -3742,6 +3757,11 @@
           "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -4011,7 +4031,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -4032,6 +4052,11 @@
           "date": "2025-08-21",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -4281,12 +4306,17 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-08-14",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -4522,8 +4552,9 @@
       "report": "https://profi.avtocod.ru/report/guest/9566a8c6-5798-4a55-8932-e8385be1b304",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4532,8 +4563,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-08-25",
@@ -4544,11 +4577,65 @@
           "date": "2025-08-25",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-25T05:38:16.408Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford C-Max (WF0MXXGCDM7D29382) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:38:12.664Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Skoda Yeti (XW8JF25L1DH716807) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:38:08.632Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля ЗАЗ Chance (Y6DTF69Y0B0282423) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:38:04.560Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Yaris (VNKKL96310A184131) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:38:01.768Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6338864) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:37:56.680Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ravon Nexia R3 (XWBTF69V9HA005314) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:37:49.394Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:37:39.368Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219040P0882781) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-25T05:34:50.691Z",
       "action": "edit",
@@ -7574,6 +7661,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-25T05:34:52.753Z",
+  "exportDate": "2025-08-25T05:38:20.520Z",
   "version": "3.2"
 }
