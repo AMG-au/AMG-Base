@@ -4403,10 +4403,9 @@
       "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правое переднее крыло 1400\nПравая передняя дверь 1200\nЛевое заднее крыло 300\nЛевая задняя дверь 1300\nЛевая передняя дверь 250",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4414,10 +4413,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4428,9 +4425,18 @@
           "date": "2025-08-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Volkswagen",
@@ -4499,10 +4505,9 @@
       "report": "https://profi.avtocod.ru/report/guest/ecfa8ba3-cbd9-44e8-82f3-9ae5eb7d564a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правая передняя дверь шпакля\nЛевое заднее крыло 1000\nБагажник 700\nПравое заднее крыло 1000\nЛевая задняя арка 1200",
       "additionalInfo": "Максимальлная комплектация PRESTIGE для мкпп",
       "saleComment": "",
       "creditBank": "",
@@ -4510,10 +4515,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4529,9 +4532,18 @@
           "date": "2025-08-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4552,10 +4564,9 @@
       "report": "https://profi.avtocod.ru/report/guest/9566a8c6-5798-4a55-8932-e8385be1b304",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правое переднее крыло 600\nПравая передняя стойка 300\nПравая передняя дверь 300\nКрыша 300-1000\nЛевая передняя стойка 700\nЛевая передняя дверь 300\nЛевое переднее крыло 350\nКапот 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4563,10 +4574,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-25",
@@ -4582,12 +4591,69 @@
           "date": "2025-08-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-25T07:51:48.496Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219040P0882781) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:51:44.930Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Гранта (XTA219040P0882781)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:49:45.003Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:49:34.969Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (Z94CC41BAFR265397) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:49:29.187Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (Z94CC41BAFR265397)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:48:06.642Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan X-TRAIL (Z8NTBNT31BS035357) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:48:05.016Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T07:47:54.995Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan X-TRAIL (Z8NTBNT31BS035357)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-25T05:38:16.408Z",
       "action": "status",
@@ -7661,6 +7727,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-25T05:38:20.520Z",
+  "exportDate": "2025-08-25T07:51:50.945Z",
   "version": "3.2"
 }
