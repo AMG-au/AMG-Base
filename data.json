@@ -4469,8 +4469,9 @@
       "report": "https://profi.avtocod.ru/report/guest/ecfa8ba3-cbd9-44e8-82f3-9ae5eb7d564a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "Максимальлная комплектация PRESTIGE для мкпп",
       "saleComment": "",
@@ -4479,8 +4480,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-08-24",
@@ -4491,11 +4494,91 @@
           "date": "2025-08-24",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-24",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Гранта",
+      "year": 2022,
+      "color": "Серый",
+      "mileage": 24132,
+      "engineVolume": 1.6,
+      "power": 90,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTA219040P0882781",
+      "dateAdded": "2025-08-24",
+      "whoAdded": "Собственник",
+      "priceToHands": 760000,
+      "haggle": "",
+      "priceSalon": 790000,
+      "report": "https://profi.avtocod.ru/report/guest/9566a8c6-5798-4a55-8932-e8385be1b304",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-25",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-25T05:34:50.691Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Гранта (XTA219040P0882781)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:34:22.381Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-25T05:34:11.419Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Гранта (XTA219040P0882781)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T12:31:31.483Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-24T12:31:21.471Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (Z94CC41BAFR265397) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-24T12:29:18.153Z",
       "action": "edit",
@@ -7491,6 +7574,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-24T12:29:21.192Z",
+  "exportDate": "2025-08-25T05:34:52.753Z",
   "version": "3.2"
 }
