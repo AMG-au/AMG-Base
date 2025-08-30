@@ -4403,8 +4403,9 @@
       "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло 1400\nПравая передняя дверь 1200\nЛевое заднее крыло 300\nЛевая задняя дверь 1300\nЛевая передняя дверь 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -4413,8 +4414,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4436,7 +4439,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -4505,8 +4509,9 @@
       "report": "https://profi.avtocod.ru/report/guest/ecfa8ba3-cbd9-44e8-82f3-9ae5eb7d564a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая передняя дверь шпакля\nЛевое заднее крыло 1000\nБагажник 700\nПравое заднее крыло 1000\nЛевая задняя арка 1200",
       "additionalInfo": "Максимальлная комплектация PRESTIGE для мкпп",
       "saleComment": "",
@@ -4515,8 +4520,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4543,7 +4550,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4564,8 +4572,9 @@
       "report": "https://profi.avtocod.ru/report/guest/9566a8c6-5798-4a55-8932-e8385be1b304",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло 600\nПравая передняя стойка 300\nПравая передняя дверь 300\nКрыша 300-1000\nЛевая передняя стойка 700\nЛевая передняя дверь 300\nЛевое переднее крыло 350\nКапот 500",
       "additionalInfo": "",
       "saleComment": "",
@@ -4574,8 +4583,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-25",
@@ -4602,10 +4613,248 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Chevrolet",
+      "model": "Cruze",
+      "year": 2012,
+      "color": "Белый",
+      "mileage": 228431,
+      "engineVolume": 1.6,
+      "power": 109,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XUFJF696JC3054862",
+      "dateAdded": "2025-08-27",
+      "whoAdded": "Олег",
+      "priceToHands": 545000,
+      "haggle": "",
+      "priceSalon": 545000,
+      "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-30",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-30",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-30",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Гранта",
+      "year": 2019,
+      "color": "Белый",
+      "mileage": 132875,
+      "engineVolume": 1.6,
+      "power": 98,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XTA219020L0644775",
+      "dateAdded": "2025-08-29",
+      "whoAdded": "Собственник",
+      "priceToHands": 795000,
+      "haggle": "",
+      "priceSalon": 795000,
+      "report": "https://profi.avtocod.ru/report/guest/992e2c7d-226c-4bd5-a1ad-e3ba8592a91d",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-30",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-30",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-30",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2012,
+      "color": "Белый",
+      "mileage": 336521,
+      "engineVolume": 2,
+      "power": 170,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "XW8ZZZ5NZCG114427",
+      "dateAdded": "2025-08-29",
+      "whoAdded": "Собственник",
+      "priceToHands": 1249000,
+      "haggle": "",
+      "priceSalon": 1249000,
+      "report": "https://profi.avtocod.ru/report/guest/e83bc49b-90c1-40e5-97cf-776be5740476",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-08-30",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-08-30",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-08-30",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-08-30T10:45:39.409Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Tiguan (XW8ZZZ5NZCG114427) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:45:33.163Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Tiguan (XW8ZZZ5NZCG114427)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:45:06.149Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:44:55.580Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Tiguan (XW8ZZZ5NZCG114427)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:37:34.262Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:37:24.241Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Cruze (XUFJF696JC3054862) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:37:17.401Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219020L0644775) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:37:13.878Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:37:03.867Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Гранта (XTA219020L0644775)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:36:28.833Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:36:18.811Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Гранта (XTA219020L0644775)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T10:00:06.813Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T09:59:56.779Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Cruze (XUFJF696JC3054862)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T09:59:40.242Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-08-30T09:59:30.219Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Chevrolet Cruze (XUFJF696JC3054862)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-25T07:51:48.496Z",
       "action": "status",
@@ -7727,6 +7976,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-25T07:51:50.945Z",
+  "exportDate": "2025-08-30T10:45:45.921Z",
   "version": "3.2"
 }
