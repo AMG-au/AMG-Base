@@ -4911,9 +4911,139 @@
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Гранта",
+      "year": 2016,
+      "color": "Белый",
+      "mileage": 262249,
+      "engineVolume": 1.6,
+      "power": 87,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTA219010G0403740",
+      "dateAdded": "2025-09-02",
+      "whoAdded": "Олег",
+      "priceToHands": 325000,
+      "haggle": "",
+      "priceSalon": 325000,
+      "report": "https://profi.avtocod.ru/report/guest/6fb3047e-2c00-4d22-be32-600a883751dc",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Веста",
+      "year": 2019,
+      "color": "Черный",
+      "mileage": 165084,
+      "engineVolume": 1.6,
+      "power": 106,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XTAGFL110LY376753",
+      "dateAdded": "2025-09-02",
+      "whoAdded": "перекуп",
+      "priceToHands": 745000,
+      "haggle": "",
+      "priceSalon": 745000,
+      "report": "https://profi.avtocod.ru/report/guest/3137726c-9bcf-4396-bf38-0e2c4fd01a4b",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-03T05:31:25.303Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Веста (XTAGFL110LY376753) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:31:15.400Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Веста (XTAGFL110LY376753)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:25:18.421Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:25:08.406Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219010G0403740) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:24:56.893Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:24:46.875Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Гранта (XTA219010G0403740)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:12:45.626Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-03T05:12:35.607Z",
       "action": "status",
@@ -8197,7 +8327,6 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-03T05:12:45.613Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-09-03T05:31:31.698Z",
+  "version": "3.2"
 }
