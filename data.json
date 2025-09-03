@@ -4635,8 +4635,9 @@
       "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4645,8 +4646,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-30",
@@ -4663,7 +4666,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4684,8 +4688,9 @@
       "report": "https://profi.avtocod.ru/report/guest/992e2c7d-226c-4bd5-a1ad-e3ba8592a91d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4694,8 +4699,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-30",
@@ -4712,7 +4719,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -4733,8 +4741,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e83bc49b-90c1-40e5-97cf-776be5740476",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4743,8 +4752,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-08-30",
@@ -4761,10 +4772,220 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2008,
+      "color": "Синий",
+      "mileage": 261296,
+      "engineVolume": 1.6,
+      "power": 124,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "JTNBV58E90J033303",
+      "dateAdded": "2025-09-01",
+      "whoAdded": "Альберт",
+      "priceToHands": 650000,
+      "haggle": "",
+      "priceSalon": 680000,
+      "report": "https://profi.avtocod.ru/report/guest/a3c4118b-12f4-4f46-9cd2-8777502c5193",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "year": 2012,
+      "color": "Черный",
+      "mileage": 194530,
+      "engineVolume": 1.8,
+      "power": 152,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "TMBAB43T1C9050613",
+      "dateAdded": "2025-09-01",
+      "whoAdded": "перекуп",
+      "priceToHands": 1059000,
+      "haggle": "",
+      "priceSalon": 1099000,
+      "report": "https://profi.avtocod.ru/report/guest/30d382c4-a025-4931-a016-f964c0b60b8d",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "Outlander",
+      "year": 2010,
+      "color": "Коричневый",
+      "mileage": 145286,
+      "engineVolume": 2,
+      "power": 147,
+      "driveType": "Полный",
+      "transmission": "Вариатор",
+      "vin": "JMBXTCW4WAZ004927",
+      "dateAdded": "2025-09-01",
+      "whoAdded": "Олег",
+      "priceToHands": 1095000,
+      "haggle": "",
+      "priceSalon": 1095000,
+      "report": "https://profi.avtocod.ru/report/guest/072af789-be69-4184-8b5e-717596939b9c",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-03T05:12:35.607Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (JMBXTCW4WAZ004927) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:12:23.984Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:12:13.966Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mitsubishi Outlander (JMBXTCW4WAZ004927)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:08:13.927Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:08:03.516Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Skoda Superb (TMBAB43T1C9050613) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:07:54.875Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Skoda Superb (TMBAB43T1C9050613)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:05:33.666Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T05:05:23.201Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV58E90J033303) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T04:43:17.692Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T04:43:07.474Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Corolla (JTNBV58E90J033303)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T04:41:54.684Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-03T04:41:44.559Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Corolla (JTNBV58E90J033303)",
+      "archived": false
+    },
     {
       "timestamp": "2025-08-30T10:45:39.409Z",
       "action": "status",
@@ -7976,6 +8197,7 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-08-30T10:45:45.921Z",
-  "version": "3.2"
+  "lastSaved": "2025-09-03T05:12:45.613Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
