@@ -3471,10 +3471,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-09-06",
+      "returnReason": "Другое",
+      "returnComment": "ыв",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -3495,6 +3495,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Возврат",
+          "details": "Причина: Другое. ыв"
         }
       ],
       "archived": false
@@ -4794,8 +4799,9 @@
       "report": "https://profi.avtocod.ru/report/guest/a3c4118b-12f4-4f46-9cd2-8777502c5193",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4804,8 +4810,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4822,7 +4830,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Skoda",
@@ -4843,8 +4852,9 @@
       "report": "https://profi.avtocod.ru/report/guest/30d382c4-a025-4931-a016-f964c0b60b8d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4853,8 +4863,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4866,7 +4878,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -4887,8 +4900,9 @@
       "report": "https://profi.avtocod.ru/report/guest/072af789-be69-4184-8b5e-717596939b9c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4897,8 +4911,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4910,7 +4926,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4931,8 +4948,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6fb3047e-2c00-4d22-be32-600a883751dc",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -4941,8 +4959,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4954,7 +4974,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4975,6 +4996,98 @@
       "report": "https://profi.avtocod.ru/report/guest/3137726c-9bcf-4396-bf38-0e2c4fd01a4b",
       "dateSold": null,
       "salePrice": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
+      "history": [
+        {
+          "date": "2025-09-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Audi",
+      "model": "Q5",
+      "year": 2013,
+      "color": "Синий",
+      "mileage": 86067,
+      "engineVolume": 2,
+      "power": 225,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "XW8ZZZ8R5DG000923",
+      "dateAdded": "2025-09-05",
+      "whoAdded": "Собственник",
+      "priceToHands": 2500000,
+      "haggle": "",
+      "priceSalon": 2549000,
+      "report": "https://profi.avtocod.ru/report/guest/da05904c-2e3e-46fc-8968-e185a7810c62",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
+      "additionalInfo": "В идеальном состоянии",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-06",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Audi",
+      "model": "Q5",
+      "year": 2011,
+      "color": "Черный",
+      "mileage": 302573,
+      "engineVolume": 3.2,
+      "power": 270,
+      "driveType": "Полный",
+      "transmission": "Робот",
+      "vin": "WAUZZZ8R6CA036615",
+      "dateAdded": "2025-09-05",
+      "whoAdded": "Олег",
+      "priceToHands": 1145000,
+      "haggle": "",
+      "priceSalon": 1145000,
+      "report": "https://profi.avtocod.ru/report/guest/e3f1fb7f-06ab-427d-92fa-74b603f411a0",
+      "dateSold": null,
+      "salePrice": null,
       "howSold": null,
       "whoSold": null,
       "paints": "",
@@ -4989,12 +5102,100 @@
       "margin": null,
       "history": [
         {
-          "date": "2025-09-03",
+          "date": "2025-09-06",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
         },
         {
-          "date": "2025-09-03",
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Accent",
+      "year": 2006,
+      "color": "Красный",
+      "mileage": 317922,
+      "engineVolume": 1.5,
+      "power": 102,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "X7MCF41GP6M085696",
+      "dateAdded": "2025-09-04",
+      "whoAdded": "Олег",
+      "priceToHands": 345000,
+      "haggle": "",
+      "priceSalon": 345000,
+      "report": "https://profi.avtocod.ru/report/guest/613e687f-5871-4897-b4cc-e29bce4a7cba",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-06",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Opel",
+      "model": "Astra",
+      "year": 2012,
+      "color": "Черный",
+      "mileage": 194606,
+      "engineVolume": 1.4,
+      "power": 140,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XUFPE6DC5D3001003",
+      "dateAdded": "2025-09-05",
+      "whoAdded": "Альберт",
+      "priceToHands": 649000,
+      "haggle": "",
+      "priceSalon": 649000,
+      "report": "https://profi.avtocod.ru/report/guest/dd44529b-fc7c-47b5-9043-e637e7c55a84",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-06",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
@@ -5002,6 +5203,96 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-06T06:56:42.399Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Astra (XUFPE6DC5D3001003) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:56:35.259Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Opel Astra (XUFPE6DC5D3001003)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:50:44.624Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:50:34.602Z",
+      "action": "return",
+      "description": "Возврат автомобиля Infiniti FX37 (JN1TCNS51U0410695). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:13:54.757Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:13:44.734Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Accent (X7MCF41GP6M085696) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:13:25.025Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T06:13:15.000Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai Accent (X7MCF41GP6M085696)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:19:10.298Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q5 (WAUZZZ8R6CA036615) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:19:08.576Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:18:58.556Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Audi Q5 (WAUZZZ8R6CA036615)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:17:02.863Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:16:52.842Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q5 (XW8ZZZ8R5DG000923) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:16:35.948Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T05:16:25.902Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Audi Q5 (XW8ZZZ8R5DG000923)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-03T05:31:25.303Z",
       "action": "status",
@@ -8327,6 +8618,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-03T05:31:31.698Z",
+  "exportDate": "2025-09-06T06:56:46.975Z",
   "version": "3.2"
 }
