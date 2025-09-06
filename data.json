@@ -4466,10 +4466,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e4830468-8637-4758-9081-74439eae92db",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Задняя левая верхняя стойка до 1000, правое заднее крыло шпакля 2к+, правая задняя дверь до 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4477,10 +4476,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-24",
@@ -4491,9 +4488,18 @@
           "date": "2025-08-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Продано\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
@@ -4640,10 +4646,9 @@
       "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое крыло шпакля в уголке у фары, крышка багажника шпакля справа",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4651,10 +4656,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-30",
@@ -4670,9 +4673,23 @@
           "date": "2025-08-30",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"На складе\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"На складе\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4693,10 +4710,9 @@
       "report": "https://profi.avtocod.ru/report/guest/992e2c7d-226c-4bd5-a1ad-e3ba8592a91d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Задние крылья до 200-250",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4704,10 +4720,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-30",
@@ -4723,9 +4737,13 @@
           "date": "2025-08-30",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Volkswagen",
@@ -4746,10 +4764,9 @@
       "report": "https://profi.avtocod.ru/report/guest/e83bc49b-90c1-40e5-97cf-776be5740476",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Переднее левое крыло до 350, крышка багажника шпакля сверху (говорит ветку задел)",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4757,10 +4774,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-08-30",
@@ -4776,9 +4791,18 @@
           "date": "2025-08-30",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Toyota",
@@ -4799,10 +4823,9 @@
       "report": "https://profi.avtocod.ru/report/guest/a3c4118b-12f4-4f46-9cd2-8777502c5193",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот до 350, левая передняя дверь до 500, задний правый порог до 1000, задняя правое крыло до 1000",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4810,10 +4833,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4829,9 +4850,18 @@
           "date": "2025-09-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Skoda",
@@ -4852,10 +4882,9 @@
       "report": "https://profi.avtocod.ru/report/guest/30d382c4-a025-4931-a016-f964c0b60b8d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое крыло до 700 снизу, передняя правая арка до 250",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4863,10 +4892,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4877,9 +4904,18 @@
           "date": "2025-09-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Mitsubishi",
@@ -4900,10 +4936,9 @@
       "report": "https://profi.avtocod.ru/report/guest/072af789-be69-4184-8b5e-717596939b9c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот до 330, левое переднее крыло до 400, левая передняя дверь до 800, правое заднее крыло до 300 арка до 800, правое переднее крыло до 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4911,10 +4946,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4925,9 +4958,18 @@
           "date": "2025-09-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4948,10 +4990,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6fb3047e-2c00-4d22-be32-600a883751dc",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правое переднее крыло со шпаклей сверху, капот до 500 по краю, левое переднее крыло до 300,   правая передняя дверь сверху переходом до 400, заднее правое крыло до 800 ближе к фаре, левая сторона до 200 вторичка",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -4959,10 +5000,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -4973,9 +5012,18 @@
           "date": "2025-09-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -4996,10 +5044,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3137726c-9bcf-4396-bf38-0e2c4fd01a4b",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот край до 1500, все двери до 1000, заднее левое крыло до 800, задний правый порог до 700, правая стойка и передний порог до 250",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5007,10 +5054,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-03",
@@ -5021,9 +5066,18 @@
           "date": "2025-09-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Audi",
@@ -5044,8 +5098,9 @@
       "report": "https://profi.avtocod.ru/report/guest/da05904c-2e3e-46fc-8968-e185a7810c62",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "В идеальном состоянии",
       "saleComment": "",
@@ -5054,8 +5109,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-06",
@@ -5067,7 +5124,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Audi",
@@ -5090,7 +5148,7 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Крышка багажника до 2000, правая передняя дверь 2000, правое переднее крыло 2000",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5105,6 +5163,16 @@
           "date": "2025-09-06",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         },
         {
           "date": "2025-09-06",
@@ -5132,8 +5200,9 @@
       "report": "https://profi.avtocod.ru/report/guest/613e687f-5871-4897-b4cc-e29bce4a7cba",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -5142,8 +5211,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-06",
@@ -5155,7 +5226,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Opel",
@@ -5178,7 +5250,7 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Левая задняя арка шпакля вся, крышка багажника до 600, крыша до 600 задняя часть остальная до 250, правая верхняя стойка 700, правые двери вторичка до 200",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5198,11 +5270,219 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-06",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-06T08:48:08.224Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:47:58.198Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Гранта (XTA219020L0644775)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:47:37.481Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:47:27.452Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Skoda Superb (TMBAB43T1C9050613) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:47:21.374Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Skoda Superb (TMBAB43T1C9050613)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:47:09.241Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:46:58.685Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Outlander (JMBXTCW4WAZ004927) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:46:52.566Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Outlander (JMBXTCW4WAZ004927)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:46:35.664Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:46:25.173Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Tiguan (XW8ZZZ5NZCG114427) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:46:17.782Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Tiguan (XW8ZZZ5NZCG114427)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:46:00.370Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:45:50.348Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Веста (XTAGFL110LY376753) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:45:42.407Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Веста (XTAGFL110LY376753)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:45:18.916Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV58E90J033303) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:45:17.113Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:45:07.094Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Corolla (JTNBV58E90J033303)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:44:51.664Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:44:41.604Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q5 (WAUZZZ8R6CA036615) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:44:35.183Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Audi Q5 (WAUZZZ8R6CA036615)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:44:21.377Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:44:11.325Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Cruze (XUFJF696JC3054862) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:44:03.949Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Cruze (XUFJF696JC3054862) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:43:58.518Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Cruze (XUFJF696JC3054862)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:43:30.973Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:43:20.948Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Touran (WVGZZZ1TZAW065949) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:43:13.910Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Touran (WVGZZZ1TZAW065949)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:43:04.105Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:42:54.084Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Astra (XUFPE6DC5D3001003) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:42:48.550Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Opel Astra (XUFPE6DC5D3001003)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:42:36.484Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:42:26.468Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219010G0403740) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-06T08:42:17.127Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Гранта (XTA219010G0403740)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-06T06:56:42.399Z",
       "action": "status",
@@ -8618,6 +8898,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-06T06:56:46.975Z",
+  "exportDate": "2025-09-06T08:48:27.701Z",
   "version": "3.2"
 }
