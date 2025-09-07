@@ -5185,11 +5185,11 @@
       "haggle": "",
       "priceSalon": 1145000,
       "report": "https://profi.avtocod.ru/report/guest/e3f1fb7f-06ab-427d-92fa-74b603f411a0",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-07",
+      "salePrice": 1120000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -25000,
       "paints": "Крышка багажника до 2000, правая передняя дверь 2000, правое переднее крыло 2000",
       "additionalInfo": "",
       "saleComment": "",
@@ -5201,7 +5201,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-06",
@@ -5222,6 +5222,11 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-07",
+          "action": "Продан",
+          "details": "Продан за 1 120 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -5351,8 +5356,9 @@
       "report": "https://profi.avtocod.ru/report/guest/c0f98224-28d9-4ec4-8a01-b1664b7939d7",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Переднее правое крыло шпакля возле фары, правая передняя дверь до 500 по центру, левое переднее крыло до 500 арка",
       "additionalInfo": "",
       "saleComment": "",
@@ -5361,18 +5367,44 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-09-06",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-07",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-07T12:10:56.682Z",
+      "action": "sale",
+      "description": "Продан автомобиль Audi Q5 (WAUZZZ8R6CA036615) за 1 120 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-07T03:52:55.119Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-07T03:52:45.087Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Polo (XW8ZZZ61ZHG018871) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-06T10:49:30.750Z",
       "action": "add",
@@ -9004,7 +9036,6 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-06T10:49:39.300Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-09-07T12:10:59.920Z",
+  "version": "3.2"
 }
