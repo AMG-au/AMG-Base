@@ -5384,9 +5384,151 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Getz",
+      "year": 2010,
+      "color": "Черный",
+      "mileage": 207946,
+      "engineVolume": 1.4,
+      "power": 97,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "KMHBT51DBBU021686",
+      "dateAdded": "2025-09-07",
+      "whoAdded": "Олег",
+      "priceToHands": 595000,
+      "haggle": "",
+      "priceSalon": 595000,
+      "report": "https://profi.avtocod.ru/report/guest/6e7a3cf6-dd17-4d50-b1f2-a804c665e11d",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-10",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-10",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Renault",
+      "model": "Duster",
+      "year": 2019,
+      "color": "Белый",
+      "mileage": 265565,
+      "engineVolume": 2,
+      "power": 143,
+      "driveType": "Полный",
+      "transmission": "Механика",
+      "vin": "X7LHSRHGN64479257",
+      "dateAdded": "2025-09-08",
+      "whoAdded": "Олег",
+      "priceToHands": 1045000,
+      "haggle": "",
+      "priceSalon": 1045000,
+      "report": "https://profi.avtocod.ru/report/guest/f7834abb-f0a2-4975-a87b-3a7773896e67",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-10",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-10",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-10T06:03:19.051Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Renault Duster (X7LHSRHGN64479257) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T06:03:10.740Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T06:03:00.292Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Renault Duster (X7LHSRHGN64479257)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T05:04:30.624Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T05:04:20.603Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Getz (KMHBT51DBBU021686) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T05:04:16.254Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T05:04:06.218Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai Getz (KMHBT51DBBU021686)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-07T12:11:12.658Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-07T12:10:59.926Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-07T12:10:56.682Z",
       "action": "sale",
@@ -9036,6 +9178,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-07T12:10:59.920Z",
+  "exportDate": "2025-09-10T06:03:21.278Z",
   "version": "3.2"
 }
