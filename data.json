@@ -3733,10 +3733,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-09-10",
+      "returnReason": "Другое",
+      "returnComment": "Забрал хозяин",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -3767,6 +3767,11 @@
           "date": "2025-08-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-10",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрал хозяин"
         }
       ],
       "archived": false
@@ -5475,6 +5480,24 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-10T08:20:28.906Z",
+      "action": "return",
+      "description": "Возврат автомобиля ЗАЗ Chance (Y6DTF69Y0B0282423). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T06:03:31.802Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-10T06:03:21.284Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-10T06:03:19.051Z",
       "action": "status",
@@ -9178,6 +9201,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-10T06:03:21.278Z",
+  "exportDate": "2025-09-10T08:20:31.725Z",
   "version": "3.2"
 }
