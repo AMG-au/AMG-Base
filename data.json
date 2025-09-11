@@ -3591,10 +3591,9 @@
       "report": "https://profi.avtocod.ru/report/guest/f36a194b-9738-45ca-b2a2-58e51bff2a90",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -3602,10 +3601,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3636,9 +3633,18 @@
           "date": "2025-08-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-11",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-11",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Volkswagen",
@@ -5255,10 +5261,9 @@
       "report": "https://profi.avtocod.ru/report/guest/613e687f-5871-4897-b4cc-e29bce4a7cba",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5266,10 +5271,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-06",
@@ -5280,9 +5283,18 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-11",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-11",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Opel",
@@ -5409,8 +5421,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6e7a3cf6-dd17-4d50-b1f2-a804c665e11d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -5419,8 +5432,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-10",
@@ -5432,7 +5447,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Renault",
@@ -5455,7 +5471,7 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5475,11 +5491,81 @@
           "date": "2025-09-10",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-11",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-11",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-11T07:06:12.676Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Accent (X7MCF41GP6M085696) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:06:07.877Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Accent (X7MCF41GP6M085696)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:05:43.146Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:05:33.115Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Toyota Yaris (VNKKL96310A184131) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:05:21.145Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:05:11.124Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Renault Duster (X7LHSRHGN64479257) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:04:52.190Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:04:42.165Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Yaris (VNKKL96310A184131)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:04:24.907Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-11T07:04:14.872Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Renault Duster (X7LHSRHGN64479257)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-10T08:20:28.906Z",
       "action": "return",
@@ -9201,6 +9287,7 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-10T08:20:31.725Z",
-  "version": "3.2"
+  "lastSaved": "2025-09-11T07:06:20.995Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
