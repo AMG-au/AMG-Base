@@ -3591,8 +3591,9 @@
       "report": "https://profi.avtocod.ru/report/guest/f36a194b-9738-45ca-b2a2-58e51bff2a90",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -3601,8 +3602,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -3644,7 +3647,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -5261,8 +5265,9 @@
       "report": "https://profi.avtocod.ru/report/guest/613e687f-5871-4897-b4cc-e29bce4a7cba",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -5271,8 +5276,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-06",
@@ -5294,7 +5301,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Opel",
@@ -5469,8 +5477,9 @@
       "report": "https://profi.avtocod.ru/report/guest/f7834abb-f0a2-4975-a87b-3a7773896e67",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -5479,8 +5488,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-10",
@@ -5502,10 +5513,79 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Kia",
+      "model": "Rio",
+      "year": 2011,
+      "color": "Морковный",
+      "mileage": 85526,
+      "engineVolume": 1.4,
+      "power": 95,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWEDH411BC0010994",
+      "dateAdded": "2025-09-12",
+      "whoAdded": "Альберт",
+      "priceToHands": 630000,
+      "haggle": "",
+      "priceSalon": 630000,
+      "report": "https://profi.avtocod.ru/report/guest/78bd5d4c-b8c1-46ff-91ab-a6b1472bfe8e",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-12",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-12",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-12T11:11:05.662Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:10:55.633Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (XWEDH411BC0010994)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:08:53.309Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:08:42.410Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Rio (XWEDH411BC0010994)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-11T07:06:12.676Z",
       "action": "status",
@@ -9287,7 +9367,6 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-11T07:06:20.995Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-09-12T11:11:15.415Z",
+  "version": "3.2"
 }
