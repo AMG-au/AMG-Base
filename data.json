@@ -5537,7 +5537,7 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5545,7 +5545,7 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
+      "status": "available",
       "margin": null,
       "history": [
         {
@@ -5557,11 +5557,68 @@
           "date": "2025-09-12",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-12",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-12T11:13:49.775Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (XWEDH411BC0010994) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:13:48.683Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:13:38.666Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (XWEDH411BC0010994)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:13:19.298Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:13:09.279Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (XWEDH411BC0010994) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:11:26.312Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-12T11:11:15.422Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-12T11:11:05.662Z",
       "action": "sync",
@@ -9367,6 +9424,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-12T11:11:15.415Z",
+  "exportDate": "2025-09-12T11:13:59.958Z",
   "version": "3.2"
 }
