@@ -5538,14 +5538,14 @@
       "howSold": null,
       "whoSold": null,
       "paints": "Родня",
-      "additionalInfo": "",
+      "additionalInfo": "В ДКП указать 500000",
       "saleComment": "",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "available",
+      "status": "draft",
       "margin": null,
       "history": [
         {
@@ -5572,11 +5572,101 @@
           "date": "2025-09-12",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-14",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        }
+      ]
+    },
+    {
+      "brand": "Лада (ВАЗ)",
+      "model": "Приора",
+      "year": 2011,
+      "color": "Серо-зеленый",
+      "mileage": null,
+      "engineVolume": 1.6,
+      "power": 98,
+      "driveType": "",
+      "transmission": "Механика",
+      "vin": "XTA217230B0137680",
+      "dateAdded": "2025-09-14",
+      "whoAdded": "Альберт",
+      "priceToHands": 270000,
+      "haggle": "",
+      "priceSalon": 270000,
+      "report": "https://profi.avtocod.ru/report/guest/889c29b4-9f0c-4695-aea7-e3a8adf872f9",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "В ДКП указать 125000!",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-14",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-14",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-14",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-14T11:03:55.305Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Приора (XTA217230B0137680) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-14T11:03:46.842Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Приора (XTA217230B0137680)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-14T11:03:24.896Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-14T11:03:14.876Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Лада (ВАЗ) Приора (XTA217230B0137680)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-14T11:02:01.852Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-14T11:01:51.827Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (XWEDH411BC0010994)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-12T11:13:49.775Z",
       "action": "status",
@@ -9424,6 +9514,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-12T11:13:59.958Z",
+  "exportDate": "2025-09-14T11:04:00.009Z",
   "version": "3.2"
 }
