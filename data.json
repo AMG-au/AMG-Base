@@ -529,10 +529,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "warehouse",
+      "returnDate": "2025-08-16",
+      "returnReason": "Другое",
+      "returnComment": "Забрал Альберт",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-22",
@@ -553,6 +553,11 @@
           "date": "2025-07-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
+        },
+        {
+          "date": "2025-08-16",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрал Альберт"
         }
       ],
       "archived": false
@@ -1033,11 +1038,11 @@
       "haggle": "",
       "priceSalon": 890000,
       "report": "https://profi.avtocod.ru/report/guest/14bd079d-eabd-4e9c-ad1b-53b4344b87c3",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-07-16",
+      "salePrice": 890000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": -30000,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -1049,7 +1054,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "warehouse",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -1080,6 +1085,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
+        },
+        {
+          "date": "2025-07-16",
+          "action": "Продан",
+          "details": "Продан за 890 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -2537,7 +2547,7 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
+      "status": "available",
       "margin": null,
       "history": [
         {
@@ -2564,6 +2574,11 @@
           "date": "2025-09-16",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     },
@@ -2960,10 +2975,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-08-16",
       "returnReason": "",
-      "returnComment": "",
-      "status": "warehouse",
+      "returnComment": "Забрал Олег",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -2979,6 +2994,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"В продаже\" на \"На складе\""
+        },
+        {
+          "date": "2025-08-16",
+          "action": "Возврат",
+          "details": "Причина: . Забрал Олег"
         }
       ],
       "archived": false
@@ -3348,11 +3368,11 @@
       "haggle": "",
       "priceSalon": 330000,
       "report": "https://profi.avtocod.ru/report/guest/2caf8530-1818-4c04-86ed-580a777239e7",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-07-12",
+      "salePrice": 330000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 20000,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -3364,7 +3384,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "warehouse",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -3390,6 +3410,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
+        },
+        {
+          "date": "2025-07-12",
+          "action": "Продан",
+          "details": "Продан за 330 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -4003,11 +4028,11 @@
       "haggle": "",
       "priceSalon": 999000,
       "report": "https://profi.avtocod.ru/report/guest/c0c2e1d1-05ed-4293-b349-f3f165b1ee7b",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-07-16",
+      "salePrice": 990000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 20000,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -4019,7 +4044,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "warehouse",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -4030,6 +4055,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"На складе\""
+        },
+        {
+          "date": "2025-07-16",
+          "action": "Продан",
+          "details": "Продан за 990 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -4699,11 +4729,10 @@
       "haggle": "",
       "priceSalon": 545000,
       "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
-      "dateSold": "2025-08-25",
+      "dateSold": "2025-09-09",
       "salePrice": 545000,
       "howSold": "Кредит",
       "whoSold": "Антон",
-      "margin": 0,
       "paints": "Заднее правое крыло шпакля в уголке у фары, крышка багажника шпакля справа",
       "additionalInfo": "",
       "saleComment": "",
@@ -4712,10 +4741,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "sold",
+      "margin": 0,
       "history": [
         {
           "date": "2025-08-30",
@@ -4756,9 +4783,13 @@
           "date": "2025-09-16",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -5024,23 +5055,23 @@
       "haggle": "",
       "priceSalon": 1095000,
       "report": "https://profi.avtocod.ru/report/guest/072af789-be69-4184-8b5e-717596939b9c",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-08",
+      "salePrice": 1095000,
+      "howSold": "Кредит",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Капот до 330, левое переднее крыло до 400, левая передняя дверь до 800, правое заднее крыло до 300 арка до 800, правое переднее крыло до 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
+      "creditOverprice": "Нет",
+      "creditDownPayment": 500000,
+      "creditAmount": 795000,
       "creditReward": null,
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-03",
@@ -5061,6 +5092,11 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-08",
+          "action": "Продан",
+          "details": "Продан за 1 095 000 ₽ (Кредит, Антон)"
         }
       ],
       "archived": false
@@ -5826,6 +5862,108 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-16T10:18:52.811Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:18:42.786Z",
+      "action": "sale",
+      "description": "Продан автомобиль Mitsubishi Outlander (JMBXTCW4WAZ004927) за 1 095 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:15:24.605Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:15:14.577Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Suzuki Liana (JSAERB31S00300035) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:15:00.868Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:14:50.843Z",
+      "action": "return",
+      "description": "Возврат автомобиля Volkswagen Touareg (XW8ZZZ7PZDG007461). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:13:41.644Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:13:31.611Z",
+      "action": "sale",
+      "description": "Продан автомобиль Citroen C4 (VF7LCNFUC74865518) за 330 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:12:41.270Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:12:31.243Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai Veloster (KMHTE61DGCU054830) за 890 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:11:54.055Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:11:44.042Z",
+      "action": "return",
+      "description": "Возврат автомобиля Chevrolet Monza (LSGKB54H0PV124156). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:11:11.413Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:11:01.379Z",
+      "action": "sale",
+      "description": "Продан автомобиль BMW X3 (X4XPE1845AWC94075) за 990 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:10:03.492Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:09:53.460Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Cruze (XUFJF696JC3054862)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:36:49.329Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-16T06:36:39.296Z",
       "action": "edit",
@@ -9943,7 +10081,6 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-16T06:36:49.312Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-09-16T10:19:02.881Z",
+  "version": "3.2"
 }
