@@ -5444,8 +5444,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6e7a3cf6-dd17-4d50-b1f2-a804c665e11d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Левая задняя арка 2500\nЛевая задняя дверь 500\nВодительская дверь 2500\nПравое переднее крыло 500",
       "additionalInfo": "",
       "saleComment": "",
@@ -5454,8 +5455,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-10",
@@ -5477,7 +5480,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Renault",
@@ -5570,7 +5574,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-09-12",
@@ -5601,6 +5605,11 @@
           "date": "2025-09-14",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -5624,8 +5633,9 @@
       "report": "https://profi.avtocod.ru/report/guest/889c29b4-9f0c-4695-aea7-e3a8adf872f9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот 350\nЛевое переднее крыло до 500\nЛевая задняя дверь 3500 плюс\nЛевое заднее крыло 3500",
       "additionalInfo": "В ДКП указать 125000!",
       "saleComment": "",
@@ -5634,8 +5644,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-14",
@@ -5662,7 +5674,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -5683,8 +5696,9 @@
       "report": "https://profi.avtocod.ru/report/guest/946e8f51-7605-4537-8eb1-504aef2ca773",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло 500",
       "additionalInfo": "",
       "saleComment": "",
@@ -5693,8 +5707,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-16",
@@ -5726,7 +5742,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -5747,8 +5764,9 @@
       "report": "https://profi.avtocod.ru/report/guest/dd86828f-26c2-4310-a69a-79544b20d06a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -5757,8 +5775,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-16",
@@ -5770,10 +5790,17 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-16T05:48:47.701Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (XWEDH411BC0010994) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-16T05:14:40.381Z",
       "action": "sync",
@@ -9813,6 +9840,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-16T05:15:07.457Z",
+  "exportDate": "2025-09-16T05:48:50.597Z",
   "version": "3.2"
 }
