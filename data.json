@@ -4421,11 +4421,11 @@
       "haggle": "",
       "priceSalon": 1095000,
       "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-15",
+      "salePrice": 1095000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Правое переднее крыло 1400\nПравая передняя дверь 1200\nЛевое заднее крыло 300\nЛевая задняя дверь 1300\nЛевая передняя дверь 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -4437,7 +4437,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-08-24",
@@ -4458,6 +4458,11 @@
           "date": "2025-08-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-15",
+          "action": "Продан",
+          "details": "Продан за 1 095 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -4537,11 +4542,11 @@
       "haggle": "",
       "priceSalon": 595000,
       "report": "https://profi.avtocod.ru/report/guest/ecfa8ba3-cbd9-44e8-82f3-9ae5eb7d564a",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-25",
+      "salePrice": 595000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Правая передняя дверь шпакля\nЛевое заднее крыло 1000\nБагажник 700\nПравое заднее крыло 1000\nЛевая задняя арка 1200",
       "additionalInfo": "Максимальлная комплектация PRESTIGE для мкпп",
       "saleComment": "",
@@ -4553,7 +4558,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-08-24",
@@ -4579,6 +4584,11 @@
           "date": "2025-08-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Продан",
+          "details": "Продан за 595 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -4663,11 +4673,11 @@
       "haggle": "",
       "priceSalon": 545000,
       "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-08-25",
+      "salePrice": 545000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Заднее правое крыло шпакля в уголке у фары, крышка багажника шпакля справа",
       "additionalInfo": "",
       "saleComment": "",
@@ -4679,7 +4689,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-08-30",
@@ -4710,6 +4720,11 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"На складе\" на \"В продаже\""
+        },
+        {
+          "date": "2025-08-25",
+          "action": "Продан",
+          "details": "Продан за 545 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -5535,8 +5550,9 @@
       "report": "https://profi.avtocod.ru/report/guest/78bd5d4c-b8c1-46ff-91ab-a6b1472bfe8e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "В ДКП указать 500000",
       "saleComment": "",
@@ -5545,8 +5561,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-12",
@@ -5578,7 +5596,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -5599,8 +5618,9 @@
       "report": "https://profi.avtocod.ru/report/guest/889c29b4-9f0c-4695-aea7-e3a8adf872f9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "В ДКП указать 125000!",
       "saleComment": "",
@@ -5609,8 +5629,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-14",
@@ -5627,10 +5649,199 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Nissan",
+      "model": "Juke",
+      "year": 2011,
+      "color": "Белый",
+      "mileage": 158852,
+      "engineVolume": 1.6,
+      "power": 117,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "SJNFBAF15U6163433",
+      "dateAdded": "2025-09-15",
+      "whoAdded": "Альберт",
+      "priceToHands": 850000,
+      "haggle": "",
+      "priceSalon": 850000,
+      "report": "https://profi.avtocod.ru/report/guest/946e8f51-7605-4537-8eb1-504aef2ca773",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-16",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Murano",
+      "year": 2008,
+      "color": "Бежевый",
+      "mileage": 231952,
+      "engineVolume": 3.5,
+      "power": 249,
+      "driveType": "Полный",
+      "transmission": "Вариатор",
+      "vin": "JN1TANZ51U0003073",
+      "dateAdded": "2025-09-13",
+      "whoAdded": "Альберт",
+      "priceToHands": 930000,
+      "haggle": "",
+      "priceSalon": 930000,
+      "report": "https://profi.avtocod.ru/report/guest/dd86828f-26c2-4310-a69a-79544b20d06a",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-16",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-16T04:27:30.576Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:27:20.560Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Murano (JN1TANZ51U0003073) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:27:14.489Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Murano (JN1TANZ51U0003073)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:24:42.876Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:24:32.848Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6163433) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:24:25.601Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6163433)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:22:54.104Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6163433) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:22:52.312Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:22:42.274Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Juke (SJNFBAF15U6163433)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-15T05:09:20.229Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-15T05:09:10.202Z",
+      "action": "sale",
+      "description": "Продан автомобиль Nissan X-TRAIL (Z8NTBNT31BS035357) за 1 095 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-15T05:08:46.691Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-15T05:08:36.665Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia Rio (Z94CC41BAFR265397) за 595 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-15T05:08:12.944Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-15T05:08:02.923Z",
+      "action": "sale",
+      "description": "Продан автомобиль Chevrolet Cruze (XUFJF696JC3054862) за 545 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-14T11:03:55.305Z",
       "action": "status",
@@ -9514,6 +9725,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-14T11:04:00.009Z",
+  "exportDate": "2025-09-16T04:27:35.960Z",
   "version": "3.2"
 }
