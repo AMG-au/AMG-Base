@@ -1695,7 +1695,6 @@
       "salePrice": 580000,
       "howSold": "Наличка",
       "whoSold": "Антон",
-      "margin": -10000,
       "paints": "Арки по 400\nПравая передняя дверь 800+",
       "additionalInfo": "",
       "saleComment": "Оплата полностью по QR-коду",
@@ -1704,10 +1703,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "sold",
+      "margin": -10000,
       "history": [
         {
           "date": "2025-07-22",
@@ -1733,9 +1730,18 @@
           "date": "2025-08-14",
           "action": "Продан",
           "details": "Продан за 580 000 ₽ (Наличка, Антон)"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Mitsubishi",
@@ -4271,7 +4277,6 @@
       "salePrice": 2715000,
       "howSold": "Кредит",
       "whoSold": "Никита",
-      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "ВНЕ САЛОНА",
@@ -4280,18 +4285,20 @@
       "creditDownPayment": 815000,
       "creditAmount": 1900000,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "sold",
+      "margin": 0,
       "history": [
         {
           "date": "2025-07-31",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Skoda",
@@ -4423,9 +4430,8 @@
       "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
       "dateSold": "2025-09-15",
       "salePrice": 1095000,
-      "howSold": "Наличка",
+      "howSold": "Кредит",
       "whoSold": "Антон",
-      "margin": 0,
       "paints": "Правое переднее крыло 1400\nПравая передняя дверь 1200\nЛевое заднее крыло 300\nЛевая задняя дверь 1300\nЛевая передняя дверь 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -4434,10 +4440,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "sold",
+      "margin": 0,
       "history": [
         {
           "date": "2025-08-24",
@@ -4463,9 +4467,13 @@
           "date": "2025-09-15",
           "action": "Продан",
           "details": "Продан за 1 095 000 ₽ (Наличка, Антон)"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Volkswagen",
@@ -4675,9 +4683,8 @@
       "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
       "dateSold": "2025-08-25",
       "salePrice": 545000,
-      "howSold": "Наличка",
+      "howSold": "Кредит",
       "whoSold": "Антон",
-      "margin": 0,
       "paints": "Заднее правое крыло шпакля в уголке у фары, крышка багажника шпакля справа",
       "additionalInfo": "",
       "saleComment": "",
@@ -4686,10 +4693,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "sold",
+      "margin": 0,
       "history": [
         {
           "date": "2025-08-30",
@@ -4725,9 +4730,13 @@
           "date": "2025-08-25",
           "action": "Продан",
           "details": "Продан за 545 000 ₽ (Наличка, Антон)"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -5795,6 +5804,60 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-16T06:13:24.811Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Dodge Challenger (2C3CDZAG0HH587295)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:13:11.182Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:13:01.163Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chevrolet Cruze (XUFJF696JC3054862)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:12:53.932Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:12:43.907Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:10:41.864Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:10:31.835Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:10:20.458Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T06:10:10.428Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan X-TRAIL (Z8NTBNT31BS035357)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-16T05:48:47.701Z",
       "action": "status",
@@ -9840,6 +9903,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-16T05:48:50.597Z",
+  "exportDate": "2025-09-16T06:13:27.282Z",
   "version": "3.2"
 }
