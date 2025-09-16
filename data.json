@@ -5444,10 +5444,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6e7a3cf6-dd17-4d50-b1f2-a804c665e11d",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Левая задняя арка 2500\nЛевая задняя дверь 500\nВодительская дверь 2500\nПравое переднее крыло 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5455,10 +5454,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-10",
@@ -5469,9 +5466,18 @@
           "date": "2025-09-10",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Renault",
@@ -5618,10 +5624,9 @@
       "report": "https://profi.avtocod.ru/report/guest/889c29b4-9f0c-4695-aea7-e3a8adf872f9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот 350\nЛевое переднее крыло до 500\nЛевая задняя дверь 3500 плюс\nЛевое заднее крыло 3500",
       "additionalInfo": "В ДКП указать 125000!",
       "saleComment": "",
       "creditBank": "",
@@ -5629,10 +5634,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-14",
@@ -5648,9 +5651,18 @@
           "date": "2025-09-14",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Nissan",
@@ -5673,7 +5685,7 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
-      "paints": "",
+      "paints": "Правое переднее крыло 500",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5688,6 +5700,16 @@
           "date": "2025-09-16",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         },
         {
           "date": "2025-09-16",
@@ -5752,6 +5774,72 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-16T05:14:40.381Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:14:30.353Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Лада (ВАЗ) Приора (XTA217230B0137680) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:14:22.483Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Лада (ВАЗ) Приора (XTA217230B0137680)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:13:50.136Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:13:40.106Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Getz (KMHBT51DBBU021686) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:13:33.907Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Getz (KMHBT51DBBU021686)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:12:51.540Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:12:41.513Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6163433) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T05:12:33.227Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6163433)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:27:48.440Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T04:27:35.966Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-16T04:27:30.576Z",
       "action": "sync",
@@ -9725,6 +9813,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-16T04:27:35.960Z",
+  "exportDate": "2025-09-16T05:15:07.457Z",
   "version": "3.2"
 }
