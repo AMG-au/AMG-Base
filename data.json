@@ -1695,6 +1695,7 @@
       "salePrice": 580000,
       "howSold": "Наличка",
       "whoSold": "Антон",
+      "margin": -10000,
       "paints": "Арки по 400\nПравая передняя дверь 800+",
       "additionalInfo": "",
       "saleComment": "Оплата полностью по QR-коду",
@@ -1703,8 +1704,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": -10000,
       "history": [
         {
           "date": "2025-07-22",
@@ -1730,18 +1733,9 @@
           "date": "2025-08-14",
           "action": "Продан",
           "details": "Продан за 580 000 ₽ (Наличка, Антон)"
-        },
-        {
-          "date": "2025-09-16",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
-        },
-        {
-          "date": "2025-09-16",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mitsubishi",
@@ -4277,6 +4271,7 @@
       "salePrice": 2715000,
       "howSold": "Кредит",
       "whoSold": "Никита",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "ВНЕ САЛОНА",
@@ -4285,20 +4280,18 @@
       "creditDownPayment": 815000,
       "creditAmount": 1900000,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-07-31",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
-        },
-        {
-          "date": "2025-09-16",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Skoda",
@@ -4430,8 +4423,9 @@
       "report": "https://profi.avtocod.ru/report/guest/cd1a3577-bbd8-4bbd-abea-71824255646a",
       "dateSold": "2025-09-15",
       "salePrice": 1095000,
-      "howSold": "Кредит",
+      "howSold": "Наличка",
       "whoSold": "Антон",
+      "margin": 0,
       "paints": "Правое переднее крыло 1400\nПравая передняя дверь 1200\nЛевое заднее крыло 300\nЛевая задняя дверь 1300\nЛевая передняя дверь 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -4440,8 +4434,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-08-24",
@@ -4467,13 +4463,9 @@
           "date": "2025-09-15",
           "action": "Продан",
           "details": "Продан за 1 095 000 ₽ (Наличка, Антон)"
-        },
-        {
-          "date": "2025-09-16",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -4683,8 +4675,9 @@
       "report": "https://profi.avtocod.ru/report/guest/da31a9a7-92f3-4e60-882e-d80611712d86",
       "dateSold": "2025-08-25",
       "salePrice": 545000,
-      "howSold": "Кредит",
+      "howSold": "Наличка",
       "whoSold": "Антон",
+      "margin": 0,
       "paints": "Заднее правое крыло шпакля в уголке у фары, крышка багажника шпакля справа",
       "additionalInfo": "",
       "saleComment": "",
@@ -4693,8 +4686,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-08-30",
@@ -4730,13 +4725,9 @@
           "date": "2025-08-25",
           "action": "Продан",
           "details": "Продан за 545 000 ₽ (Наличка, Антон)"
-        },
-        {
-          "date": "2025-09-16",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -5002,11 +4993,11 @@
       "haggle": "",
       "priceSalon": 1095000,
       "report": "https://profi.avtocod.ru/report/guest/072af789-be69-4184-8b5e-717596939b9c",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-08",
+      "salePrice": 1095000,
+      "howSold": "Кредит",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Капот до 330, левое переднее крыло до 400, левая передняя дверь до 800, правое заднее крыло до 300 арка до 800, правое переднее крыло до 500",
       "additionalInfo": "",
       "saleComment": "",
@@ -5018,7 +5009,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-03",
@@ -5039,6 +5030,11 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-08",
+          "action": "Продан",
+          "details": "Продан за 1 095 000 ₽ (Кредит, Антон)"
         }
       ],
       "archived": false
@@ -5805,57 +5801,9 @@
   ],
   "history": [
     {
-      "timestamp": "2025-09-16T06:13:24.811Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Dodge Challenger (2C3CDZAG0HH587295)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:13:11.182Z",
-      "action": "sync",
-      "description": "Создан файл data.json для синхронизации",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:13:01.163Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Chevrolet Cruze (XUFJF696JC3054862)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:12:53.932Z",
-      "action": "sync",
-      "description": "Создан файл data.json для синхронизации",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:12:43.907Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:10:41.864Z",
-      "action": "sync",
-      "description": "Создан файл data.json для синхронизации",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:10:31.835Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:10:20.458Z",
-      "action": "sync",
-      "description": "Создан файл data.json для синхронизации",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-09-16T06:10:10.428Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Nissan X-TRAIL (Z8NTBNT31BS035357)",
+      "timestamp": "2025-09-16T06:15:41.907Z",
+      "action": "sale",
+      "description": "Продан автомобиль Mitsubishi Outlander (JMBXTCW4WAZ004927) за 1 095 000 ₽",
       "archived": false
     },
     {
@@ -9903,6 +9851,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-16T06:13:27.282Z",
+  "exportDate": "2025-09-16T06:15:45.251Z",
   "version": "3.2"
 }
