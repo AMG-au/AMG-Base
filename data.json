@@ -5625,11 +5625,11 @@
       "haggle": "",
       "priceSalon": 630000,
       "report": "https://profi.avtocod.ru/report/guest/78bd5d4c-b8c1-46ff-91ab-a6b1472bfe8e",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-19",
+      "salePrice": 620000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -10000,
       "paints": "Родня",
       "additionalInfo": "В ДКП указать 500000",
       "saleComment": "",
@@ -5641,7 +5641,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-12",
@@ -5677,6 +5677,11 @@
           "date": "2025-09-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-19",
+          "action": "Продан",
+          "details": "Продан за 620 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -5862,6 +5867,30 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-19T11:49:23.189Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-19T11:49:12.813Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia Rio (XWEDH411BC0010994) за 620 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:19:13.815Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-16T10:19:02.888Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-16T10:18:52.811Z",
       "action": "sync",
@@ -10081,6 +10110,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-16T10:19:02.881Z",
+  "exportDate": "2025-09-19T11:50:40.108Z",
   "version": "3.2"
 }
