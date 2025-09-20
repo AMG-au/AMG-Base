@@ -2537,8 +2537,9 @@
       "report": "https://profi.avtocod.ru/report/guest/1b1038af-e120-4e2a-ada0-64c93bc4a469",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот до 600\nПередние крылья до 300\nПравоая передняя дверь до 800\nПравая задняя дверь шпакля\nЗаднее правое крыло до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -2547,8 +2548,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-07-23",
@@ -2580,7 +2583,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -4733,6 +4737,7 @@
       "salePrice": 545000,
       "howSold": "Кредит",
       "whoSold": "Антон",
+      "margin": 0,
       "paints": "Заднее правое крыло шпакля в уголке у фары, крышка багажника шпакля справа",
       "additionalInfo": "",
       "saleComment": "",
@@ -4741,8 +4746,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-08-30",
@@ -4789,7 +4796,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -5864,9 +5872,99 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Kia",
+      "model": "Rio",
+      "year": 2010,
+      "color": "Синий",
+      "mileage": 160120,
+      "engineVolume": 1.4,
+      "power": 95,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWEDH411BB0005544",
+      "dateAdded": "2025-09-17",
+      "whoAdded": "Олег",
+      "priceToHands": 599000,
+      "haggle": "",
+      "priceSalon": 599000,
+      "report": "https://profi.avtocod.ru/report/guest/c4f5b529-afde-4754-aa4e-e50b2c8cefca",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-20",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-20T06:33:13.742Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (XWEDH411BB0005544) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:07:34.194Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:07:23.675Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Rio (XWEDH411BB0005544)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:06:19.029Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:06:09.002Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Rio (XWEDH411BB0005544) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:06:00.566Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Rio (XWEDH411BB0005544)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-19T11:49:23.189Z",
       "action": "sync",
@@ -10110,6 +10208,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-19T11:50:40.108Z",
+  "exportDate": "2025-09-20T06:33:16.310Z",
   "version": "3.2"
 }
