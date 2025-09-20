@@ -5711,14 +5711,14 @@
       "haggle": "",
       "priceSalon": 270000,
       "report": "https://profi.avtocod.ru/report/guest/889c29b4-9f0c-4695-aea7-e3a8adf872f9",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-20",
+      "salePrice": 260000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": -10000,
       "paints": "Капот 350\nЛевое переднее крыло до 500\nЛевая задняя дверь 3500 плюс\nЛевое заднее крыло 3500",
       "additionalInfo": "В ДКП указать 125000!",
-      "saleComment": "",
+      "saleComment": "Наличные, 240 отдал Альберту сразу",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
@@ -5727,7 +5727,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-14",
@@ -5753,6 +5753,11 @@
           "date": "2025-09-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Продан",
+          "details": "Продан за 260 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -5892,8 +5897,9 @@
       "report": "https://profi.avtocod.ru/report/guest/c4f5b529-afde-4754-aa4e-e50b2c8cefca",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -5902,8 +5908,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-20",
@@ -5925,7 +5933,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Opel",
@@ -5946,8 +5955,9 @@
       "report": "https://profi.avtocod.ru/report/guest/212cb18e-8647-4a0c-b7d0-ae126909fc11",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -5956,8 +5966,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-20",
@@ -5979,7 +5991,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -6000,8 +6013,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7ed85a11-b4c5-4845-bc04-0cd4724ee496",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -6010,8 +6024,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-20",
@@ -6028,10 +6044,17 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-20T12:57:33.725Z",
+      "action": "sale",
+      "description": "Продан автомобиль Лада (ВАЗ) Приора (XTA217230B0137680) за 260 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-20T07:19:57.173Z",
       "action": "export",
@@ -10401,7 +10424,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-20T07:20:08.169Z",
+  "lastSaved": "2025-09-20T12:57:43.739Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
