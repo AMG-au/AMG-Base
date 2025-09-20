@@ -5926,9 +5926,202 @@
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
+    },
+    {
+      "brand": "Opel",
+      "model": "Insignia",
+      "year": 2012,
+      "color": "Белый",
+      "mileage": 163637,
+      "engineVolume": 2,
+      "power": 220,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWFGT5ED1D0000825",
+      "dateAdded": "2025-09-16",
+      "whoAdded": "Усоля",
+      "priceToHands": 999000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "https://profi.avtocod.ru/report/guest/212cb18e-8647-4a0c-b7d0-ae126909fc11",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-20",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2012,
+      "color": "Серый",
+      "mileage": 218424,
+      "engineVolume": 2.4,
+      "power": 175,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "KMHSU81CDDU034002",
+      "dateAdded": "2025-09-16",
+      "whoAdded": "Олег",
+      "priceToHands": 1495000,
+      "haggle": "",
+      "priceSalon": 1495000,
+      "report": "https://profi.avtocod.ru/report/guest/7ed85a11-b4c5-4845-bc04-0cd4724ee496",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-20",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-20T07:19:57.173Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:19:48.544Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Santa Fe (KMHSU81CDDU034002) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:19:45.231Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:19:35.218Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Santa Fe (KMHSU81CDDU034002)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:19:10.184Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:18:59.426Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai Santa Fe (KMHSU81CDDU034002)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:18:01.121Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:17:51.096Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Insignia (XWFGT5ED1D0000825) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:17:43.690Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Opel Insignia (XWFGT5ED1D0000825)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:17:37.929Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:17:27.904Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Insignia (XWFGT5ED1D0000825) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:17:08.715Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T07:16:58.683Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Opel Insignia (XWFGT5ED1D0000825)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:33:26.327Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T06:33:16.316Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-20T06:33:13.742Z",
       "action": "status",
@@ -10208,6 +10401,7 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-20T06:33:16.310Z",
-  "version": "3.2"
+  "lastSaved": "2025-09-20T07:20:08.169Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
