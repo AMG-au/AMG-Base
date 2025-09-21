@@ -5353,14 +5353,14 @@
       "haggle": "",
       "priceSalon": 345000,
       "report": "https://profi.avtocod.ru/report/guest/613e687f-5871-4897-b4cc-e29bce4a7cba",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-20",
+      "salePrice": 290000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -55000,
       "paints": "Родной окрас",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Наличные, отдал 270 Олегу сразу",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
@@ -5369,7 +5369,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-06",
@@ -5390,6 +5390,11 @@
           "date": "2025-09-11",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-20",
+          "action": "Продан",
+          "details": "Продан за 290 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -6049,6 +6054,18 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-21T14:15:26.277Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai Accent (X7MCF41GP6M085696) за 290 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-20T12:57:43.757Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-20T12:57:33.725Z",
       "action": "sale",
@@ -10424,7 +10441,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-20T12:57:43.739Z",
+  "lastSaved": "2025-09-21T14:15:32.956Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
