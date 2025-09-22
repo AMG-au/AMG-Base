@@ -5905,11 +5905,11 @@
       "haggle": "",
       "priceSalon": 599000,
       "report": "https://profi.avtocod.ru/report/guest/c4f5b529-afde-4754-aa4e-e50b2c8cefca",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-22",
+      "salePrice": 589000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": -10000,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -5921,7 +5921,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-20",
@@ -5942,6 +5942,11 @@
           "date": "2025-09-20",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-22",
+          "action": "Продан",
+          "details": "Продан за 589 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -6059,6 +6064,12 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-22T13:29:43.092Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia Rio (XWEDH411BB0005544) за 589 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-22T10:55:11.984Z",
       "action": "sale",
@@ -10464,6 +10475,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-22T10:55:14.671Z",
+  "exportDate": "2025-09-22T13:29:44.978Z",
   "version": "3.2"
 }
