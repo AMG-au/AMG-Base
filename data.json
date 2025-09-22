@@ -5522,11 +5522,11 @@
       "haggle": "",
       "priceSalon": 595000,
       "report": "https://profi.avtocod.ru/report/guest/6e7a3cf6-dd17-4d50-b1f2-a804c665e11d",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-22",
+      "salePrice": 580000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -15000,
       "paints": "Левая задняя арка 2500\nЛевая задняя дверь 500\nВодительская дверь 2500\nПравое переднее крыло 500",
       "additionalInfo": "",
       "saleComment": "",
@@ -5538,7 +5538,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-10",
@@ -5559,6 +5559,11 @@
           "date": "2025-09-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-22",
+          "action": "Продан",
+          "details": "Продан за 580 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -6054,6 +6059,24 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-22T10:55:11.984Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai Getz (KMHBT51DBBU021686) за 580 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-21T14:15:43.647Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-21T14:15:32.963Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-21T14:15:26.277Z",
       "action": "sale",
@@ -10441,7 +10464,6 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-09-21T14:15:32.956Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-09-22T10:55:14.671Z",
+  "version": "3.2"
 }
