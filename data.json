@@ -1416,11 +1416,11 @@
       "haggle": "",
       "priceSalon": 3199000,
       "report": "https://profi.avtocod.ru/report/guest/cf938132-79a5-4b02-9993-24089dc50a86",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-09-24",
+      "salePrice": 3150000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 50000,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -1432,7 +1432,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -1453,6 +1453,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-24",
+          "action": "Продан",
+          "details": "Продан за 3 150 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -6065,6 +6070,12 @@
   ],
   "history": [
     {
+      "timestamp": "2025-09-24T09:07:47.096Z",
+      "action": "sale",
+      "description": "Продан автомобиль Lexus NX300h (JTJBJRBZ302002574) за 3 150 000 ₽",
+      "archived": false
+    },
+    {
       "timestamp": "2025-09-22T13:29:43.092Z",
       "action": "sale",
       "description": "Продан автомобиль Kia Rio (XWEDH411BB0005544) за 589 000 ₽",
@@ -10475,6 +10486,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-22T13:29:44.978Z",
+  "exportDate": "2025-09-24T09:07:49.775Z",
   "version": "3.2"
 }
