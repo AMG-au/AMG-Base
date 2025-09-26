@@ -5864,10 +5864,9 @@
       "report": "https://profi.avtocod.ru/report/guest/dd86828f-26c2-4310-a69a-79544b20d06a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5875,10 +5874,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-16",
@@ -5889,9 +5886,18 @@
           "date": "2025-09-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Kia",
@@ -5975,10 +5981,9 @@
       "report": "https://profi.avtocod.ru/report/guest/212cb18e-8647-4a0c-b7d0-ae126909fc11",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правое переднее крыло до 500\nЗаднее правое крыло до 250\nКрыша багажника справа до 900\nЛевая передняя дверь до 1000\nЗадняя левая дверь до 200",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -5986,10 +5991,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-20",
@@ -6010,9 +6013,18 @@
           "date": "2025-09-20",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Hyundai",
@@ -6033,10 +6045,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7ed85a11-b4c5-4845-bc04-0cd4724ee496",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -6044,10 +6055,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-09-20",
@@ -6063,12 +6072,381 @@
           "date": "2025-09-20",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "S350",
+      "year": 2007,
+      "color": "Черный",
+      "mileage": 298999,
+      "engineVolume": 3.5,
+      "power": 272,
+      "driveType": "",
+      "transmission": "Автомат",
+      "vin": "WDD2211561A119434",
+      "dateAdded": "2025-09-22",
+      "whoAdded": "Олег",
+      "priceToHands": 999000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "https://profi.avtocod.ru/report/guest/9c8d6cd5-f384-4fc7-b7b5-4eb4bfafbd83",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Арки задние до 300",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-26",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2017,
+      "color": "Коричневый",
+      "mileage": 210081,
+      "engineVolume": 2,
+      "power": 150,
+      "driveType": "Полный",
+      "transmission": "Робот",
+      "vin": "XW8ZZZ5NZHG201610",
+      "dateAdded": "2025-09-25",
+      "whoAdded": "Олег",
+      "priceToHands": 1949000,
+      "haggle": "",
+      "priceSalon": 1949000,
+      "report": "https://profi.avtocod.ru/report/guest/dab635f8-2925-4bc6-a4ac-0784a2987585",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правая арка до 250",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-26",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Chevrolet",
+      "model": "Aveo",
+      "year": 2008,
+      "color": "",
+      "mileage": 190558,
+      "engineVolume": 1.4,
+      "power": 94,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "KL1SF697J8B185223",
+      "dateAdded": "2025-09-25",
+      "whoAdded": "Альберт",
+      "priceToHands": 349000,
+      "haggle": "",
+      "priceSalon": 349000,
+      "report": "",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Крышка багажника до 600 по краям, по центру до 300\nКрыло левое до 350\nПередняя левая арка до 300\nКапот по центру 1000\nПравое переднее крыло 2000\nАрки 1500\nЗадняя арка 1500",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-26",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Teana",
+      "year": 2012,
+      "color": "Серебристый",
+      "mileage": 202864,
+      "engineVolume": 2.5,
+      "power": 182,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "Z8NBBUJ32CS028862",
+      "dateAdded": "2025-09-25",
+      "whoAdded": "Альберт",
+      "priceToHands": 1099000,
+      "haggle": "",
+      "priceSalon": 1099000,
+      "report": "",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее левое крыло/арка/порог до 1500\nЛевая передняя дверь до 200",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-09-26",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-09-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-09-26T08:02:10.494Z",
+      "action": "export",
+      "description": "Выполнен экспорт базы данных в Excel",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T08:02:08.200Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Teana (Z8NBBUJ32CS028862) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T08:01:56.924Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T08:01:46.889Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Teana (Z8NBBUJ32CS028862)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:58:08.845Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:57:58.817Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chevrolet Aveo (KL1SF697J8B185223) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:56:29.672Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:56:19.596Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Chevrolet Aveo (KL1SF697J8B185223)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:52:28.895Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:52:18.865Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Tiguan (XW8ZZZ5NZHG201610) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:52:13.755Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Tiguan (XW8ZZZ5NZHG201610)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:51:08.890Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:50:58.860Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Tiguan (XW8ZZZ5NZHG201610)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:47:33.543Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:47:23.522Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mercedes-Benz S350 (WDD2211561A119434) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:47:15.155Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mercedes-Benz S350 (WDD2211561A119434)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:46:18.669Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:46:07.964Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mercedes-Benz S350 (WDD2211561A119434)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:41:34.034Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:41:24.011Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Santa Fe (KMHSU81CDDU034002) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:41:19.255Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:41:09.228Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Santa Fe (KMHSU81CDDU034002)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:41:05.596Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:40:55.571Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Insignia (XWFGT5ED1D0000825) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:40:46.924Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Opel Insignia (XWFGT5ED1D0000825)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:38:58.149Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:38:48.131Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Murano (JN1TANZ51U0003073) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:38:44.295Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-09-26T07:38:34.270Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Murano (JN1TANZ51U0003073)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-24T09:07:47.096Z",
       "action": "sale",
@@ -10486,6 +10864,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-24T09:07:49.775Z",
+  "exportDate": "2025-09-26T08:02:15.920Z",
   "version": "3.2"
 }
