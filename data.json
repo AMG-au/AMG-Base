@@ -6333,8 +6333,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3cd8fe8d-d374-4140-b5a1-5727f95a7237",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -6343,8 +6344,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-01",
@@ -6361,7 +6364,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -6382,8 +6386,9 @@
       "report": "https://profi.avtocod.ru/report/guest/3f8b1efa-ff2e-4973-8e69-342134ecb91b",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -6392,8 +6397,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-01",
@@ -6410,7 +6417,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -6433,6 +6441,7 @@
       "salePrice": 325000,
       "howSold": "Наличка",
       "whoSold": "Никита",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -6441,18 +6450,100 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-10-01",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Solaris",
+      "year": 2020,
+      "color": "Черный",
+      "mileage": 86260,
+      "engineVolume": 1.6,
+      "power": 123,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "Z94K241CBLR210265",
+      "dateAdded": "2025-09-29",
+      "whoAdded": "Собственник",
+      "priceToHands": 1200000,
+      "haggle": "",
+      "priceSalon": 1249000,
+      "report": "https://profi.avtocod.ru/report/guest/bf3e09f4-1082-452f-b0a0-d03218377861",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "Поставил Васиф",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-01T07:59:43.407Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Solaris (Z94K241CBLR210265) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:58:49.341Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:58:39.304Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Solaris (Z94K241CBLR210265)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:58:05.840Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:57:54.634Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai Solaris (Z94K241CBLR210265)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-01T07:47:16.687Z",
       "action": "add",
@@ -11170,6 +11261,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-10-01T07:47:23.289Z",
+  "exportDate": "2025-10-01T07:59:46.463Z",
   "version": "3.2"
 }
