@@ -6511,9 +6511,94 @@
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
+    },
+    {
+      "brand": "Kia",
+      "model": "Spectra",
+      "year": 2006,
+      "color": "Красный",
+      "mileage": 256472,
+      "engineVolume": 1.6,
+      "power": 101,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWKFB227360021290",
+      "dateAdded": "2025-09-26",
+      "whoAdded": "Альберт",
+      "priceToHands": 340000,
+      "haggle": "",
+      "priceSalon": 340000,
+      "report": "https://profi.avtocod.ru/report/guest/2e129834-ba5a-4591-9bec-6c767fb5b698",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-01T08:24:05.660Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Spectra (XWKFB227360021290) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T08:24:00.845Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Kia Spectra (XWKFB227360021290)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T08:19:55.119Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T08:19:45.079Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Spectra (XWKFB227360021290)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:59:56.490Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:59:46.468Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-01T07:59:43.407Z",
       "action": "status",
@@ -11261,6 +11346,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-10-01T07:59:46.463Z",
+  "exportDate": "2025-10-01T08:24:09.724Z",
   "version": "3.2"
 }
