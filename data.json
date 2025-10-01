@@ -4952,11 +4952,10 @@
       "haggle": "",
       "priceSalon": 680000,
       "report": "https://profi.avtocod.ru/report/guest/a3c4118b-12f4-4f46-9cd2-8777502c5193",
-      "dateSold": "2025-10-01",
+      "dateSold": "2025-09-28",
       "salePrice": 680000,
       "howSold": "Наличка",
       "whoSold": "Антон",
-      "margin": 30000,
       "paints": "Капот до 350, левая передняя дверь до 500, задний правый порог до 1000, задняя правое крыло до 1000",
       "additionalInfo": "",
       "saleComment": "",
@@ -4965,10 +4964,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "sold",
+      "margin": 30000,
       "history": [
         {
           "date": "2025-09-03",
@@ -4999,9 +4996,13 @@
           "date": "2025-10-01",
           "action": "Продан",
           "details": "Продан за 680 000 ₽ (Наличка, Антон)"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Skoda",
@@ -6595,6 +6596,7 @@
       "salePrice": 1549000,
       "howSold": "Кредит",
       "whoSold": "Антон",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -6603,18 +6605,27 @@
       "creditDownPayment": 700000,
       "creditAmount": 849000,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-10-01",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-01T08:51:09.306Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Corolla (JTNBV58E90J033303)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-01T08:38:24.030Z",
       "action": "sync",
@@ -11422,6 +11433,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-10-01T08:38:35.170Z",
+  "exportDate": "2025-10-01T08:51:13.248Z",
   "version": "3.2"
 }
