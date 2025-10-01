@@ -4952,11 +4952,11 @@
       "haggle": "",
       "priceSalon": 680000,
       "report": "https://profi.avtocod.ru/report/guest/a3c4118b-12f4-4f46-9cd2-8777502c5193",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-01",
+      "salePrice": 680000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 30000,
       "paints": "Капот до 350, левая передняя дверь до 500, задний правый порог до 1000, задняя правое крыло до 1000",
       "additionalInfo": "",
       "saleComment": "",
@@ -4968,7 +4968,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-03",
@@ -4994,6 +4994,11 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Продан",
+          "details": "Продан за 680 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -6482,8 +6487,9 @@
       "report": "https://profi.avtocod.ru/report/guest/bf3e09f4-1082-452f-b0a0-d03218377861",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "Поставил Васиф",
@@ -6492,8 +6498,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-01",
@@ -6510,7 +6518,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -6531,8 +6540,9 @@
       "report": "https://profi.avtocod.ru/report/guest/2e129834-ba5a-4591-9bec-6c767fb5b698",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -6541,8 +6551,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-01",
@@ -6559,10 +6571,74 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Haval",
+      "model": "F7x",
+      "year": 2021,
+      "color": "Серый",
+      "mileage": 54048,
+      "engineVolume": 2,
+      "power": 190,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "XZGFF06A1MA613190",
+      "dateAdded": "2025-09-26",
+      "whoAdded": "Олег",
+      "priceToHands": 1549000,
+      "haggle": "",
+      "priceSalon": 1549000,
+      "report": "",
+      "dateSold": "2025-09-27",
+      "salePrice": 1549000,
+      "howSold": "Кредит",
+      "whoSold": "Антон",
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "ОТП",
+      "creditOverprice": "Нет",
+      "creditDownPayment": 700000,
+      "creditAmount": 849000,
+      "creditReward": null,
+      "status": "sold",
+      "margin": 0,
+      "history": [
+        {
+          "date": "2025-10-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-01T08:38:24.030Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T08:38:14.012Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Haval F7x (XZGFF06A1MA613190)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T08:32:34.681Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T08:32:24.652Z",
+      "action": "sale",
+      "description": "Продан автомобиль Toyota Corolla (JTNBV58E90J033303) за 680 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-01T08:24:05.660Z",
       "action": "status",
@@ -11346,6 +11422,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-10-01T08:24:09.724Z",
+  "exportDate": "2025-10-01T08:38:35.170Z",
   "version": "3.2"
 }
