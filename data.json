@@ -5874,8 +5874,9 @@
       "report": "https://profi.avtocod.ru/report/guest/dd86828f-26c2-4310-a69a-79544b20d06a",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -5884,8 +5885,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-16",
@@ -5907,7 +5910,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Kia",
@@ -5991,8 +5995,9 @@
       "report": "https://profi.avtocod.ru/report/guest/212cb18e-8647-4a0c-b7d0-ae126909fc11",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правое переднее крыло до 500\nЗаднее правое крыло до 250\nКрыша багажника справа до 900\nЛевая передняя дверь до 1000\nЗадняя левая дверь до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -6001,8 +6006,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-20",
@@ -6034,7 +6041,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -6053,10 +6061,11 @@
       "haggle": "",
       "priceSalon": 1495000,
       "report": "https://profi.avtocod.ru/report/guest/7ed85a11-b4c5-4845-bc04-0cd4724ee496",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "dateSold": "2025-09-28",
+      "salePrice": 1470000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -25000,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -6065,8 +6074,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "available",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-20",
@@ -6092,8 +6103,14 @@
           "date": "2025-09-26",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-09-28",
+          "action": "Продан",
+          "details": "Продан за 1 470 000 ₽ (Наличка, Никита)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mercedes-Benz",
@@ -6114,8 +6131,9 @@
       "report": "https://profi.avtocod.ru/report/guest/9c8d6cd5-f384-4fc7-b7b5-4eb4bfafbd83",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Арки задние до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -6124,8 +6142,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-26",
@@ -6142,7 +6162,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Volkswagen",
@@ -6163,8 +6184,9 @@
       "report": "https://profi.avtocod.ru/report/guest/dab635f8-2925-4bc6-a4ac-0784a2987585",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая арка до 250",
       "additionalInfo": "",
       "saleComment": "",
@@ -6173,8 +6195,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-26",
@@ -6191,7 +6215,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chevrolet",
@@ -6212,8 +6237,9 @@
       "report": "",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Крышка багажника до 600 по краям, по центру до 300\nКрыло левое до 350\nПередняя левая арка до 300\nКапот по центру 1000\nПравое переднее крыло 2000\nАрки 1500\nЗадняя арка 1500",
       "additionalInfo": "",
       "saleComment": "",
@@ -6222,8 +6248,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-26",
@@ -6235,7 +6263,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -6256,8 +6285,9 @@
       "report": "",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее левое крыло/арка/порог до 1500\nЛевая передняя дверь до 200",
       "additionalInfo": "",
       "saleComment": "",
@@ -6266,8 +6296,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-09-26",
@@ -6279,10 +6311,244 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat CC",
+      "year": 2011,
+      "color": "Белый",
+      "mileage": 245916,
+      "engineVolume": 1.8,
+      "power": 152,
+      "driveType": "Передний",
+      "transmission": "",
+      "vin": "WVWZZZ3CZCE552296",
+      "dateAdded": "2025-09-30",
+      "whoAdded": "Альберт",
+      "priceToHands": 999000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "https://profi.avtocod.ru/report/guest/3cd8fe8d-d374-4140-b5a1-5727f95a7237",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "year": 2019,
+      "color": "Белый",
+      "mileage": 188151,
+      "engineVolume": 1.6,
+      "power": 110,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XW8ZZZ61ZKG055717",
+      "dateAdded": "2025-09-29",
+      "whoAdded": "Олег",
+      "priceToHands": 879000,
+      "haggle": "",
+      "priceSalon": 879000,
+      "report": "https://profi.avtocod.ru/report/guest/3f8b1efa-ff2e-4973-8e69-342134ecb91b",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-01",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Chevrolet",
+      "model": "Spark",
+      "year": 2006,
+      "color": "Серый",
+      "mileage": 100615,
+      "engineVolume": 0.8,
+      "power": 52,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "KL1KA484J7C230869",
+      "dateAdded": "2025-09-04",
+      "whoAdded": "Олег",
+      "priceToHands": 325000,
+      "haggle": "",
+      "priceSalon": 325000,
+      "report": "",
+      "dateSold": "2025-09-05",
+      "salePrice": 325000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "sold",
+      "margin": 0,
+      "history": [
+        {
+          "date": "2025-10-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-01T07:47:16.687Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Chevrolet Spark (KL1KA484J7C230869)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:44:35.456Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:44:25.422Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai Santa Fe (KMHSU81CDDU034002) за 1 470 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:41:52.477Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:41:42.229Z",
+      "action": "export",
+      "description": "Выполнен экспорт отчёта за период 2025-08-31 - 2025-09-29",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:39:01.005Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:38:50.969Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Polo (XW8ZZZ61ZKG055717) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:38:17.342Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:38:07.306Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Polo (XW8ZZZ61ZKG055717)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:33:26.485Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:33:16.460Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Polo (XW8ZZZ61ZKG055717)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:27:19.577Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:27:09.428Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Volkswagen Passat CC (WVWZZZ3CZCE552296) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:27:02.060Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Volkswagen Passat CC (WVWZZZ3CZCE552296)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:25:24.484Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-01T07:25:13.896Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Volkswagen Passat CC (WVWZZZ3CZCE552296)",
+      "archived": false
+    },
     {
       "timestamp": "2025-09-27T13:18:05.113Z",
       "action": "sale",
@@ -10904,6 +11170,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-09-27T13:18:13.007Z",
+  "exportDate": "2025-10-01T07:47:23.289Z",
   "version": "3.2"
 }
