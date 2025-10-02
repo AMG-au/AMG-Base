@@ -93,10 +93,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-09-02",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрал Альберт",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-22",
@@ -122,6 +122,16 @@
           "date": "2025-07-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
+        },
+        {
+          "date": "2025-09-02",
+          "action": "Возврат",
+          "details": "Причина: . Забрал Альберт"
         }
       ],
       "archived": false
@@ -650,10 +660,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-10-02",
+      "returnReason": "Другое",
+      "returnComment": "Забрал Олег",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-22",
@@ -674,6 +684,11 @@
           "date": "2025-07-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрал Олег"
         }
       ],
       "archived": false
@@ -827,7 +842,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-22",
@@ -848,6 +863,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
       ],
       "archived": false
@@ -1669,7 +1689,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-22",
@@ -1690,6 +1710,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
       ],
       "archived": false
@@ -2440,7 +2465,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-23",
@@ -2461,6 +2486,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
       ],
       "archived": false
@@ -4111,7 +4141,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "warehouse",
       "history": [
         {
           "date": "2025-07-23",
@@ -4137,6 +4167,11 @@
           "date": "2025-08-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"В продаже\" на \"На складе\""
         }
       ],
       "archived": false
@@ -4956,6 +4991,7 @@
       "salePrice": 680000,
       "howSold": "Наличка",
       "whoSold": "Антон",
+      "margin": 30000,
       "paints": "Капот до 350, левая передняя дверь до 500, задний правый порог до 1000, задняя правое крыло до 1000",
       "additionalInfo": "",
       "saleComment": "",
@@ -4964,8 +5000,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 30000,
       "history": [
         {
           "date": "2025-09-03",
@@ -5002,7 +5040,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Skoda",
@@ -6617,9 +6656,160 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Ford",
+      "model": "Mondeo",
+      "year": 2015,
+      "color": "Серебристый",
+      "mileage": 141060,
+      "engineVolume": 2.5,
+      "power": 149,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "Z6FDXXEECDFE00343",
+      "dateAdded": "2025-10-02",
+      "whoAdded": "перекуп",
+      "priceToHands": 1399000,
+      "haggle": "",
+      "priceSalon": 1399000,
+      "report": "https://profi.avtocod.ru/report/guest/17ddf004-bfca-4f3a-80ec-2727f994d5ed",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "Ринат",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-02",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-02",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-02T09:08:45.494Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford Mondeo (Z6FDXXEECDFE00343) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:08:39.144Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ford Mondeo (Z6FDXXEECDFE00343)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:08:25.284Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:08:15.251Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Ford Mondeo (Z6FDXXEECDFE00343)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:04:19.110Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:04:09.086Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford C-Max (WF0MXXGCDM7D29382) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:03:11.419Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:03:01.377Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Subaru XV (JF1GP3LC5CG006650) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:02:53.143Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:02:43.111Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mitsubishi Lancer (JMBSRCY2A8U011166) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:02:09.569Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:01:59.550Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Creta (Z94G2811AHR007537) на \"На складе\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:01:51.578Z",
+      "action": "return",
+      "description": "Возврат автомобиля Ford Fiesta (Z6F4XXECK4FU13130). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:01:29.882Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:01:19.841Z",
+      "action": "return",
+      "description": "Возврат автомобиля Audi Q7 (WA1DVAFE7AD000500). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:01:06.314Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-02T09:00:56.279Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q7 (WA1DVAFE7AD000500) на \"На складе\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-01T08:51:09.306Z",
       "action": "edit",
@@ -11433,6 +11623,6 @@
       "archived": false
     }
   ],
-  "exportDate": "2025-10-01T08:51:13.248Z",
+  "exportDate": "2025-10-02T09:08:49.806Z",
   "version": "3.2"
 }
