@@ -2763,10 +2763,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-10-06",
+      "returnReason": "Другое",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -2807,6 +2807,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-06",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрали"
         }
       ],
       "archived": false
@@ -7276,6 +7281,18 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-06T13:09:11.645Z",
+      "action": "return",
+      "description": "Возврат автомобиля Suzuki Liana (JSAERB31S00300035). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-06T09:39:29.256Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-06T09:39:18.320Z",
       "action": "sync",
@@ -13091,7 +13108,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-10-06T09:39:29.247Z",
+  "lastSaved": "2025-10-06T13:09:21.661Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
