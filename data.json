@@ -7119,6 +7119,12 @@
   ],
   "history": [
     {
+      "timestamp": "2025-10-06T08:08:52.146Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
       "timestamp": "2025-10-06T08:08:48.288Z",
       "action": "save",
       "description": "Выполнено принудительное сохранение данных",
@@ -12909,7 +12915,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-10-06T08:08:52.140Z",
+  "lastSaved": "2025-10-06T08:09:02.156Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
