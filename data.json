@@ -4589,14 +4589,14 @@
       "haggle": "",
       "priceSalon": 595000,
       "report": "https://profi.avtocod.ru/report/guest/e487c16e-d024-4547-8a58-af916ed0b932",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-07",
+      "salePrice": 570000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 5000,
       "paints": "В родном окрасе (вроде как)",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Половину наличкой, половину перевели Олегу, сразу ему отдали",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
@@ -4605,7 +4605,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-26",
@@ -4616,6 +4616,11 @@
           "date": "2025-07-26",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-07",
+          "action": "Продан",
+          "details": "Продан за 570 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -7281,6 +7286,18 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-07T14:22:25.516Z",
+      "action": "sale",
+      "description": "Продан автомобиль Citroen C4 (Z8TND5FS9DM024067) за 570 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-06T13:09:21.682Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-06T13:09:11.645Z",
       "action": "return",
@@ -13108,7 +13125,7 @@
       "archived": false
     }
   ],
-  "lastSaved": "2025-10-06T13:09:21.661Z",
+  "lastSaved": "2025-10-07T14:22:27.466Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
