@@ -1043,10 +1043,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-10-07",
+      "returnReason": "Другое",
+      "returnComment": "Ринат забрал",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-22",
@@ -1077,6 +1077,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-07",
+          "action": "Возврат",
+          "details": "Причина: Другое. Ринат забрал"
         }
       ],
       "archived": false
@@ -2919,10 +2924,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-10-07",
+      "returnReason": "Другое",
+      "returnComment": "Ринат забрал",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -2953,6 +2958,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-07",
+          "action": "Возврат",
+          "details": "Причина: Другое. Ринат забрал"
         }
       ],
       "archived": false
@@ -5360,14 +5370,14 @@
       "haggle": "",
       "priceSalon": 1059000,
       "report": "https://profi.avtocod.ru/report/guest/30d382c4-a025-4931-a016-f964c0b60b8d",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-09",
+      "salePrice": 1070000,
+      "howSold": "Другое",
+      "whoSold": "Сергей",
+      "margin": 51000,
       "paints": "Заднее правое крыло до 700 снизу, передняя правая арка до 250",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Забрал Марик в рассрочку",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
@@ -5376,7 +5386,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-03",
@@ -5407,6 +5417,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-09",
+          "action": "Продан",
+          "details": "Продан за 1 070 000 ₽ (Другое, Сергей)"
         }
       ],
       "archived": false
@@ -7313,8 +7328,9 @@
       "report": "Отчет Автокод Профи - Opel Astra (A-H/Nb), 2013\n\nhttps://profi.avtocod.ru/report/guest/b400d430-ad14-4ebe-8c15-0258853fc438",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -7323,8 +7339,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7341,7 +7359,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Lexus",
@@ -7362,8 +7381,9 @@
       "report": "Отчет Автокод Профи - Лексус Rx350, 2010\n\nhttps://profi.avtocod.ru/report/guest/1cf7aff3-3cd5-4e4b-b8cc-89c62bb8e8f6",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -7372,8 +7392,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7395,7 +7417,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chery",
@@ -7416,8 +7439,9 @@
       "report": "https://profi.avtocod.ru/report/guest/04882c2b-edd8-46ff-8b49-5746041783c3",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -7426,8 +7450,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7439,7 +7465,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -7460,8 +7487,9 @@
       "report": "https://profi.avtocod.ru/report/guest/d97c62f3-b6fa-4ef5-8be7-48d940241f01",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -7470,8 +7498,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7483,7 +7513,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -7504,8 +7535,9 @@
       "report": "https://profi.avtocod.ru/report/guest/71ee6c86-7e9e-44ef-b02a-34005639e3e4",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -7514,8 +7546,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7527,10 +7561,41 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-10T07:13:54.986Z",
+      "action": "sale",
+      "description": "Продан автомобиль Skoda Superb (TMBAB43T1C9050613) за 1 070 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-10T07:13:25.782Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-10T07:13:15.753Z",
+      "action": "return",
+      "description": "Возврат автомобиля Hyundai Solaris (Z94CU51DBDR070974). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-10T07:13:03.083Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-10T07:12:53.066Z",
+      "action": "return",
+      "description": "Возврат автомобиля Toyota Corolla (JTNBV56E50J128508). Причина: Другое",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-09T08:06:39.785Z",
       "action": "status",
@@ -13500,20 +13565,9 @@
       "action": "delete",
       "description": "Удален автомобиль   (WA1DVAFE7AD000500)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:29.447Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WAUZZZ8R9CA124168)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:11.279Z",
-      "action": "import",
-      "description": "Импортированы данные из Excel файла: 67 автомобилей",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-09T08:06:43.618Z",
-  "version": "3.2"
+  "lastSaved": "2025-10-10T07:14:02.472Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
