@@ -5632,11 +5632,11 @@
       "haggle": "",
       "priceSalon": 2565000,
       "report": "https://profi.avtocod.ru/report/guest/da05904c-2e3e-46fc-8968-e185a7810c62",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-15",
+      "salePrice": 2540000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 25000,
       "paints": "Родня",
       "additionalInfo": "В идеальном состоянии",
       "saleComment": "",
@@ -5648,7 +5648,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-06",
@@ -5669,6 +5669,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-15",
+          "action": "Продан",
+          "details": "Продан за 2 540 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -7566,6 +7571,18 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-15T14:33:27.380Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-15T14:33:24.519Z",
+      "action": "sale",
+      "description": "Продан автомобиль Audi Q5 (XW8ZZZ8R5DG000923) за 2 540 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-10T07:13:54.986Z",
       "action": "sale",
@@ -13553,21 +13570,9 @@
       "action": "delete",
       "description": "Удален автомобиль   (WBA1R510805J30291)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:34.390Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (TRUZZZFV6G1024219)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:32.823Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WA1DVAFE7AD000500)",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-10-10T07:14:02.472Z",
+  "lastSaved": "2025-10-15T14:33:37.823Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
