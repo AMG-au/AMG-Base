@@ -6549,14 +6549,14 @@
       "haggle": "",
       "priceSalon": 999000,
       "report": "https://profi.avtocod.ru/report/guest/9c8d6cd5-f384-4fc7-b7b5-4eb4bfafbd83",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-19",
+      "salePrice": 999000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Арки задние до 300",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Полная сумма наличкой",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
@@ -6565,7 +6565,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-26",
@@ -6581,6 +6581,11 @@
           "date": "2025-09-26",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-19",
+          "action": "Продан",
+          "details": "Продан за 999 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -7571,6 +7576,12 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-19T10:05:37.582Z",
+      "action": "sale",
+      "description": "Продан автомобиль Mercedes-Benz S350 (WDD2211561A119434) за 999 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-15T14:33:27.380Z",
       "action": "export",
@@ -13564,15 +13575,9 @@
       "action": "delete",
       "description": "Удален автомобиль   (X4XPE1845AWC94075)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:45.718Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WBA1R510805J30291)",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-10-15T14:33:37.823Z",
+  "lastSaved": "2025-10-19T10:05:47.594Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
