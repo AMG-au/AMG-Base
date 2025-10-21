@@ -7573,9 +7573,54 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2013,
+      "color": "Черный",
+      "mileage": 249183,
+      "engineVolume": 2.5,
+      "power": 181,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XW7BF4FK40S034513",
+      "dateAdded": "2025-10-10",
+      "whoAdded": "Олег",
+      "priceToHands": 1305000,
+      "haggle": "",
+      "priceSalon": 1345000,
+      "report": "",
+      "dateSold": "2025-10-21",
+      "salePrice": 1345000,
+      "howSold": "Кредит",
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "В кредит без первоначалки с завышением без торга",
+      "creditBank": "ТБанк",
+      "creditOverprice": "Да",
+      "creditDownPayment": 337000,
+      "creditAmount": 1682000,
+      "creditReward": null,
+      "status": "sold",
+      "margin": 40000,
+      "history": [
+        {
+          "date": "2025-10-21",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-21T14:22:20.511Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Toyota Camry (XW7BF4FK40S034513)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-19T10:05:37.582Z",
       "action": "sale",
@@ -13569,15 +13614,9 @@
       "action": "delete",
       "description": "Удален автомобиль   (4USFE43547LY74350)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:47.438Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (X4XPE1845AWC94075)",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-10-19T10:05:47.594Z",
+  "lastSaved": "2025-10-21T14:22:30.525Z",
   "version": "3.2",
   "application": "Autopark Management System"
 }
