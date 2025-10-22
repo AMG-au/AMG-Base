@@ -3871,23 +3871,23 @@
       "haggle": "",
       "priceSalon": 949000,
       "report": "https://profi.avtocod.ru/report/guest/7ed07987-5248-4cfa-8145-31a9d1286ab6",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-22",
+      "salePrice": 949000,
+      "howSold": "Кредит",
+      "whoSold": "Никита",
+      "margin": 30000,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
+      "creditBank": "ОТП",
+      "creditOverprice": "Нет",
+      "creditDownPayment": 400000,
+      "creditAmount": 549000,
       "creditReward": null,
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -3928,6 +3928,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Продан",
+          "details": "Продан за 949 000 ₽ (Кредит, Никита)"
         }
       ],
       "archived": false
@@ -5247,10 +5252,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-10-22",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-08-30",
@@ -5276,6 +5281,11 @@
           "date": "2025-09-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -7594,7 +7604,7 @@
       "dateSold": "2025-10-21",
       "salePrice": 1345000,
       "howSold": "Кредит",
-      "whoSold": null,
+      "whoSold": "Антон",
       "paints": "",
       "additionalInfo": "",
       "saleComment": "В кредит без первоначалки с завышением без торга",
@@ -7610,11 +7620,52 @@
           "date": "2025-10-21",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-22T04:29:32.105Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T04:29:22.067Z",
+      "action": "return",
+      "description": "Возврат автомобиля Volkswagen Tiguan (XW8ZZZ5NZCG114427). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T04:23:24.365Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T04:23:14.323Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia Optima (KNAGM411AC5265898) за 949 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T04:21:58.242Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T04:21:48.197Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Camry (XW7BF4FK40S034513)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-21T14:22:20.511Z",
       "action": "add",
@@ -13578,45 +13629,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (Z6F4XXECK4FU13130)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:57.527Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (X9L212300C0393721)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:55.798Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (LSGKB54H0PV124156)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:54.167Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (KL1NF197J9K057291)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:52.566Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Y3WS47KJ2GB004216)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:50.783Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (X4XFG81120L287807)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:49.190Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (4USFE43547LY74350)",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-10-21T14:22:30.525Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-10-22T04:32:26.600Z",
+  "version": "3.2"
 }
