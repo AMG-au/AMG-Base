@@ -7605,6 +7605,7 @@
       "salePrice": 1345000,
       "howSold": "Кредит",
       "whoSold": "Антон",
+      "margin": 40000,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "В кредит без первоначалки с завышением без торга",
@@ -7613,8 +7614,10 @@
       "creditDownPayment": 337000,
       "creditAmount": 1682000,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 40000,
       "history": [
         {
           "date": "2025-10-21",
@@ -7626,10 +7629,163 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "BMW",
+      "model": "X1",
+      "year": 2012,
+      "color": "Белый",
+      "mileage": 259364,
+      "engineVolume": 2,
+      "power": 184,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "X4XVM99490VT19455",
+      "dateAdded": "2025-10-13",
+      "whoAdded": "Усоля",
+      "priceToHands": 1299000,
+      "haggle": "",
+      "priceSalon": 1299000,
+      "report": "https://profi.avtocod.ru/report/guest/6df93d8d-28b3-4318-b179-233336bb96ac",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-22",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "1-series",
+      "year": 2011,
+      "color": "Синий",
+      "mileage": 185147,
+      "engineVolume": 1.6,
+      "power": 170,
+      "driveType": "Задний",
+      "transmission": "Автомат",
+      "vin": "WBA1A31030E929326",
+      "dateAdded": "2025-10-18",
+      "whoAdded": "Собственник",
+      "priceToHands": 999000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "https://profi.avtocod.ru/report/guest/7c592a67-ca52-4b4f-b2f2-c706ab1f339c",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-22",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-22",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-22T07:37:31.558Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW X1 (X4XVM99490VT19455) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:37:28.703Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW 1-series (WBA1A31030E929326) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:37:23.920Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW 1-series (WBA1A31030E929326)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:35:51.730Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:35:40.944Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW X1 (X4XVM99490VT19455)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:34:55.763Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:34:45.728Z",
+      "action": "add",
+      "description": "Добавлен автомобиль BMW 1-series (WBA1A31030E929326)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:33:43.306Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-22T07:33:33.281Z",
+      "action": "add",
+      "description": "Добавлен автомобиль BMW X1 (X4XVM99490VT19455)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-22T04:29:32.105Z",
       "action": "sync",
@@ -13575,62 +13731,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (XWEHC513BB0000690)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:11.894Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XWEFF242370000856)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:10.487Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (KMHTE61DGCU054830)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:08.302Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z94CU51DBDR070974)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:06.374Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (TMAJU81ECFJ677545)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:04.734Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (KMHDU41BP7U214909)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:03.302Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z94G2811AHR007537)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:01.862Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (NLAFB8640CW003231)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:00.278Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WF04XXWPD47J16453)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:58:58.942Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z6F4XXECK4FU13130)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-22T04:32:26.600Z",
+  "exportDate": "2025-10-22T07:37:33.663Z",
   "version": "3.2"
 }
