@@ -7742,9 +7742,229 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Infiniti",
+      "model": "QX80",
+      "year": 2018,
+      "color": "серый",
+      "mileage": 76357,
+      "engineVolume": 5.6,
+      "power": 405,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JN1JANZ62U0080603",
+      "dateAdded": "2025-10-21",
+      "whoAdded": "Собственник",
+      "priceToHands": 5599000,
+      "haggle": "",
+      "priceSalon": 5599000,
+      "report": "https://profi.avtocod.ru/report/guest/841c3eb6-5c98-45e3-a6b7-a340f602a498",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Juke",
+      "year": 2012,
+      "color": "Красный",
+      "mileage": 165279,
+      "engineVolume": 1.6,
+      "power": 117,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "SJNFBAF15U6306935",
+      "dateAdded": "2025-10-18",
+      "whoAdded": "Олег",
+      "priceToHands": 845000,
+      "haggle": "",
+      "priceSalon": 845000,
+      "report": "https://profi.avtocod.ru/report/guest/23319c15-3d32-4ea2-ac00-0cfded601fad",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Весь правый борт",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Citroen",
+      "model": "C4",
+      "year": 2012,
+      "color": "Черный",
+      "mileage": 130213,
+      "engineVolume": 1.6,
+      "power": 120,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "Z8TNC5FS9CM504582",
+      "dateAdded": "2025-10-20",
+      "whoAdded": "Олег",
+      "priceToHands": 639000,
+      "haggle": "",
+      "priceSalon": 639000,
+      "report": "https://profi.avtocod.ru/report/guest/9ee8fae8-3d74-46a0-88d2-917c02d09ca5",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-23T05:30:21.230Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:30:11.205Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6306935) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:30:03.197Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C4 (Z8TNC5FS9CM504582) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:29:56.211Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Citroen C4 (Z8TNC5FS9CM504582)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:24:49.188Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:24:39.150Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6306935)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:24:14.954Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:24:04.936Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Juke (SJNFBAF15U6306935)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:20:30.759Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:20:20.736Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Infiniti QX80 (JN1JANZ62U0080603) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:20:15.506Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Infiniti QX80 (JN1JANZ62U0080603)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:19:14.151Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:19:03.610Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Infiniti QX80 (JN1JANZ62U0080603)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-22T13:39:06.387Z",
       "action": "sale",
@@ -13666,86 +13886,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (SJNFBAF15U6338864)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:32.990Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (KNMCSHLMS6P626702)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:31.582Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z8TXTGF3WDM041489)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:29.542Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JMBXLCW6W7Z001421)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:28.102Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z8TXTGF2WDM003491)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:26.110Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JMBSRCS3A6U013113)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:24.550Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JMBSRCY2A8U011166)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:23.254Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WDD2221851A149550)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:21.958Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JTJBK11A902016229)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:20.646Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JTJBJRBZ302066534)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:18.846Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JTJBJRBZ302002574)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:17.358Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XWEPC811CC0003660)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:15.974Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z94CB41BBGR358420)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:14.430Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (Z94CB41BBER188254)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-22T13:39:10.737Z",
+  "exportDate": "2025-10-23T05:30:35.277Z",
   "version": "3.2"
 }
