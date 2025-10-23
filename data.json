@@ -7406,8 +7406,9 @@
       "report": "Отчет Автокод Профи - Лексус Rx350, 2010\n\nhttps://profi.avtocod.ru/report/guest/1cf7aff3-3cd5-4e4b-b8cc-89c62bb8e8f6",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Крышка багажника 250\nПравая задняя арка 1000\nЗадняя правая дверь 3500+",
       "additionalInfo": "",
       "saleComment": "",
@@ -7416,8 +7417,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7449,7 +7452,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Chery",
@@ -7470,8 +7474,9 @@
       "report": "https://profi.avtocod.ru/report/guest/04882c2b-edd8-46ff-8b49-5746041783c3",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -7480,8 +7485,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7503,7 +7510,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -7721,8 +7729,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7c592a67-ca52-4b4f-b2f2-c706ab1f339c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая задняя арка 350\nЛевое заднее крыло 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -7731,8 +7740,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-22",
@@ -7759,7 +7770,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Infiniti",
@@ -7914,9 +7926,150 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Solaris",
+      "year": 2014,
+      "color": "Белый",
+      "mileage": 114726,
+      "engineVolume": 1.4,
+      "power": 107,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "Z94CT41CBDR298093",
+      "dateAdded": "2025-10-23",
+      "whoAdded": "Олег",
+      "priceToHands": 730000,
+      "haggle": "",
+      "priceSalon": 730000,
+      "report": "https://profi.avtocod.ru/report/guest/40b4d9f8-943d-42e1-90a6-f6567e4d53ea",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Крышка багажника",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+      "model": "i40",
+      "year": 2016,
+      "color": "Коричневый",
+      "mileage": 179310,
+      "engineVolume": 2,
+      "power": 150,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWELC41CBG0008730",
+      "dateAdded": "2025-10-23",
+      "whoAdded": "Олег",
+      "priceToHands": 1295000,
+      "haggle": "",
+      "priceSalon": 1295000,
+      "report": "https://profi.avtocod.ru/report/guest/611d397e-4c1b-4764-98e9-06ba240742ec",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-23T09:44:52.769Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai i40 (XWELC41CBG0008730) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:44:51.485Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:44:41.444Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai i40 (XWELC41CBG0008730)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:43:13.481Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:43:03.434Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Hyundai Solaris (Z94CT41CBDR298093) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:42:59.157Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Hyundai Solaris (Z94CT41CBDR298093)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:39:48.522Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T09:39:38.477Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Hyundai Solaris (Z94CT41CBDR298093)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-23T05:58:22.005Z",
       "action": "status",
@@ -13868,56 +14021,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (YV1MK434BC2276138)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:07.118Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XW8ZZZ7PZDG007461)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:05.734Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WVWZZZ1KZCW024602)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:04.286Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JTMBH31V606032266)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:02.118Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (MR0FR22GX80655138)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:00.614Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JTNBV58E80J220368)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:59.119Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JTNBV56E50J128508)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:57.590Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (SB1BR56L70E253577)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:55.718Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JSAERB31S00300036)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-23T05:58:26.829Z",
+  "exportDate": "2025-10-23T09:57:29.606Z",
   "version": "3.2"
 }
