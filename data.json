@@ -7406,10 +7406,9 @@
       "report": "Отчет Автокод Профи - Лексус Rx350, 2010\n\nhttps://profi.avtocod.ru/report/guest/1cf7aff3-3cd5-4e4b-b8cc-89c62bb8e8f6",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Крышка багажника 250\nПравая задняя арка 1000\nЗадняя правая дверь 3500+",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -7417,10 +7416,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7441,9 +7438,18 @@
           "date": "2025-10-09",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Chery",
@@ -7464,10 +7470,9 @@
       "report": "https://profi.avtocod.ru/report/guest/04882c2b-edd8-46ff-8b49-5746041783c3",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -7475,10 +7480,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7489,9 +7492,18 @@
           "date": "2025-10-09",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Nissan",
@@ -7709,10 +7721,9 @@
       "report": "https://profi.avtocod.ru/report/guest/7c592a67-ca52-4b4f-b2f2-c706ab1f339c",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правая задняя арка 350\nЛевое заднее крыло 300",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -7720,10 +7731,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-22",
@@ -7739,9 +7748,18 @@
           "date": "2025-10-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Infiniti",
@@ -7762,8 +7780,9 @@
       "report": "https://profi.avtocod.ru/report/guest/841c3eb6-5c98-45e3-a6b7-a340f602a498",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -7772,8 +7791,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-23",
@@ -7790,7 +7811,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -7811,8 +7833,9 @@
       "report": "https://profi.avtocod.ru/report/guest/23319c15-3d32-4ea2-ac00-0cfded601fad",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Весь правый борт",
       "additionalInfo": "",
       "saleComment": "",
@@ -7821,8 +7844,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-23",
@@ -7839,7 +7864,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Citroen",
@@ -7860,8 +7886,9 @@
       "report": "https://profi.avtocod.ru/report/guest/9ee8fae8-3d74-46a0-88d2-917c02d09ca5",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -7870,8 +7897,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-23",
@@ -7883,10 +7912,59 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-23T05:58:22.005Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Lexus RX350 (JTJBK11A302009681) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:58:17.814Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Lexus RX350 (JTJBK11A302009681)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:46:24.433Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:46:14.392Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW 1-series (WBA1A31030E929326) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:46:11.097Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Chery Tiggo 8 (LVTDB21B6PDA08485) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:46:04.187Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW 1-series (WBA1A31030E929326)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:37:30.717Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-23T05:37:20.678Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Chery Tiggo 8 (LVTDB21B6PDA08485)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-23T05:30:21.230Z",
       "action": "sync",
@@ -13838,56 +13916,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (JSAERB31S00300036)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:54.382Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JSAJTDA4V00243790)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:52.766Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JF1GP3LC5CG006650)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:50.286Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (VF1BZAR0A44165157)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:47.070Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XWBTF69V9HA005314)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:44.494Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (SALLSAA348A170045)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:43.014Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (W0L0AHL3582012343)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:40.782Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (SJNFBNJ10U1185386)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T06:59:34.543Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (SJNFBAF15U6338864)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-23T05:30:35.277Z",
+  "exportDate": "2025-10-23T05:58:26.829Z",
   "version": "3.2"
 }
