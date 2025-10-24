@@ -7676,8 +7676,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6df93d8d-28b3-4318-b179-233336bb96ac",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -7686,8 +7687,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-22",
@@ -7709,7 +7712,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "BMW",
@@ -7899,8 +7903,9 @@
       "report": "https://profi.avtocod.ru/report/guest/9ee8fae8-3d74-46a0-88d2-917c02d09ca5",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Левое заднее крыло 2000 левое задняя арка неметалл с превышением левая задняя дверь 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -7909,8 +7914,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "draft",
-      "margin": null,
       "history": [
         {
           "date": "2025-10-23",
@@ -7927,7 +7934,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Hyundai",
@@ -7946,11 +7954,11 @@
       "haggle": "",
       "priceSalon": 730000,
       "report": "https://profi.avtocod.ru/report/guest/40b4d9f8-943d-42e1-90a6-f6567e4d53ea",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-24",
+      "salePrice": 730000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 0,
       "paints": "Крышка багажника",
       "additionalInfo": "",
       "saleComment": "",
@@ -7962,7 +7970,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-10-23",
@@ -7978,6 +7986,11 @@
           "date": "2025-10-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-24",
+          "action": "Продан",
+          "details": "Продан за 730 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -8032,6 +8045,18 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-24T08:12:01.637Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-24T08:11:51.618Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai Solaris (Z94CT41CBDR298093) за 730 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-24T05:43:50.034Z",
       "action": "edit",
@@ -14019,20 +14044,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (WDD2221851A106438)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:15.111Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XTA21723080006220)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:13.478Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XTAGFL440NY650824)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-24T05:43:56.425Z",
+  "exportDate": "2025-10-24T08:12:08.201Z",
   "version": "3.2"
 }
