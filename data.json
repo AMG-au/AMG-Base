@@ -7676,10 +7676,9 @@
       "report": "https://profi.avtocod.ru/report/guest/6df93d8d-28b3-4318-b179-233336bb96ac",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -7687,10 +7686,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-22",
@@ -7706,9 +7703,13 @@
           "date": "2025-10-22",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "BMW",
@@ -7898,6 +7899,108 @@
       "report": "https://profi.avtocod.ru/report/guest/9ee8fae8-3d74-46a0-88d2-917c02d09ca5",
       "dateSold": null,
       "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Левое заднее крыло 2000 левое задняя арка неметалл с превышением левая задняя дверь 600",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-24",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Solaris",
+      "year": 2014,
+      "color": "Белый",
+      "mileage": 114726,
+      "engineVolume": 1.4,
+      "power": 107,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "Z94CT41CBDR298093",
+      "dateAdded": "2025-10-23",
+      "whoAdded": "Олег",
+      "priceToHands": 730000,
+      "haggle": "",
+      "priceSalon": 730000,
+      "report": "https://profi.avtocod.ru/report/guest/40b4d9f8-943d-42e1-90a6-f6567e4d53ea",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
+      "paints": "Крышка багажника",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
+      "history": [
+        {
+          "date": "2025-10-23",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-23",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Hyundai",
+      "model": "i40",
+      "year": 2016,
+      "color": "Коричневый",
+      "mileage": 179310,
+      "engineVolume": 2,
+      "power": 150,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWELC41CBG0008730",
+      "dateAdded": "2025-10-23",
+      "whoAdded": "Олег",
+      "priceToHands": 1295000,
+      "haggle": "",
+      "priceSalon": 1295000,
+      "report": "https://profi.avtocod.ru/report/guest/611d397e-4c1b-4764-98e9-06ba240742ec",
+      "dateSold": null,
+      "salePrice": null,
       "howSold": "",
       "whoSold": "",
       "margin": null,
@@ -7926,102 +8029,27 @@
         }
       ],
       "archived": false
-    },
-    {
-      "brand": "Hyundai",
-      "model": "Solaris",
-      "year": 2014,
-      "color": "Белый",
-      "mileage": 114726,
-      "engineVolume": 1.4,
-      "power": 107,
-      "driveType": "Передний",
-      "transmission": "Автомат",
-      "vin": "Z94CT41CBDR298093",
-      "dateAdded": "2025-10-23",
-      "whoAdded": "Олег",
-      "priceToHands": 730000,
-      "haggle": "",
-      "priceSalon": 730000,
-      "report": "https://profi.avtocod.ru/report/guest/40b4d9f8-943d-42e1-90a6-f6567e4d53ea",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
-      "paints": "Крышка багажника",
-      "additionalInfo": "",
-      "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
-      "creditReward": null,
-      "status": "available",
-      "margin": null,
-      "history": [
-        {
-          "date": "2025-10-23",
-          "action": "Добавлен",
-          "details": "Первоначальное добавление"
-        },
-        {
-          "date": "2025-10-23",
-          "action": "Отредактирован",
-          "details": "Изменены данные автомобиля"
-        },
-        {
-          "date": "2025-10-23",
-          "action": "Изменен статус",
-          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
-        }
-      ]
-    },
-    {
-      "brand": "Hyundai",
-      "model": "i40",
-      "year": 2016,
-      "color": "Коричневый",
-      "mileage": 179310,
-      "engineVolume": 2,
-      "power": 150,
-      "driveType": "Передний",
-      "transmission": "Автомат",
-      "vin": "XWELC41CBG0008730",
-      "dateAdded": "2025-10-23",
-      "whoAdded": "Олег",
-      "priceToHands": 1295000,
-      "haggle": "",
-      "priceSalon": 1295000,
-      "report": "https://profi.avtocod.ru/report/guest/611d397e-4c1b-4764-98e9-06ba240742ec",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
-      "paints": "",
-      "additionalInfo": "",
-      "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
-      "creditReward": null,
-      "status": "available",
-      "margin": null,
-      "history": [
-        {
-          "date": "2025-10-23",
-          "action": "Добавлен",
-          "details": "Первоначальное добавление"
-        },
-        {
-          "date": "2025-10-23",
-          "action": "Изменен статус",
-          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
-        }
-      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-24T05:43:50.034Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль BMW X1 (X4XVM99490VT19455)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-24T05:43:48.956Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-24T05:43:38.923Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Citroen C4 (Z8TNC5FS9CM504582)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-23T09:44:52.769Z",
       "action": "status",
@@ -14003,26 +14031,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (XTAGFL440NY650824)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:11.486Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XTARS025LN1426664)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:10.174Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (YV1AS985681049234)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:08.454Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (YV1MK434BC2276138)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-23T09:57:29.606Z",
+  "exportDate": "2025-10-24T05:43:56.425Z",
   "version": "3.2"
 }
