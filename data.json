@@ -4289,11 +4289,11 @@
       "haggle": "",
       "priceSalon": 999000,
       "report": "https://profi.avtocod.ru/report/guest/a07508d3-0917-4191-aa1f-d94f0518e88d",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-10-25",
+      "salePrice": 980000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 0,
       "paints": "Заднее правое крыло шпакля арка и ближе к двери, правая дверь до 200, переднее левое крыло до 550, заднее левое крыло внизу до 300",
       "additionalInfo": "",
       "saleComment": "",
@@ -4305,7 +4305,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -4336,6 +4336,11 @@
           "date": "2025-08-21",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-25",
+          "action": "Продан",
+          "details": "Продан за 980 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -8042,9 +8047,78 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Geely",
+      "model": "Coolray",
+      "year": 2023,
+      "color": "Черный,белый",
+      "mileage": null,
+      "engineVolume": 1.5,
+      "power": null,
+      "driveType": "",
+      "transmission": "",
+      "vin": "LB37622Z3PX631045",
+      "dateAdded": "2025-10-20",
+      "whoAdded": "Собственник",
+      "priceToHands": 2000000,
+      "haggle": "",
+      "priceSalon": 2000000,
+      "report": "",
+      "dateSold": "2025-10-19",
+      "salePrice": null,
+      "howSold": "Кредит",
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "Вне салона",
+      "saleComment": "31000 взяли за услугу",
+      "creditBank": "ОТП",
+      "creditOverprice": "Нет",
+      "creditDownPayment": 400,
+      "creditAmount": 1600000,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-25",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-25T10:47:59.731Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Geely Coolray (LB37622Z3PX631045)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-25T10:43:57.817Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-25T10:43:47.780Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia ProCeed (XWEHN312BE0000913) за 980 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-24T12:31:07.108Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-24T12:30:56.220Z",
+      "action": "export",
+      "description": "Выполнен экспорт отчёта за период 2025-09-30 - 2025-10-24",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-24T08:12:01.637Z",
       "action": "sync",
@@ -14014,38 +14088,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (VNKKL96310A184131)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:23.518Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (KNAGM411AC5265898)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:20.766Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (JN1TCNS51U0410695)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:19.270Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (LB3F31036PG022996)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:17.894Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (VF7LCNFUC74865518)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:16.542Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (WDD2221851A106438)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-24T08:12:08.201Z",
+  "exportDate": "2025-10-25T10:48:03.615Z",
   "version": "3.2"
 }
