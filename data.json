@@ -8065,30 +8065,45 @@
       "haggle": "",
       "priceSalon": 2000000,
       "report": "",
-      "dateSold": "2025-10-19",
-      "salePrice": null,
+      "dateSold": "2025-10-26",
+      "salePrice": 2000000,
       "howSold": "Кредит",
-      "whoSold": null,
+      "whoSold": "Никита",
+      "margin": 0,
       "paints": "",
       "additionalInfo": "Вне салона",
-      "saleComment": "31000 взяли за услугу",
+      "saleComment": "",
       "creditBank": "ОТП",
       "creditOverprice": "Нет",
-      "creditDownPayment": 400,
+      "creditDownPayment": 400000,
       "creditAmount": 1600000,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "sold",
       "history": [
         {
           "date": "2025-10-25",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-26",
+          "action": "Продан",
+          "details": "Продан за 2 000 000 ₽ (Кредит, Никита)"
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-26T04:08:53.579Z",
+      "action": "sale",
+      "description": "Продан автомобиль Geely Coolray (LB37622Z3PX631045) за 2 000 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-25T10:47:59.731Z",
       "action": "add",
@@ -14082,14 +14097,8 @@
       "action": "delete",
       "description": "Удален автомобиль   (WVWZZZAUZEW381787)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:25.134Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (VNKKL96310A184131)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-25T10:48:03.615Z",
+  "exportDate": "2025-10-26T04:09:00.553Z",
   "version": "3.2"
 }
