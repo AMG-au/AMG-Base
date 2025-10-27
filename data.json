@@ -7695,7 +7695,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "draft",
+      "status": "available",
       "history": [
         {
           "date": "2025-10-22",
@@ -7716,6 +7716,11 @@
           "date": "2025-10-24",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-27",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -7855,10 +7860,9 @@
       "report": "https://profi.avtocod.ru/report/guest/23319c15-3d32-4ea2-ac00-0cfded601fad",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "Весь правый борт",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот шпакля на носу не бьётся, правые двери до 500-600 точки есть, заднее правое крыло до 200 вторичка",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -7866,10 +7870,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
       "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-23",
@@ -7885,9 +7887,18 @@
           "date": "2025-10-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-27",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-10-27",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Citroen",
@@ -8108,6 +8119,30 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-27T07:41:29.878Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6306935) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-27T07:41:24.286Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля BMW X1 (X4XVM99490VT19455) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-27T07:41:10.376Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-27T07:41:00.329Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Juke (SJNFBAF15U6306935)",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-26T10:10:45.598Z",
       "action": "sale",
@@ -14083,32 +14118,9 @@
       "action": "add",
       "description": "Добавлен автомобиль Audi Q7 (WA1DVAFE7AD000500)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:27:33.632Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Audi Q5 (WAUZZZ8R9CA124168)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:34.390Z",
-      "action": "delete",
-      "description": "Удален автомобиль   ()",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:32.718Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XWEHN312BE0000913)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T07:00:31.206Z",
-      "action": "delete",
-      "description": "Удален автомобиль   (XTAGAB330J1065585)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-26T10:10:48.621Z",
-  "version": "3.2"
+  "lastSaved": "2025-10-27T07:41:37.310Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
