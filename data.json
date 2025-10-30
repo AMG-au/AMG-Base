@@ -7858,10 +7858,10 @@
       "haggle": "",
       "priceSalon": 845000,
       "report": "https://profi.avtocod.ru/report/guest/23319c15-3d32-4ea2-ac00-0cfded601fad",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "dateSold": "2025-10-30",
+      "salePrice": 845000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
       "paints": "Капот шпакля на носу не бьётся, правые двери до 500-600 точки есть, заднее правое крыло до 200 вторичка",
       "additionalInfo": "",
       "saleComment": "",
@@ -7870,8 +7870,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "available",
-      "margin": null,
+      "status": "sold",
+      "margin": 0,
       "history": [
         {
           "date": "2025-10-23",
@@ -7897,6 +7897,11 @@
           "date": "2025-10-27",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-10-30",
+          "action": "Продан",
+          "details": "Продан за 845 000 ₽ (Наличка, Антон)"
         }
       ]
     },
@@ -8119,6 +8124,24 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-30T09:55:07.516Z",
+      "action": "sale",
+      "description": "Продан автомобиль Nissan Juke (SJNFBAF15U6306935) за 845 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-27T07:41:49.095Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-27T07:41:37.317Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-27T07:41:29.878Z",
       "action": "status",
@@ -14100,27 +14123,8 @@
       "action": "edit",
       "description": "Отредактирован автомобиль Audi Q5 (WAUZZZ8R9CA124168)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:41:04.621Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Audi Q7 (WA1DVAFE7AD000500)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:38:15.766Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Audi TT (TRUZZZFV6G1024219)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:33:33.807Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Audi Q7 (WA1DVAFE7AD000500)",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-10-27T07:41:37.310Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-10-30T09:55:10.905Z",
+  "version": "3.2"
 }
