@@ -7862,6 +7862,7 @@
       "salePrice": 845000,
       "howSold": "Наличка",
       "whoSold": "Антон",
+      "margin": 0,
       "paints": "Капот шпакля на носу не бьётся, правые двери до 500-600 точки есть, заднее правое крыло до 200 вторичка",
       "additionalInfo": "",
       "saleComment": "",
@@ -7870,8 +7871,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 0,
       "history": [
         {
           "date": "2025-10-23",
@@ -7903,7 +7906,8 @@
           "action": "Продан",
           "details": "Продан за 845 000 ₽ (Наличка, Антон)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Citroen",
@@ -8141,8 +8145,9 @@
       "report": "https://profi.avtocod.ru/report/guest/37e67206-33ae-4572-b8d5-95c8e126e54e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -8151,18 +8156,32 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-10-30",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-10-30",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-30T11:49:56.485Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Infiniti QX60 (5N1AL0MM3GC535997) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-30T11:39:18.241Z",
       "action": "add",
@@ -14156,14 +14175,8 @@
       "action": "add",
       "description": "Добавлен автомобиль BMW X6 (X4XFG81120L287807)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:50:02.300Z",
-      "action": "add",
-      "description": "Добавлен автомобиль BMW X5 (4USFE43547LY74350)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-30T11:39:20.200Z",
+  "exportDate": "2025-10-30T11:50:00.261Z",
   "version": "3.2"
 }
