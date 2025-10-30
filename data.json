@@ -8121,9 +8121,66 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Infiniti",
+      "model": "QX60",
+      "year": 2017,
+      "color": "Белый",
+      "mileage": 222347,
+      "engineVolume": 3.5,
+      "power": 262,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "5N1AL0MM3GC535997",
+      "dateAdded": "2025-10-29",
+      "whoAdded": "Олег",
+      "priceToHands": 1995000,
+      "haggle": "",
+      "priceSalon": 1995000,
+      "report": "https://profi.avtocod.ru/report/guest/37e67206-33ae-4572-b8d5-95c8e126e54e",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "draft",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-10-30",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-10-30T11:39:18.241Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Infiniti QX60 (5N1AL0MM3GC535997)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-30T09:55:20.953Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-10-30T09:55:10.913Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-30T09:55:07.516Z",
       "action": "sale",
@@ -14105,26 +14162,8 @@
       "action": "add",
       "description": "Добавлен автомобиль BMW X5 (4USFE43547LY74350)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:45:31.413Z",
-      "action": "add",
-      "description": "Добавлен автомобиль BMW 1-Series (WBA1R510805J30291)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:42:04.342Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Audi TT (TRUZZZFV6G1024219)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:41:36.701Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Audi Q5 (WAUZZZ8R9CA124168)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-30T09:55:10.905Z",
+  "exportDate": "2025-10-30T11:39:20.200Z",
   "version": "3.2"
 }
