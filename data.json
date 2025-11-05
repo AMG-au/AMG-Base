@@ -788,11 +788,11 @@
       "haggle": "",
       "priceSalon": 729000,
       "report": "https://profi.avtocod.ru/report/guest/8dcb6e95-ffe9-4dce-b867-4317f8cf6621",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-11-05",
+      "salePrice": 675000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -474000,
       "paints": "Капот: шпакля внизу по центру  \nПравые двери: до 250  \nЗаднее правое крыло: до 500  \nКрышка багажника: под номером шпакля, до 400  \nЗаднее левое крыло: до 600",
       "additionalInfo": "",
       "saleComment": "",
@@ -804,7 +804,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -825,6 +825,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-05",
+          "action": "Продан",
+          "details": "Продан за 675 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -2209,10 +2214,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-11-03",
+      "returnReason": "Другое",
+      "returnComment": "Забрал Олег",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -2263,6 +2268,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-03",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрал Олег"
         }
       ],
       "archived": false
@@ -8176,6 +8186,24 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-05T09:27:52.369Z",
+      "action": "sale",
+      "description": "Продан автомобиль Honda Civic (NLAFB8640CW003231) за 675 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-04T04:13:13.298Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-04T04:13:03.259Z",
+      "action": "return",
+      "description": "Возврат автомобиля Nissan Juke (SJNFBAF15U6338864). Причина: Другое",
+      "archived": false
+    },
     {
       "timestamp": "2025-10-30T11:49:56.485Z",
       "action": "status",
@@ -14157,26 +14185,8 @@
       "action": "edit",
       "description": "Отредактирован автомобиль Cadillac Escalade (Y3WS47KJ2GB004216)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:59:11.466Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Cadillac Escalade (Y3WS47KJ2GB004216)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:54:04.779Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль BMW X6 (X4XFG81120L287807)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:53:11.819Z",
-      "action": "add",
-      "description": "Добавлен автомобиль BMW X6 (X4XFG81120L287807)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-10-30T11:50:00.261Z",
+  "exportDate": "2025-11-05T09:27:58.103Z",
   "version": "3.2"
 }
