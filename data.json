@@ -8183,9 +8183,94 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "JAC",
+      "model": "J7",
+      "year": 2023,
+      "color": "Белый",
+      "mileage": 68491,
+      "engineVolume": 1.5,
+      "power": 136,
+      "driveType": "Передний",
+      "transmission": "Вариатор",
+      "vin": "MX1J7AGGXPK047291",
+      "dateAdded": "2025-11-05",
+      "whoAdded": "Олег",
+      "priceToHands": 1245000,
+      "haggle": "",
+      "priceSalon": 1245000,
+      "report": "Отчет Автокод Профи - Jac J7, 2023\n\nhttps://profi.avtocod.ru/report/guest/e91a88ec-14ef-4bcb-83e1-154feb8b77e2",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-11-07",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-11-07",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-07",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-07T05:57:11.796Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля JAC J7 (MX1J7AGGXPK047291) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-07T05:57:05.157Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль JAC J7 (MX1J7AGGXPK047291)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-07T05:53:54.668Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-07T05:53:44.635Z",
+      "action": "add",
+      "description": "Добавлен автомобиль JAC J7 (MX1J7AGGXPK047291)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-05T09:28:08.138Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-05T09:27:58.111Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-05T09:27:52.369Z",
       "action": "sale",
@@ -14149,44 +14234,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Chevrolet Niva (X9L212300C0393721)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T11:09:57.353Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Chevrolet Lacetti (KL1NF197J9K057291)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T11:09:39.569Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Chevrolet Monza (LSGKB54H0PV124156)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T11:05:31.138Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Chevrolet Lacetti (KL1NF197J9K057291)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T11:00:05.516Z",
-      "action": "export",
-      "description": "Выполнен экспорт отчёта за период 2025-06-30 - 2025-07-22",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:59:51.547Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T10:59:42.698Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Cadillac Escalade (Y3WS47KJ2GB004216)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-05T09:27:58.103Z",
+  "exportDate": "2025-11-07T05:57:14.147Z",
   "version": "3.2"
 }
