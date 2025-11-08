@@ -967,11 +967,11 @@
       "haggle": "",
       "priceSalon": 1299000,
       "report": "https://profi.avtocod.ru/report/335eebc0-c0e4-4a59-ab5d-10eaee86dac9",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-11-07",
+      "salePrice": 1280000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 21000,
       "paints": "Родной окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -983,7 +983,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -1014,6 +1014,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-07",
+          "action": "Продан",
+          "details": "Продан за 1 280 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -8203,8 +8208,9 @@
       "report": "Отчет Автокод Профи - Jac J7, 2023\n\nhttps://profi.avtocod.ru/report/guest/e91a88ec-14ef-4bcb-83e1-154feb8b77e2",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -8213,8 +8219,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-11-07",
@@ -8231,10 +8239,17 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-08T05:21:03.530Z",
+      "action": "sale",
+      "description": "Продан автомобиль Hyundai ix35 (TMAJU81ECFJ677545) за 1 280 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-07T05:57:11.796Z",
       "action": "status",
@@ -14228,14 +14243,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Ford Fiesta (Z6F4XXECK4FU13130)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T11:14:22.944Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Chevrolet Niva (X9L212300C0393721)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-07T05:57:14.147Z",
+  "exportDate": "2025-11-08T05:21:07.400Z",
   "version": "3.2"
 }
