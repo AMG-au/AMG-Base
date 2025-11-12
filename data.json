@@ -7552,8 +7552,9 @@
       "report": "https://profi.avtocod.ru/report/guest/d97c62f3-b6fa-4ef5-8be7-48d940241f01",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло ужас там 3000+",
       "additionalInfo": "",
       "saleComment": "",
@@ -7562,8 +7563,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-10-09",
@@ -7579,8 +7582,14 @@
           "date": "2025-11-12",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -8161,8 +8170,9 @@
       "report": "https://profi.avtocod.ru/report/guest/37e67206-33ae-4572-b8d5-95c8e126e54e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
@@ -8171,8 +8181,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-10-30",
@@ -8188,8 +8200,14 @@
           "date": "2025-11-12",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "JAC",
@@ -8210,8 +8228,9 @@
       "report": "Отчет Автокод Профи - Jac J7, 2023\n\nhttps://profi.avtocod.ru/report/guest/e91a88ec-14ef-4bcb-83e1-154feb8b77e2",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Заднее правое крыло 2000 с переходом на дверь заднюю и переднюю",
       "additionalInfo": "",
       "saleComment": "",
@@ -8220,8 +8239,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-11-07",
@@ -8242,11 +8263,35 @@
           "date": "2025-11-12",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-12T05:44:53.912Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Tiida (3N1FCAC11UL468899) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-12T05:44:50.408Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля JAC J7 (MX1J7AGGXPK047291) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-12T05:44:44.544Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Infiniti QX60 (5N1AL0MM3GC535997) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-12T05:43:43.093Z",
       "action": "edit",
@@ -14228,26 +14273,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Kia Ceed (XWEFF242370000856)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:44:56.970Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Hyundai Veloster (KMHTE61DGCU054830)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:35:49.180Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Hyundai Solaris (Z94CU51DBDR070974)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:27:10.726Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Hyundai ix35 (TMAJU81ECFJ677545)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-12T05:43:45.393Z",
+  "exportDate": "2025-11-12T05:44:55.888Z",
   "version": "3.2"
 }
