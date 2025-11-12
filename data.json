@@ -7552,10 +7552,9 @@
       "report": "https://profi.avtocod.ru/report/guest/d97c62f3-b6fa-4ef5-8be7-48d940241f01",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое крыло ужас там 3000+",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -7563,10 +7562,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-09",
@@ -7577,9 +7574,13 @@
           "date": "2025-10-09",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-12",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Лада (ВАЗ)",
@@ -8160,10 +8161,9 @@
       "report": "https://profi.avtocod.ru/report/guest/37e67206-33ae-4572-b8d5-95c8e126e54e",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Родня",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -8171,10 +8171,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-10-30",
@@ -8185,9 +8183,13 @@
           "date": "2025-10-30",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-12",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "JAC",
@@ -8208,10 +8210,9 @@
       "report": "Отчет Автокод Профи - Jac J7, 2023\n\nhttps://profi.avtocod.ru/report/guest/e91a88ec-14ef-4bcb-83e1-154feb8b77e2",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
-      "paints": "",
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Заднее правое крыло 2000 с переходом на дверь заднюю и переднюю",
       "additionalInfo": "",
       "saleComment": "",
       "creditBank": "",
@@ -8219,10 +8220,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-11-07",
@@ -8238,12 +8237,46 @@
           "date": "2025-11-07",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-12",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-12T05:43:43.093Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Infiniti QX60 (5N1AL0MM3GC535997)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-12T05:37:03.912Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-12T05:36:53.877Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль JAC J7 (MX1J7AGGXPK047291)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-12T05:36:25.499Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-12T05:36:15.480Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Tiida (3N1FCAC11UL468899)",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-08T05:21:03.530Z",
       "action": "sale",
@@ -14213,38 +14246,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Hyundai ix35 (TMAJU81ECFJ677545)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:23:32.197Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Hyundai Elantra (KMHDU41BP7U214909)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:19:42.886Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Hyundai Creta (Z94G2811AHR007537)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:10:54.375Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Honda Civic (NLAFB8640CW003231)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:05:38.384Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Ford Focus (WF04XXWPD47J16453)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T11:48:02.299Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Ford Fiesta (Z6F4XXECK4FU13130)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-08T05:21:07.400Z",
+  "exportDate": "2025-11-12T05:43:45.393Z",
   "version": "3.2"
 }
