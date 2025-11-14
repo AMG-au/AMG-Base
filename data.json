@@ -722,21 +722,18 @@
       "report": "https://profi.avtocod.ru/report/guest/86e205de-d445-4745-bcbd-348163a4a673",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "Задние крылья шпакля (\nбогажник слева снижу шпакля \nправые двери 300",
-      "additionalInfo": "",
+      "additionalInfo": "Сигналка - штатная\nМотор капиталился но когда неизвестно\nЗимняя новая резина",
       "saleComment": "",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "draft",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -767,9 +764,13 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-13",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Honda",
@@ -8275,6 +8276,24 @@
   ],
   "history": [
     {
+      "timestamp": "2025-11-13T14:20:23.486Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-13T13:56:36.320Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-13T13:56:26.271Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Ford Focus (WF04XXWPD47J16453)",
+      "archived": false
+    },
+    {
       "timestamp": "2025-11-12T05:44:53.912Z",
       "action": "status",
       "description": "Изменён статус автомобиля Nissan Tiida (3N1FCAC11UL468899) на \"В продаже\"",
@@ -14255,26 +14274,9 @@
       "action": "export",
       "description": "Выполнен экспорт данных в JSON",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:56:22.176Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Kia Ceed (XWEHC513BB0000690)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:56:09.065Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia Ceed (XWEHC513BB0000690)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:52:35.841Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia Ceed (XWEFF242370000856)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-12T05:44:55.888Z",
-  "version": "3.2"
+  "lastSaved": "2025-11-13T14:20:33.496Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
