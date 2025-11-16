@@ -722,8 +722,9 @@
       "report": "https://profi.avtocod.ru/report/guest/86e205de-d445-4745-bcbd-348163a4a673",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Задние крылья шпакля (\nбогажник слева снижу шпакля \nправые двери 300",
       "additionalInfo": "Сигналка - штатная\nМотор капиталился но когда неизвестно\nЗимняя новая резина",
       "saleComment": "",
@@ -732,8 +733,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-22",
@@ -769,8 +772,14 @@
           "date": "2025-11-13",
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Honda",
@@ -8272,9 +8281,251 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Nissan",
+      "model": "NP300",
+      "year": 2012,
+      "color": "Серебристый",
+      "mileage": 196705,
+      "engineVolume": 2.5,
+      "power": 131,
+      "driveType": "Полный",
+      "transmission": "Механика",
+      "vin": "ADNCPUD22U0008424",
+      "dateAdded": "2025-11-08",
+      "whoAdded": "Олег",
+      "priceToHands": 895000,
+      "haggle": "Нет",
+      "priceSalon": 895000,
+      "report": "Отчет Автокод Профи - Nissan Np300 Pick-Up, 2012\n\nhttps://profi.avtocod.ru/report/guest/a56baaa5-bcba-468b-b428-34bb36e7cef2",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Весь ~250мкм",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-11-16",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-7",
+      "year": 2010,
+      "color": "белый",
+      "mileage": 148959,
+      "engineVolume": 2.3,
+      "power": 244,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JMZER893800223008",
+      "dateAdded": "2025-11-12",
+      "whoAdded": "Олег",
+      "priceToHands": 999000,
+      "haggle": "",
+      "priceSalon": 999000,
+      "report": "Отчет Автокод Профи - Mazda Cx-7, 2010\n\nhttps://profi.avtocod.ru/report/guest/33f33009-4e43-421a-bddb-c708c6f7a646",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Весь правый борт 200-300-400\nПравое заднее крыло 1200",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-11-16",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Citroen",
+      "model": "C-Elysee",
+      "year": 2013,
+      "color": "Белый",
+      "mileage": 86233,
+      "engineVolume": 1.6,
+      "power": 115,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "VF7DDNFP9DJ652143",
+      "dateAdded": "2025-11-08",
+      "whoAdded": "Альберт",
+      "priceToHands": 699000,
+      "haggle": "",
+      "priceSalon": 699000,
+      "report": "Отчет Автокод Профи - СИТРОЕН C-ELYSEE, 2013\n\nhttps://profi.avtocod.ru/report/guest/e31a2fdb-2375-4c05-8cea-de1e22b481ea",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Левая задняя дверь в самом низу уголок 400",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-11-16",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-11-16",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-16T12:13:40.319Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mazda CX-7 (JMZER893800223008) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:13:34.298Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mazda CX-7 (JMZER893800223008)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:08:47.514Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:08:37.480Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C-Elysee (VF7DDNFP9DJ652143) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:08:33.522Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Citroen C-Elysee (VF7DDNFP9DJ652143)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:03:05.363Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:02:55.339Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Citroen C-Elysee (VF7DDNFP9DJ652143) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:02:52.156Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Citroen C-Elysee (VF7DDNFP9DJ652143)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:00:15.466Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:00:05.443Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mazda CX-7 (JMZER893800223008) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T12:00:02.461Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mazda CX-7 (JMZER893800223008)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T11:58:02.727Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T11:57:52.700Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan NP300 (ADNCPUD22U0008424) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T11:57:49.868Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford Focus (WF04XXWPD47J16453) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-16T11:57:43.024Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan NP300 (ADNCPUD22U0008424)",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-13T14:20:23.486Z",
       "action": "export",
@@ -14184,99 +14435,8 @@
       "action": "status",
       "description": "Изменён статус автомобиля BMW X5 (4USFE43547LY74350) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:03.818Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля BMW 1-Series (WBA1R510805J30291) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:02.562Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Audi TT (TRUZZZFV6G1024219) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:00.714Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Audi Q7 (WA1DVAFE7AD000500) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:26:59.266Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Audi Q5 (WAUZZZ8R9CA124168) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:15:41.156Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mitsubishi Lancer (JMBSRCS3A6U013113)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:58:28.568Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:58:06.520Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mitsubishi Lancer (JMBSRCY2A8U011166)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:30:24.756Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mercedes-Benz S500 (WDD2221851A149550)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:24:56.708Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Lexus RX 350 (JTJBK11A902016229)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:22:26.548Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Lexus NX300h (JTJBJRBZ302066534)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:19:54.637Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Lexus NX300h (JTJBJRBZ302002574)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:15:12.909Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia Sportage (XWEPC811CC0003660)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:11:13.438Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia Rio (Z94CB41BBGR358420)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T13:08:13.615Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia Rio (Z94CB41BBER188254)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T12:56:29.057Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-11-13T14:20:33.496Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-11-16T12:13:43.399Z",
+  "version": "3.2"
 }
