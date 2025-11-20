@@ -720,11 +720,11 @@
       "haggle": "",
       "priceSalon": 395000,
       "report": "https://profi.avtocod.ru/report/guest/86e205de-d445-4745-bcbd-348163a4a673",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-11-19",
+      "salePrice": 395000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 20000,
       "paints": "Задние крылья шпакля (\nбогажник слева снижу шпакля \nправые двери 300",
       "additionalInfo": "Сигналка - штатная\nМотор капиталился но когда неизвестно\nЗимняя новая резина",
       "saleComment": "",
@@ -736,7 +736,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -777,6 +777,11 @@
           "date": "2025-11-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-19",
+          "action": "Продан",
+          "details": "Продан за 395 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -1483,11 +1488,11 @@
       "haggle": "",
       "priceSalon": 1099000,
       "report": "https://profi.avtocod.ru/report/guest/5971dbb4-b376-4699-b548-d4c1fe91a590",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-11-20",
+      "salePrice": 1000000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -59000,
       "paints": "Заднее правое крыло, по центру шпакля, так до 500-600, переход на заднюю дверь",
       "additionalInfo": "",
       "saleComment": "",
@@ -1499,7 +1504,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-22",
@@ -1530,6 +1535,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-20",
+          "action": "Продан",
+          "details": "Продан за 1 000 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -8299,20 +8309,23 @@
       "haggle": "Нет",
       "priceSalon": 895000,
       "report": "Отчет Автокод Профи - Nissan Np300 Pick-Up, 2012\n\nhttps://profi.avtocod.ru/report/guest/a56baaa5-bcba-468b-b428-34bb36e7cef2",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "dateSold": "2025-11-20",
+      "salePrice": 895000,
+      "howSold": "Кредит",
+      "whoSold": "Никита",
+      "margin": 0,
       "paints": "Весь ~250мкм",
       "additionalInfo": "",
       "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
+      "creditBank": "ОТП",
+      "creditOverprice": "Да",
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "available",
-      "margin": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "sold",
       "history": [
         {
           "date": "2025-11-16",
@@ -8323,8 +8336,14 @@
           "date": "2025-11-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-20",
+          "action": "Продан",
+          "details": "Продан за 895 000 ₽ (Кредит, Никита)"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mazda",
@@ -8345,8 +8364,9 @@
       "report": "Отчет Автокод Профи - Mazda Cx-7, 2010\n\nhttps://profi.avtocod.ru/report/guest/33f33009-4e43-421a-bddb-c708c6f7a646",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Весь правый борт 200-300-400\nПравое заднее крыло 1200",
       "additionalInfo": "",
       "saleComment": "",
@@ -8355,8 +8375,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-11-16",
@@ -8378,7 +8400,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Citroen",
@@ -8399,8 +8422,9 @@
       "report": "Отчет Автокод Профи - СИТРОЕН C-ELYSEE, 2013\n\nhttps://profi.avtocod.ru/report/guest/e31a2fdb-2375-4c05-8cea-de1e22b481ea",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Левая задняя дверь в самом низу уголок 400",
       "additionalInfo": "",
       "saleComment": "",
@@ -8409,8 +8433,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-11-16",
@@ -8432,10 +8458,41 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-20T12:54:06.420Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia Sportage (XWEPC811CC0003660) за 1 000 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-20T12:53:56.995Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-20T12:53:46.973Z",
+      "action": "sale",
+      "description": "Продан автомобиль Nissan NP300 (ADNCPUD22U0008424) за 895 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-20T07:22:54.787Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-20T07:22:44.747Z",
+      "action": "sale",
+      "description": "Продан автомобиль Ford Focus (WF04XXWPD47J16453) за 395 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-16T12:13:40.319Z",
       "action": "status",
@@ -14405,38 +14462,8 @@
       "action": "status",
       "description": "Изменён статус автомобиля Chevrolet Niva (X9L212300C0393721) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:11.665Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Chevrolet Monza (LSGKB54H0PV124156) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:09.546Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Chevrolet Lacetti (KL1NF197J9K057291) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:08.249Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Cadillac Escalade (Y3WS47KJ2GB004216) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:06.713Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля BMW X6 (X4XFG81120L287807) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:05.561Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля BMW X5 (4USFE43547LY74350) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-16T12:13:43.399Z",
+  "exportDate": "2025-11-20T12:54:08.715Z",
   "version": "3.2"
 }
