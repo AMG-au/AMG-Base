@@ -4466,7 +4466,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "warehouse",
+      "status": "available",
       "history": [
         {
           "date": "2025-07-23",
@@ -4497,6 +4497,11 @@
           "date": "2025-10-02",
           "action": "Изменен статус",
           "details": "Статус изменён с \"В продаже\" на \"На складе\""
+        },
+        {
+          "date": "2025-11-26",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"На складе\" на \"В продаже\""
         }
       ],
       "archived": false
@@ -8463,6 +8468,24 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-26T05:19:27.676Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-26T05:19:16.289Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-26T05:19:06.244Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Ford C-Max (WF0MXXGCDM7D29382) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-20T12:54:06.420Z",
       "action": "sale",
@@ -14444,26 +14467,9 @@
       "action": "status",
       "description": "Изменён статус автомобиля Honda Civic (NLAFB8640CW003231) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:20.537Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Ford Focus (WF04XXWPD47J16453) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:19.345Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Ford Fiesta (Z6F4XXECK4FU13130) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:17.769Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Chevrolet Niva (X9L212300C0393721) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-20T12:54:08.715Z",
-  "version": "3.2"
+  "lastSaved": "2025-11-26T05:19:37.999Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
