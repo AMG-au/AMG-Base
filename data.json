@@ -6904,23 +6904,23 @@
       "haggle": "",
       "priceSalon": 879000,
       "report": "https://profi.avtocod.ru/report/guest/3f8b1efa-ff2e-4973-8e69-342134ecb91b",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-11-27",
+      "salePrice": 870000,
+      "howSold": "Кредит",
+      "whoSold": "Никита",
+      "margin": 21000,
       "paints": "Капот слева снизу до 300\nЗаднее правое крыло шпакля ближе к фаре \nЛевая переднее крыло шпакле снизу ближе к фаре до 600, так до 250",
       "additionalInfo": "",
       "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
+      "creditBank": "ОТП",
+      "creditOverprice": "Нет",
+      "creditDownPayment": 500000,
       "creditAmount": null,
       "creditReward": null,
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-10-01",
@@ -6951,6 +6951,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-11-27",
+          "action": "Продан",
+          "details": "Продан за 870 000 ₽ (Кредит, Никита)"
         }
       ],
       "archived": false
@@ -8468,6 +8473,18 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-11-27T13:10:43.454Z",
+      "action": "sale",
+      "description": "Продан автомобиль Volkswagen Polo (XW8ZZZ61ZKG055717) за 870 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-11-26T05:19:38.027Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-26T05:19:27.676Z",
       "action": "export",
@@ -14455,21 +14472,8 @@
       "action": "status",
       "description": "Изменён статус автомобиля Hyundai Elantra (KMHDU41BP7U214909) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:23.162Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Creta (Z94G2811AHR007537) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:22.017Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Honda Civic (NLAFB8640CW003231) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-11-26T05:19:37.999Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-11-27T13:10:45.829Z",
+  "version": "3.2"
 }
