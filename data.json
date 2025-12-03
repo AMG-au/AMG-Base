@@ -7651,10 +7651,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnDate": "2025-12-03",
+      "returnReason": "Другое",
+      "returnComment": "Забрал собственник",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-09",
@@ -7665,6 +7665,11 @@
           "date": "2025-10-09",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Возврат",
+          "details": "Причина: Другое. Забрал собственник"
         }
       ],
       "archived": false
@@ -8470,9 +8475,309 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Datsun",
+      "model": "on-Do",
+      "year": 2016,
+      "color": "Коричневый",
+      "mileage": 133482,
+      "engineVolume": 1.6,
+      "power": 87,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "Z8NBAABD0H0049094",
+      "dateAdded": "2025-10-24",
+      "whoAdded": "перекуп",
+      "priceToHands": 470000,
+      "haggle": "",
+      "priceSalon": 470000,
+      "report": "Отчет Автокод Профи - Датсун On-Do, 2016\n\nhttps://profi.avtocod.ru/report/guest/ff9fefbb-c7b9-4c8e-8cee-2dad9305b2fa",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Левая задняя арка 2000+ \nЛевое заднее крыло 1200",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-12-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-7",
+      "year": 2007,
+      "color": "Серый",
+      "mileage": 205347,
+      "engineVolume": 2,
+      "power": 145,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "JMZER893880105398",
+      "dateAdded": "2025-10-28",
+      "whoAdded": "Альберт",
+      "priceToHands": 790000,
+      "haggle": "",
+      "priceSalon": 790000,
+      "report": "Отчет Автокод Профи - Мазда Cx-7, 2007\n\nhttps://profi.avtocod.ru/report/guest/f35f4370-df71-4dc8-bead-189ad25db571",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Капот 1000+ \nПравая заднее крыло 1500",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-12-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Opel",
+      "model": "Insignia",
+      "year": 2014,
+      "color": "Синий",
+      "mileage": 133730,
+      "engineVolume": 1.6,
+      "power": 170,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "XWFGT6ET1E0002478",
+      "dateAdded": "2025-12-03",
+      "whoAdded": "Усоля",
+      "priceToHands": 1199000,
+      "haggle": "",
+      "priceSalon": 1199000,
+      "report": "Отчет Автокод Профи - Opel 0G-A (Insignia,Limousine Hb), 2014\n\nhttps://profi.avtocod.ru/report/guest/656752bf-486e-42f4-9419-b655bc1a40a9",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "Правая задняя арка 1000+ \nЛевое переднее крыло 400 снизу",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-12-03",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-03",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-12-03T07:40:43.155Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Opel Insignia (XWFGT6ET1E0002478) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:40:40.530Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Mazda CX-7 (JMZER893880105398) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:40:37.059Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Datsun on-Do (Z8NBAABD0H0049094) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:40:31.908Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Mazda CX-7 (JMZER893880105398)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:40:17.436Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Datsun on-Do (Z8NBAABD0H0049094)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:40:03.868Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Opel Insignia (XWFGT6ET1E0002478)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:25:12.112Z",
+      "action": "return",
+      "description": "Возврат автомобиля Лада (ВАЗ) Веста (XTAGFL120JY182776). Причина: Другое",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:22:31.127Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:22:25.854Z",
+      "action": "export",
+      "description": "Выполнен экспорт базы данных в Excel",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:21:57.417Z",
+      "action": "export",
+      "description": "Выполнен экспорт базы данных в Excel",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:21:51.834Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:21:41.811Z",
+      "action": "export",
+      "description": "Выполнен экспорт базы данных в Excel",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:19:54.924Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:19:44.894Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Opel Insignia (XWFGT6ET1E0002478)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:17:59.567Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:17:49.527Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Mazda CX-7 (JMZER893880105398)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:15:20.657Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T07:15:10.631Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Datsun on-Do (Z8NBAABD0H0049094)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T06:59:33.948Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T06:59:23.912Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Datsun on-Do (Z8NBAABD0H0049094)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T06:58:57.870Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T06:58:47.303Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Datsun on-Do (Z8NBAABD0H0049094) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-03T06:58:41.289Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Datsun on-Do (Z8NBAABD0H0049094)",
+      "archived": false
+    },
     {
       "timestamp": "2025-11-27T13:10:43.454Z",
       "action": "sale",
@@ -14334,146 +14639,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Nissan Juke (SJNFBAF15U6338864)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T06:59:39.010Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Nissan Almera Classic (KNMCSHLMS6P626702)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T06:57:05.803Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mitsubishi Outlander (Z8TXTGF3WDM041489)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T06:53:30.963Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mitsubishi Outlander (JMBXLCW6W7Z001421)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T06:51:37.068Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mitsubishi Outlander (Z8TXTGF2WDM003491)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T05:20:39.022Z",
-      "action": "export",
-      "description": "Выполнен экспорт базы данных в Excel",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T05:20:17.195Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:28:45.259Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:28:13.713Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Mitsubishi Lancer (JMBSRCS3A6U013113) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:28:12.593Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Mitsubishi Lancer (JMBSRCY2A8U011166) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:28:11.433Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Mercedes-Benz S500 (WDD2221851A149550) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:28:10.097Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Lexus RX 350 (JTJBK11A902016229) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:50.650Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Lexus NX300h (JTJBJRBZ302002574) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:49.609Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Kia Sportage (XWEPC811CC0003660) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:48.145Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Kia Rio (Z94CB41BBGR358420) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:46.866Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Kia Rio (Z94CB41BBER188254) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:45.185Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Kia Ceed (XWEHC513BB0000690) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:43.850Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Kia Ceed (XWEFF242370000856) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:42.249Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Veloster (KMHTE61DGCU054830) на \"Черновик\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:35.793Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Veloster (KMHTE61DGCU054830) на \"На складе\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:31.721Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Solaris (Z94CU51DBDR070974) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:29.841Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Elantra (KMHDU41BP7U214909) на \"На складе\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:26.393Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai ix35 (TMAJU81ECFJ677545) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-22T14:27:25.137Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Elantra (KMHDU41BP7U214909) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "exportDate": "2025-11-27T13:10:45.829Z",
+  "exportDate": "2025-12-03T07:40:47.723Z",
   "version": "3.2"
 }
