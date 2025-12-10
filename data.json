@@ -82,9 +82,8 @@
       "report": "https://profi.avtocod.ru/report/73bf8a17-092a-4a7e-a783-d04d4d1346fa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "По левой стороне два двери 200\nПепредние крылья 200\nПравая передняя двель снизу спереди до 1500",
       "additionalInfo": "",
       "saleComment": "",
@@ -93,10 +92,8 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": "2025-09-02",
-      "returnReason": "",
-      "returnComment": "Забрал Альберт",
-      "status": "return",
+      "status": "available",
+      "margin": null,
       "history": [
         {
           "date": "2025-07-22",
@@ -132,9 +129,23 @@
           "date": "2025-09-02",
           "action": "Возврат",
           "details": "Причина: . Забрал Альберт"
+        },
+        {
+          "date": "2025-12-10",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Возврат\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-10",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-10",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Audi",
@@ -3019,11 +3030,11 @@
       "haggle": "",
       "priceSalon": 999000,
       "report": "https://profi.avtocod.ru/report/guest/8ea979c3-bd6d-4547-be95-03711c39b744",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-12-08",
+      "salePrice": 990000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": 21000,
       "paints": "Вторичный окрас",
       "additionalInfo": "",
       "saleComment": "",
@@ -3035,7 +3046,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-07-23",
@@ -3066,6 +3077,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-08",
+          "action": "Продан",
+          "details": "Продан за 990 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -8495,8 +8511,9 @@
       "report": "Отчет Автокод Профи - Датсун On-Do, 2016\n\nhttps://profi.avtocod.ru/report/guest/ff9fefbb-c7b9-4c8e-8cee-2dad9305b2fa",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Левая задняя арка 2000+ \nЛевое заднее крыло 1200",
       "additionalInfo": "",
       "saleComment": "",
@@ -8505,8 +8522,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-12-03",
@@ -8538,7 +8557,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Mazda",
@@ -8559,8 +8579,9 @@
       "report": "Отчет Автокод Профи - Мазда Cx-7, 2007\n\nhttps://profi.avtocod.ru/report/guest/f35f4370-df71-4dc8-bead-189ad25db571",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Капот 1000+ \nПравая заднее крыло 1500",
       "additionalInfo": "",
       "saleComment": "",
@@ -8569,8 +8590,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-12-03",
@@ -8587,7 +8610,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Opel",
@@ -8608,8 +8632,9 @@
       "report": "Отчет Автокод Профи - Opel 0G-A (Insignia,Limousine Hb), 2014\n\nhttps://profi.avtocod.ru/report/guest/656752bf-486e-42f4-9419-b655bc1a40a9",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая задняя арка 1000+ \nЛевое переднее крыло 400 снизу",
       "additionalInfo": "",
       "saleComment": "",
@@ -8618,8 +8643,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-12-03",
@@ -8636,10 +8663,41 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-12-10T04:28:46.718Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q7 (WA1DVAFE7AD000500) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T04:28:44.425Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Audi Q7 (WA1DVAFE7AD000500)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T04:28:35.166Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Audi Q7 (WA1DVAFE7AD000500) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T04:28:30.375Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T04:28:20.344Z",
+      "action": "sale",
+      "description": "Продан автомобиль Toyota Corolla (JTNBV58E80J220368) за 990 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-12-03T07:40:43.155Z",
       "action": "status",
@@ -14609,38 +14667,8 @@
       "action": "status",
       "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:15:12.406Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Nissan Juke (SJNFBAF15U6338864) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:15:11.095Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Nissan Almera Classic (KNMCSHLMS6P626702) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:14:48.232Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Opel Astra (W0L0AHL3582012343)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:12:06.616Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Nissan Qashqai (SJNFBNJ10U1185386)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:02:42.074Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Nissan Juke (SJNFBAF15U6338864)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-12-03T07:40:47.723Z",
+  "exportDate": "2025-12-10T04:28:52.335Z",
   "version": "3.2"
 }
