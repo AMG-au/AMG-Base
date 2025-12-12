@@ -8689,8 +8689,9 @@
       "report": "Отчет Автокод Профи - Opel Astra, 2012\n\nhttps://profi.avtocod.ru/report/guest/33e04a5e-cc71-41a0-8371-11e0cf5c7e87",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -8699,8 +8700,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-12-10",
@@ -8712,7 +8715,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Subaru",
@@ -8733,6 +8737,54 @@
       "report": "Отчет Автокод Профи - Субару Форестер, 2008\n\nhttps://profi.avtocod.ru/report/guest/7211ee2a-4f19-400d-a7bb-3f5a60c93815",
       "dateSold": null,
       "salePrice": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
+      "status": "available",
+      "history": [
+        {
+          "date": "2025-12-10",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-10",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ],
+      "archived": false
+    },
+    {
+      "brand": "Nissan",
+      "model": "Note",
+      "year": 2009,
+      "color": "бежевый",
+      "mileage": 218213,
+      "engineVolume": 1.6,
+      "power": 110,
+      "driveType": "Передний",
+      "transmission": "Автомат",
+      "vin": "SJNFCAE11U2036584",
+      "dateAdded": "2025-12-11",
+      "whoAdded": "перекуп",
+      "priceToHands": 620000,
+      "haggle": "",
+      "priceSalon": 650000,
+      "report": "Отчет Автокод Профи - Ниссан Ноут 1.6, 2009\n\nhttps://profi.avtocod.ru/report/guest/6c16b749-ba9c-4063-a5c0-c89331ba8a36",
+      "dateSold": null,
+      "salePrice": null,
       "howSold": null,
       "whoSold": null,
       "paints": "",
@@ -8743,18 +8795,59 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "draft",
+      "status": "available",
       "margin": null,
       "history": [
         {
-          "date": "2025-12-10",
+          "date": "2025-12-12",
           "action": "Добавлен",
           "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
       ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-12-12T05:44:45.531Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Note (SJNFCAE11U2036584) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-12T05:44:42.293Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Note (SJNFCAE11U2036584)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T07:00:21.452Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T07:00:11.414Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T07:00:03.019Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-10T06:59:52.992Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Subaru Forester (JF1SH5LW49G039265) на \"В продаже\"",
+      "archived": false
+    },
     {
       "timestamp": "2025-12-10T05:22:48.387Z",
       "action": "add",
@@ -14718,44 +14811,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Renault Megane (VF1BZAR0A44165157)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:41:09.517Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Ravon Nexia R3 (XWBTF69V9HA005314)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:40:26.436Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Ravon Nexia R3 (XWBTF69V9HA005314)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:20:59.616Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Land Rover Range Rover Sport (SALLSAA348A170045)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:15:36.217Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:15:31.727Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"Черновик\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:15:20.503Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Mitsubishi Outlander (Z8TXTGF2WDM003491) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "exportDate": "2025-12-10T05:22:56.889Z",
+  "exportDate": "2025-12-12T05:44:51.459Z",
   "version": "3.2"
 }
