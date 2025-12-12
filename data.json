@@ -8787,6 +8787,60 @@
       "salePrice": null,
       "howSold": null,
       "whoSold": null,
+      "paints": "Правая задняя дверь 1000, стойки целые",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-12-12",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-12",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
+        },
+        {
+          "date": "2025-12-12",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "Qashqai",
+      "year": 2008,
+      "color": "Синий",
+      "mileage": 182624,
+      "engineVolume": 2,
+      "power": 141,
+      "driveType": "Полный",
+      "transmission": "Механика",
+      "vin": "SJNFBNJ10U1275216",
+      "dateAdded": "2025-12-08",
+      "whoAdded": "Усоля",
+      "priceToHands": 839000,
+      "haggle": "",
+      "priceSalon": 839000,
+      "report": "Отчет Автокод Профи - Nissan Qashqai 2.0 Tekna, 2008\n\nhttps://profi.avtocod.ru/report/guest/5c31323a-ed0a-4136-8b62-bb89c4b531e5",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -8812,6 +8866,42 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-12-12T06:35:01.639Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-12T06:34:51.606Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1275216) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-12T06:34:47.394Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Nissan Qashqai (SJNFBNJ10U1275216)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-12T06:31:37.624Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-12T06:31:27.590Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Nissan Note (SJNFCAE11U2036584) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-12T06:31:22.528Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Nissan Note (SJNFCAE11U2036584)",
+      "archived": false
+    },
     {
       "timestamp": "2025-12-12T05:44:45.531Z",
       "action": "status",
@@ -14775,44 +14865,8 @@
       "action": "add",
       "description": "Добавлен автомобиль Toyota Corolla (JTNBV56E50J128508)",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:11:56.768Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Toyota Avensis (SB1BR56L70E253577)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:09:12.000Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Suzuki Liana (JSAERB31S00300036)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:02:44.586Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:02:40.153Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Suzuki Grand Vitara (JSAJTDA4V00243790)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:54:52.258Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Subaru XV (JF1GP3LC5CG006650)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T07:51:34.267Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Renault Megane (VF1BZAR0A44165157)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-12-12T05:44:51.459Z",
+  "exportDate": "2025-12-12T06:35:06.662Z",
   "version": "3.2"
 }
