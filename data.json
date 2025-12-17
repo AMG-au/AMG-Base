@@ -501,10 +501,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-22",
@@ -530,6 +530,11 @@
           "date": "2025-07-24",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . забрали"
         }
       ],
       "archived": false
@@ -1312,10 +1317,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-22",
@@ -1351,6 +1356,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -2347,10 +2357,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -2391,6 +2401,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -2629,10 +2644,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -2653,6 +2668,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . забрали"
         }
       ],
       "archived": false
@@ -3107,23 +3127,20 @@
       "haggle": "",
       "priceSalon": 949000,
       "report": "https://profi.avtocod.ru/report/guest/1bbf341a-e380-40ab-952c-35dc680e7b92",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-12-17",
+      "salePrice": 949000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
       "paints": "Раптор",
       "additionalInfo": "",
-      "saleComment": "",
+      "saleComment": "Пополам Никита/Антон",
       "creditBank": "",
       "creditOverprice": "",
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
-      "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "status": "sold",
+      "margin": 39000,
       "history": [
         {
           "date": "2025-07-23",
@@ -3144,9 +3161,18 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Продан",
+          "details": "Продан за 949 000 ₽ (Наличка, Никита)"
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Отредактирован",
+          "details": "Изменены данные автомобиля"
         }
-      ],
-      "archived": false
+      ]
     },
     {
       "brand": "Toyota",
@@ -4483,10 +4509,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -4522,6 +4548,11 @@
           "date": "2025-11-26",
           "action": "Изменен статус",
           "details": "Статус изменён с \"На складе\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -6093,10 +6124,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-09-10",
@@ -6127,6 +6158,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -6501,10 +6537,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-09-20",
@@ -6535,6 +6571,11 @@
           "date": "2025-09-26",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -6803,23 +6844,23 @@
       "haggle": "",
       "priceSalon": 1099000,
       "report": "https://profi.avtocod.ru/report/guest/05b34e34-8e29-43f8-88b1-f10af21ed6d7",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-12-17",
+      "salePrice": 1099000,
+      "howSold": "Кредит",
+      "whoSold": "Никита",
+      "margin": 40000,
       "paints": "Заднее левое крыло/арка/порог до 1500\nЛевая передняя дверь до 200",
       "additionalInfo": "",
-      "saleComment": "",
-      "creditBank": "",
-      "creditOverprice": "",
-      "creditDownPayment": null,
-      "creditAmount": null,
+      "saleComment": "ПОПОЛАМ Никита/Антон",
+      "creditBank": "БыстроБанк",
+      "creditOverprice": "Да",
+      "creditDownPayment": 237000,
+      "creditAmount": 1363000,
       "creditReward": null,
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-09-26",
@@ -6840,6 +6881,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Продан",
+          "details": "Продан за 1 099 000 ₽ (Кредит, Никита)"
         }
       ],
       "archived": false
@@ -6861,11 +6907,11 @@
       "haggle": "",
       "priceSalon": 999000,
       "report": "https://profi.avtocod.ru/report/guest/3cd8fe8d-d374-4140-b5a1-5727f95a7237",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2025-12-17",
+      "salePrice": 999000,
+      "howSold": "Наличка",
+      "whoSold": "Антон",
+      "margin": 0,
       "paints": "Капот до 250, край в шпакле\nПередняя правая дверь до 600, задняя дверь и крыло до 200\nБагажник до 600\nЗаднее левое крыло до 250\nЛевые двери до 400",
       "additionalInfo": "",
       "saleComment": "",
@@ -6877,7 +6923,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-10-01",
@@ -6903,6 +6949,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Продан",
+          "details": "Продан за 999 000 ₽ (Наличка, Антон)"
         }
       ],
       "archived": false
@@ -7222,10 +7273,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-02",
@@ -7251,6 +7302,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . забрали"
         }
       ],
       "archived": false
@@ -7487,10 +7543,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-09",
@@ -7521,6 +7577,11 @@
           "date": "2025-10-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -7555,10 +7616,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-09",
@@ -7579,6 +7640,11 @@
           "date": "2025-10-23",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -7613,10 +7679,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-09",
@@ -7637,6 +7703,11 @@
           "date": "2025-11-12",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -7772,10 +7843,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-22",
@@ -7801,6 +7872,11 @@
           "date": "2025-10-27",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -8236,10 +8312,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-10-30",
@@ -8260,6 +8336,11 @@
           "date": "2025-11-12",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -8294,10 +8375,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-11-07",
@@ -8323,6 +8404,11 @@
           "date": "2025-11-12",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -8410,10 +8496,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-11-16",
@@ -8434,6 +8520,11 @@
           "date": "2025-11-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -8647,10 +8738,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-12-03",
@@ -8666,6 +8757,11 @@
           "date": "2025-12-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -8748,10 +8844,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2025-12-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-12-10",
@@ -8762,6 +8858,11 @@
           "date": "2025-12-10",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
       ],
       "archived": false
@@ -8785,8 +8886,9 @@
       "report": "Отчет Автокод Профи - Ниссан Ноут 1.6, 2009\n\nhttps://profi.avtocod.ru/report/guest/6c16b749-ba9c-4063-a5c0-c89331ba8a36",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "Правая задняя дверь 1000, стойки целые",
       "additionalInfo": "",
       "saleComment": "",
@@ -8795,8 +8897,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "available",
-      "margin": null,
       "history": [
         {
           "date": "2025-12-12",
@@ -8818,7 +8922,8 @@
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Nissan",
@@ -8839,8 +8944,9 @@
       "report": "Отчет Автокод Профи - Nissan Qashqai 2.0 Tekna, 2008\n\nhttps://profi.avtocod.ru/report/guest/5c31323a-ed0a-4136-8b62-bb89c4b531e5",
       "dateSold": null,
       "salePrice": null,
-      "howSold": null,
-      "whoSold": null,
+      "howSold": "",
+      "whoSold": "",
+      "margin": null,
       "paints": "",
       "additionalInfo": "",
       "saleComment": "",
@@ -8849,8 +8955,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "status": "available",
-      "margin": null,
+      "returnDate": "2025-12-17",
+      "returnReason": "",
+      "returnComment": "Забрали",
+      "status": "return",
       "history": [
         {
           "date": "2025-12-12",
@@ -8861,11 +8969,281 @@
           "date": "2025-12-12",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2025-12-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрали"
         }
-      ]
+      ],
+      "archived": false
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-12-17T10:05:40.946Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:03:56.372Z",
+      "action": "return",
+      "description": "Возврат автомобиля Nissan Qashqai (SJNFBNJ10U1275216). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:03:54.643Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:03:44.595Z",
+      "action": "return",
+      "description": "Возврат автомобиля Subaru Forester (JF1SH5LW49G039265). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:03:31.579Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:03:21.556Z",
+      "action": "return",
+      "description": "Возврат автомобиля Opel Insignia (XWFGT6ET1E0002478). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:03:09.221Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:59.196Z",
+      "action": "return",
+      "description": "Возврат автомобиля Mazda CX-7 (JMZER893800223008). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:51.095Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:41.068Z",
+      "action": "return",
+      "description": "Возврат автомобиля JAC J7 (MX1J7AGGXPK047291). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:32.433Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:22.398Z",
+      "action": "return",
+      "description": "Возврат автомобиля Infiniti QX60 (5N1AL0MM3GC535997). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:14.096Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:02:04.063Z",
+      "action": "return",
+      "description": "Возврат автомобиля BMW X1 (X4XVM99490VT19455). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:01:51.896Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:01:41.860Z",
+      "action": "return",
+      "description": "Возврат автомобиля Nissan Tiida (3N1FCAC11UL468899). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:01:16.676Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:01:06.643Z",
+      "action": "return",
+      "description": "Возврат автомобиля Chery Tiggo 8 (LVTDB21B6PDA08485). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:00:52.310Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:00:42.276Z",
+      "action": "return",
+      "description": "Возврат автомобиля Lexus RX350 (JTJBK11A302009681). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:00:18.330Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T10:00:08.285Z",
+      "action": "return",
+      "description": "Возврат автомобиля Ford Mondeo (Z6FDXXEECDFE00343). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:59:41.707Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:59:31.660Z",
+      "action": "return",
+      "description": "Возврат автомобиля Opel Insignia (XWFGT5ED1D0000825). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:59:10.418Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:59:00.380Z",
+      "action": "return",
+      "description": "Возврат автомобиля Renault Duster (X7LHSRHGN64479257). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:58:41.811Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:58:31.788Z",
+      "action": "return",
+      "description": "Возврат автомобиля Renault Megane (VF1BZAR0A44165157). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:58:17.574Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:58:07.540Z",
+      "action": "return",
+      "description": "Возврат автомобиля Ford C-Max (WF0MXXGCDM7D29382). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:57:41.071Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:57:31.044Z",
+      "action": "return",
+      "description": "Возврат автомобиля Kia Ceed (XWEHC513BB0000690). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:57:21.876Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:57:11.828Z",
+      "action": "return",
+      "description": "Возврат автомобиля Nissan Qashqai (SJNFBNJ10U1185386). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:56:37.378Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:56:27.345Z",
+      "action": "edit",
+      "description": "Отредактирован автомобиль Toyota Hilux (MR0FR22GX80655138)",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:55:34.475Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:55:24.445Z",
+      "action": "return",
+      "description": "Возврат автомобиля Chevrolet Lacetti (KL1NF197J9K057291). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:55:08.359Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:54:58.332Z",
+      "action": "sale",
+      "description": "Продан автомобиль Volkswagen Passat CC (WVWZZZ3CZCE552296) за 999 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:53:57.128Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:53:47.093Z",
+      "action": "sale",
+      "description": "Продан автомобиль Toyota Hilux (MR0FR22GX80655138) за 949 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:52:58.085Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-17T09:52:48.046Z",
+      "action": "sale",
+      "description": "Продан автомобиль Nissan Teana (Z8NBBUJ32CS028862) за 1 099 000 ₽",
+      "archived": false
+    },
     {
       "timestamp": "2025-12-12T06:35:01.639Z",
       "action": "sync",
@@ -14601,272 +14979,9 @@
       "action": "status",
       "description": "Изменён статус автомобиля Kia ProCeed (XWEHN312BE0000913) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T10:17:31.126Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia ProCeed (XWEHN312BE0000913)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T10:05:14.295Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Лада (ВАЗ) X-ray (XTAGAB330J1065585)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T10:01:54.320Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Лада (ВАЗ) Гранта (XTA219010L0674926)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T10:00:25.576Z",
-      "action": "add",
-      "description": "Добавлен автомобиль ЗАЗ Chance (Y6DTF69Y0B0282423)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:58:51.001Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Volkswagen Golf (WVWZZZAUZEW381787)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:56:51.249Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Toyota Yaris (VNKKL96310A184131)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:54:53.914Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Kia Optima (KNAGM411AC5265898)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:53:39.530Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Infiniti FX37 (JN1TCNS51U0410695)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:50:17.554Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Geely Emgrand (LB3F31036PG022996)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:46:35.643Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Citroen C4 (VF7LCNFUC74865518)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:41:32.548Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Mercedes-Benz S500 (WDD2221851A106438)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:59.683Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Hyundai Veloster (KMHTE61DGCU054830) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:50.266Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Nissan Qashqai (SJNFBNJ10U1185386) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:47.523Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Ravon Nexia R3 (XWBTF69V9HA005314) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:46.443Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Land Rover Range Rover Sport (SALLSAA348A170045) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:44.378Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Subaru XV (JF1GP3LC5CG006650) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:42.787Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Renault Megane (VF1BZAR0A44165157) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:41.211Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Suzuki Liana (JSAERB31S00300036) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:39.754Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Suzuki Grand Vitara (JSAJTDA4V00243790) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:38.099Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV56E50J128508) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:36.690Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Toyota Avensis (SB1BR56L70E253577) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:34.851Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Toyota Hilux (MR0FR22GX80655138) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:33.531Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Toyota Corolla (JTNBV58E80J220368) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:31.642Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Volkswagen Golf (WVWZZZ1KZCW024602) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:30.210Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Toyota RAV4 (JTMBH31V606032266) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:27.787Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Volvo C30 (YV1MK434BC2276138) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:26.635Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Volkswagen Touareg (XW8ZZZ7PZDG007461) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:24.403Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Лада (ВАЗ) Largus (XTARS025LN1426664) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:23.347Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Volvo S80 (YV1AS985681049234) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:20.955Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Лада (ВАЗ) Веста (XTAGFL440NY650824) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:38:19.683Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Лада (ВАЗ) Приора (XTA21723080006220) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:08:48.704Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:08:39.447Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Лада (ВАЗ) Приора (XTA21723080006220)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:06:29.480Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Лада (ВАЗ) Веста (XTAGFL440NY650824)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T09:01:50.200Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Лада (ВАЗ) Largus (XTARS025LN1426664)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:57:11.106Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Volvo S80 (YV1AS985681049234)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:49:42.498Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Volvo C30 (YV1MK434BC2276138)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:45:53.978Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Volkswagen Touareg (XW8ZZZ7PZDG007461)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:43:42.276Z",
-      "action": "export",
-      "description": "Выполнен экспорт данных в JSON",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:43:26.939Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Volkswagen Golf (WVWZZZ1KZCW024602)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:35:17.196Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Toyota RAV4 (JTMBH31V606032266)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:29:51.917Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Toyota Hilux (MR0FR22GX80655138)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:26:56.485Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Toyota Corolla (JTNBV58E80J220368)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T08:19:03.295Z",
-      "action": "add",
-      "description": "Добавлен автомобиль Toyota Corolla (JTNBV56E50J128508)",
-      "archived": false
     }
   ],
-  "exportDate": "2025-12-12T06:35:06.662Z",
-  "version": "3.2"
+  "lastSaved": "2025-12-17T10:05:50.958Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
