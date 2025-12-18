@@ -3131,6 +3131,7 @@
       "salePrice": 949000,
       "howSold": "Наличка",
       "whoSold": "Никита",
+      "margin": 39000,
       "paints": "Раптор",
       "additionalInfo": "",
       "saleComment": "Пополам Никита/Антон",
@@ -3139,8 +3140,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
+      "returnDate": null,
+      "returnReason": "",
+      "returnComment": "",
       "status": "sold",
-      "margin": 39000,
       "history": [
         {
           "date": "2025-07-23",
@@ -3172,7 +3175,8 @@
           "action": "Отредактирован",
           "details": "Изменены данные автомобиля"
         }
-      ]
+      ],
+      "archived": false
     },
     {
       "brand": "Toyota",
@@ -8977,9 +8981,65 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Kia",
+      "model": "Ceed",
+      "year": 2013,
+      "color": "Серебристый",
+      "mileage": 207847,
+      "engineVolume": 1.6,
+      "power": 129,
+      "driveType": "Передний",
+      "transmission": "Механика",
+      "vin": "XWEHN512AD0002719",
+      "dateAdded": "2025-12-15",
+      "whoAdded": "перекуп",
+      "priceToHands": 730000,
+      "haggle": "",
+      "priceSalon": 730000,
+      "report": "Отчет Автокод Профи - Kia Jd (Cee`d), 2013\n\nhttps://profi.avtocod.ru/report/guest/8bb5e097-93d6-4de7-812c-c1aba5a48502",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2025-12-18",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2025-12-18",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2025-12-18T05:17:03.815Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Kia Ceed (XWEHN512AD0002719) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2025-12-18T05:16:58.737Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Kia Ceed (XWEHN512AD0002719)",
+      "archived": false
+    },
     {
       "timestamp": "2025-12-17T10:05:40.946Z",
       "action": "export",
@@ -14967,21 +15027,8 @@
       "action": "status",
       "description": "Изменён статус автомобиля Лада (ВАЗ) Гранта (XTA219010L0674926) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T10:21:08.132Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Лада (ВАЗ) X-ray (XTAGAB330J1065585) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-23T10:21:06.172Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Kia ProCeed (XWEHN312BE0000913) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "lastSaved": "2025-12-17T10:05:50.958Z",
-  "version": "3.2",
-  "application": "Autopark Management System"
+  "exportDate": "2025-12-18T05:17:08.175Z",
+  "version": "3.2"
 }
