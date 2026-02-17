@@ -3427,10 +3427,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2026-02-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрал Альберт",
+      "status": "return",
       "history": [
         {
           "date": "2025-07-23",
@@ -3451,6 +3451,11 @@
           "date": "2025-07-25",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2026-02-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрал Альберт"
         }
       ],
       "archived": false
@@ -7198,11 +7203,11 @@
       "haggle": "",
       "priceSalon": 340000,
       "report": "https://profi.avtocod.ru/report/guest/2e129834-ba5a-4591-9bec-6c767fb5b698",
-      "dateSold": null,
-      "salePrice": null,
-      "howSold": "",
-      "whoSold": "",
-      "margin": null,
+      "dateSold": "2026-02-17",
+      "salePrice": 330000,
+      "howSold": "Наличка",
+      "whoSold": "Никита",
+      "margin": -10000,
       "paints": "Задние крылья в шпакле",
       "additionalInfo": "",
       "saleComment": "",
@@ -7214,7 +7219,7 @@
       "returnDate": null,
       "returnReason": "",
       "returnComment": "",
-      "status": "available",
+      "status": "sold",
       "history": [
         {
           "date": "2025-10-01",
@@ -7240,6 +7245,11 @@
           "date": "2025-10-06",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2026-02-17",
+          "action": "Продан",
+          "details": "Продан за 330 000 ₽ (Наличка, Никита)"
         }
       ],
       "archived": false
@@ -8623,10 +8633,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2026-02-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрал Альберт",
+      "status": "return",
       "history": [
         {
           "date": "2025-11-16",
@@ -8647,6 +8657,11 @@
           "date": "2025-11-16",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2026-02-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрал Альберт"
         }
       ],
       "archived": false
@@ -8749,10 +8764,10 @@
       "creditDownPayment": null,
       "creditAmount": null,
       "creditReward": null,
-      "returnDate": null,
+      "returnDate": "2026-02-17",
       "returnReason": "",
-      "returnComment": "",
-      "status": "available",
+      "returnComment": "Забрал Альберт",
+      "status": "return",
       "history": [
         {
           "date": "2025-12-03",
@@ -8768,6 +8783,11 @@
           "date": "2025-12-03",
           "action": "Изменен статус",
           "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        },
+        {
+          "date": "2026-02-17",
+          "action": "Возврат",
+          "details": "Причина: . Забрал Альберт"
         }
       ],
       "archived": false
@@ -9097,6 +9117,48 @@
     }
   ],
   "history": [
+    {
+      "timestamp": "2026-02-17T05:22:15.340Z",
+      "action": "sale",
+      "description": "Продан автомобиль Kia Spectra (XWKFB227360021290) за 330 000 ₽",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-02-17T05:21:48.667Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-02-17T05:21:38.631Z",
+      "action": "return",
+      "description": "Возврат автомобиля Mazda CX-7 (JMZER893880105398). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-02-17T05:21:07.027Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-02-17T05:20:56.985Z",
+      "action": "return",
+      "description": "Возврат автомобиля Citroen C-Elysee (VF7DDNFP9DJ652143). Причина: ",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-02-17T05:20:07.111Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-02-17T05:19:57.076Z",
+      "action": "return",
+      "description": "Возврат автомобиля Volvo C30 (YV1MK434BC2276138). Причина: ",
+      "archived": false
+    },
     {
       "timestamp": "2026-01-19T07:59:23.290Z",
       "action": "sync",
@@ -15054,50 +15116,8 @@
       "action": "status",
       "description": "Изменён статус автомобиля Audi TT (TRUZZZFV6G1024219) на \"В продаже\"",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:16.569Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля BMW X6 (X4XFG81120L287807) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:15.370Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля BMW 1-Series (WBA1R510805J30291) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:13.465Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля BMW X5 (4USFE43547LY74350) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:08.962Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Chevrolet Lacetti (KL1NF197J9K057291) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:07.586Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Cadillac Escalade (Y3WS47KJ2GB004216) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:50:59.531Z",
-      "action": "edit",
-      "description": "Отредактирован автомобиль Chevrolet Lacetti (KL1NF197J9K057291)",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:50:44.445Z",
-      "action": "sync",
-      "description": "Создан файл data.json для синхронизации",
-      "archived": false
     }
   ],
-  "exportDate": "2026-01-19T08:00:28.946Z",
+  "exportDate": "2026-02-17T05:22:23.558Z",
   "version": "3.2"
 }
