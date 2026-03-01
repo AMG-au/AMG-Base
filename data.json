@@ -9114,9 +9114,77 @@
         }
       ],
       "archived": false
+    },
+    {
+      "brand": "Infiniti",
+      "model": "QX70",
+      "year": 2014,
+      "color": "Белый",
+      "mileage": 140737,
+      "engineVolume": 3.7,
+      "power": 333,
+      "driveType": "Полный",
+      "transmission": "Автомат",
+      "vin": "Z8NTCNS51ES005382",
+      "dateAdded": "2026-01-22",
+      "whoAdded": "Собственник",
+      "priceToHands": 3100000,
+      "haggle": "",
+      "priceSalon": 3100000,
+      "report": "",
+      "dateSold": null,
+      "salePrice": null,
+      "howSold": null,
+      "whoSold": null,
+      "paints": "",
+      "additionalInfo": "",
+      "saleComment": "",
+      "creditBank": "",
+      "creditOverprice": "",
+      "creditDownPayment": null,
+      "creditAmount": null,
+      "creditReward": null,
+      "status": "available",
+      "margin": null,
+      "history": [
+        {
+          "date": "2026-03-01",
+          "action": "Добавлен",
+          "details": "Первоначальное добавление"
+        },
+        {
+          "date": "2026-03-01",
+          "action": "Изменен статус",
+          "details": "Статус изменён с \"Черновик\" на \"В продаже\""
+        }
+      ]
     }
   ],
   "history": [
+    {
+      "timestamp": "2026-03-01T05:35:01.196Z",
+      "action": "export",
+      "description": "Выполнен экспорт данных в data.json",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-03-01T05:34:59.460Z",
+      "action": "status",
+      "description": "Изменён статус автомобиля Infiniti QX70 (Z8NTCNS51ES005382) на \"В продаже\"",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-03-01T05:34:50.253Z",
+      "action": "sync",
+      "description": "Создан файл data.json для синхронизации",
+      "archived": false
+    },
+    {
+      "timestamp": "2026-03-01T05:34:40.230Z",
+      "action": "add",
+      "description": "Добавлен автомобиль Infiniti QX70 (Z8NTCNS51ES005382)",
+      "archived": false
+    },
     {
       "timestamp": "2026-02-17T05:22:15.340Z",
       "action": "sale",
@@ -15092,32 +15160,9 @@
       "action": "export",
       "description": "Выполнен экспорт данных в data.json",
       "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:31.506Z",
-      "action": "sync",
-      "description": "Создан файл data.json для синхронизации",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:21.489Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Audi Q5 (WAUZZZ8R9CA124168) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:20.290Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Audi Q7 (WA1DVAFE7AD000500) на \"В продаже\"",
-      "archived": false
-    },
-    {
-      "timestamp": "2025-07-24T11:51:19.034Z",
-      "action": "status",
-      "description": "Изменён статус автомобиля Audi TT (TRUZZZFV6G1024219) на \"В продаже\"",
-      "archived": false
     }
   ],
-  "exportDate": "2026-02-17T05:22:23.558Z",
-  "version": "3.2"
+  "lastSaved": "2026-03-01T05:35:11.200Z",
+  "version": "3.2",
+  "application": "Autopark Management System"
 }
